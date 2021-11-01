@@ -1,0 +1,5418 @@
+{
+  "AL1": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_SetIdAl1",
+      "Name_seq_ja": "01_セットID-AL1",
+      "Name_en": "SetIdAl1",
+      "Name_ja": "セットID-AL1",
+      "DataType": "SI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_AllergenTypeCode",
+      "Name_seq_ja": "02_アレルゲンタイプコード",
+      "Name_en": "AllergenTypeCode",
+      "Name_ja": "アレルゲンタイプコード",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_AllergenCodeOrMnemonicOrDescription",
+      "Name_seq_ja": "03_アレルゲンコードまたは記憶法または記述",
+      "Name_en": "AllergenCodeOrMnemonicOrDescription",
+      "Name_ja": "アレルゲンコードまたは記憶法または記述",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "04_AllergySeverityCode",
+      "Name_seq_ja": "04_アレルギー重症度コード",
+      "Name_en": "AllergySeverityCode",
+      "Name_ja": "アレルギー重症度コード",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "05_AllergyReactionCode",
+      "Name_seq_ja": "05_アレルギー反応コード",
+      "Name_en": "AllergyReactionCode",
+      "Name_ja": "アレルギー反応コード",
+      "DataType": "ST",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "06_IdentificationDate",
+      "Name_seq_ja": "06_判定日",
+      "Name_en": "IdentificationDate",
+      "Name_ja": "判定日",
+      "DataType": "DT",
+      "Repeatability": false
+    }
+  ],
+  "CTI": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_SponsorStudyId",
+      "Name_seq_ja": "01_後援者試験識別子",
+      "Name_en": "SponsorStudyId",
+      "Name_ja": "後援者試験識別子",
+      "DataType": "EI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_StudyPhaseIdentifier",
+      "Name_seq_ja": "02_試験段階識別子",
+      "Name_en": "StudyPhaseIdentifier",
+      "Name_ja": "試験段階識別子",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_StudyScheduledTimePoint",
+      "Name_seq_ja": "03_試験予定時間ポイント",
+      "Name_en": "StudyScheduledTimePoint",
+      "Name_ja": "試験予定時間ポイント",
+      "DataType": "CWE",
+      "Repeatability": false
+    }
+  ],
+  "DB1": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_SetIdDb1",
+      "Name_seq_ja": "01_セットID-DB1",
+      "Name_en": "SetIdDb1",
+      "Name_ja": "セットID-DB1",
+      "DataType": "SI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_DisabledPersonCode",
+      "Name_seq_ja": "02_身体障害情報",
+      "Name_en": "DisabledPersonCode",
+      "Name_ja": "身体障害情報",
+      "DataType": "SI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_DisabledPersonIdentifier",
+      "Name_seq_ja": "03_身体障害者ID",
+      "Name_en": "DisabledPersonIdentifier",
+      "Name_ja": "身体障害者ID",
+      "DataType": "CX",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "04_DisabledIndicator",
+      "Name_seq_ja": "04_身体傷害の有無",
+      "Name_en": "DisabledIndicator",
+      "Name_ja": "身体傷害の有無",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "05_DisabilityStartDate",
+      "Name_seq_ja": "05_身体障害発生日",
+      "Name_en": "DisabilityStartDate",
+      "Name_ja": "身体障害発生日",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "06_DisabilityReturnDate",
+      "Name_seq_ja": "06_身体障害回復日",
+      "Name_en": "DisabilityReturnDate",
+      "Name_ja": "身体障害回復日",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "07_DisabilityReturnToWorkDate",
+      "Name_seq_ja": "07_職場復帰日",
+      "Name_en": "DisabilityReturnToWorkDate",
+      "Name_ja": "職場復帰日",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "08_DisabilityUnalbeToWorkDate",
+      "Name_seq_ja": "08_職場離脱期間",
+      "Name_en": "DisabilityUnalbeToWorkDate",
+      "Name_ja": "職場離脱期間",
+      "DataType": "DT",
+      "Repeatability": false
+    }
+  ],
+  "EVN": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_EventTypeCode",
+      "Name_seq_ja": "01_イベントタイプコード",
+      "Name_en": "EventTypeCode",
+      "Name_ja": "イベントタイプコード",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_RecordedDateOrTime",
+      "Name_seq_ja": "02_イベント記録日時",
+      "Name_en": "RecordedDateOrTime",
+      "Name_ja": "イベント記録日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_DateOrTimePlannedEvent",
+      "Name_seq_ja": "03_イベント計画日時",
+      "Name_en": "DateOrTimePlannedEvent",
+      "Name_ja": "イベント計画日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "04_EventReasonCode",
+      "Name_seq_ja": "04_イベント理由コード",
+      "Name_en": "EventReasonCode",
+      "Name_ja": "イベント理由コード",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "05_OperatorId",
+      "Name_seq_ja": "05_操作者ID",
+      "Name_en": "OperatorId",
+      "Name_ja": "操作者ID",
+      "DataType": "XCN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "06_EventOccurred",
+      "Name_seq_ja": "06_イベント発生日時",
+      "Name_en": "EventOccurred",
+      "Name_ja": "イベント発生日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "07_EventFacility",
+      "Name_seq_ja": "07_イベント施設",
+      "Name_en": "EventFacility",
+      "Name_ja": "イベント施設",
+      "DataType": "HD",
+      "Repeatability": false
+    }
+  ],
+  "IAM": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_SetIdIam",
+      "Name_seq_ja": "01_セットID-IAM",
+      "Name_en": "SetIdIam",
+      "Name_ja": "セットID-IAM",
+      "DataType": "SI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_AllergenTypeCode",
+      "Name_seq_ja": "02_アレルゲン分類",
+      "Name_en": "AllergenTypeCode",
+      "Name_ja": "アレルゲン分類",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_AllergenCodeOrMnemonicOrDescription",
+      "Name_seq_ja": "03_アレルゲン情報",
+      "Name_en": "AllergenCodeOrMnemonicOrDescription",
+      "Name_ja": "アレルゲン情報",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "04_AllergySeverityCode",
+      "Name_seq_ja": "04_アレルギー重症度",
+      "Name_en": "AllergySeverityCode",
+      "Name_ja": "アレルギー重症度",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "05_AllergyReactionCode",
+      "Name_seq_ja": "05_アレルギー反応情報",
+      "Name_en": "AllergyReactionCode",
+      "Name_ja": "アレルギー反応情報",
+      "DataType": "ST",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "06_AllergyActionCode",
+      "Name_seq_ja": "06_アレルギーアクションコード",
+      "Name_en": "AllergyActionCode",
+      "Name_ja": "アレルギーアクションコード",
+      "DataType": "CNE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "07_AllergyUniqueIdentifier",
+      "Name_seq_ja": "07_アレルギー識別情報",
+      "Name_en": "AllergyUniqueIdentifier",
+      "Name_ja": "アレルギー識別情報",
+      "DataType": "EI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "08_ActionReason",
+      "Name_seq_ja": "08_アレルギー情報追加・変更理由",
+      "Name_en": "ActionReason",
+      "Name_ja": "アレルギー情報追加・変更理由",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "09_SensitivityToCausativeAgentCode",
+      "Name_seq_ja": "09_アレルギー物質に対する感受性",
+      "Name_en": "SensitivityToCausativeAgentCode",
+      "Name_ja": "アレルギー物質に対する感受性",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "10_AllergenGroupCodeOrMnemonicOrDescription",
+      "Name_seq_ja": "10_アレルゲン群情報",
+      "Name_en": "AllergenGroupCodeOrMnemonicOrDescription",
+      "Name_ja": "アレルゲン群情報",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "11_OnsetDate",
+      "Name_seq_ja": "11_アレルギー発症日",
+      "Name_en": "OnsetDate",
+      "Name_ja": "アレルギー発症日",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "12_OnsetDateText",
+      "Name_seq_ja": "12_アレルギー発症時期",
+      "Name_en": "OnsetDateText",
+      "Name_ja": "アレルギー発症時期",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "13_ReportedDateOrTime",
+      "Name_seq_ja": "13_情報提供日時",
+      "Name_en": "ReportedDateOrTime",
+      "Name_ja": "情報提供日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "14_ReportedBy",
+      "Name_seq_ja": "14_情報提供者",
+      "Name_en": "ReportedBy",
+      "Name_ja": "情報提供者",
+      "DataType": "XPN",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "15_RelationshipToPatientCode",
+      "Name_seq_ja": "15_情報提供者と患者の続柄",
+      "Name_en": "RelationshipToPatientCode",
+      "Name_ja": "情報提供者と患者の続柄",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "16_AlertDeviceCode",
+      "Name_seq_ja": "16_要注意物質コード",
+      "Name_en": "AlertDeviceCode",
+      "Name_ja": "要注意物質コード",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "17_AllergyClinicalStatusCode",
+      "Name_seq_ja": "17_アレルギー臨床確認状況",
+      "Name_en": "AllergyClinicalStatusCode",
+      "Name_ja": "アレルギー臨床確認状況",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "18_StatusedByPerson",
+      "Name_seq_ja": "18_確認者",
+      "Name_en": "StatusedByPerson",
+      "Name_ja": "確認者",
+      "DataType": "XCN",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "19_StatusedByOrganization",
+      "Name_seq_ja": "19_確認機関",
+      "Name_en": "StatusedByOrganization",
+      "Name_ja": "確認機関",
+      "DataType": "XON",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "20_StatusedAtDateOrTime",
+      "Name_seq_ja": "20_確認日時",
+      "Name_en": "StatusedAtDateOrTime",
+      "Name_ja": "確認日時",
+      "DataType": "TS",
+      "Repeatability": false
+    }
+  ],
+  "IN1": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_SetIdIn1",
+      "Name_seq_ja": "01_セットID-IN1",
+      "Name_en": "SetIdIn1",
+      "Name_ja": "セットID-IN1",
+      "DataType": "SI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_InsurancePlanId",
+      "Name_seq_ja": "02_保険プランID",
+      "Name_en": "InsurancePlanId",
+      "Name_ja": "保険プランID",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_InsuranceCompanyId",
+      "Name_seq_ja": "03_保険会社ID",
+      "Name_en": "InsuranceCompanyId",
+      "Name_ja": "保険会社ID",
+      "DataType": "CX",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "04_InsuranceCompanyName",
+      "Name_seq_ja": "04_保険会社名",
+      "Name_en": "InsuranceCompanyName",
+      "Name_ja": "保険会社名",
+      "DataType": "XON",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "05_InsuranceCompanyAddress",
+      "Name_seq_ja": "05_保険会社住所",
+      "Name_en": "InsuranceCompanyAddress",
+      "Name_ja": "保険会社住所",
+      "DataType": "XAD",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "06_InsuranceCoContactPerson",
+      "Name_seq_ja": "06_保険会社連絡者",
+      "Name_en": "InsuranceCoContactPerson",
+      "Name_ja": "保険会社連絡者",
+      "DataType": "XPN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "07_InsuranceCoPhoneNumber",
+      "Name_seq_ja": "07_保険会社電話番号",
+      "Name_en": "InsuranceCoPhoneNumber",
+      "Name_ja": "保険会社電話番号",
+      "DataType": "XTN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "08_GroupNumber",
+      "Name_seq_ja": "08_グループ番号",
+      "Name_en": "GroupNumber",
+      "Name_ja": "グループ番号",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "09_GroupName",
+      "Name_seq_ja": "09_グループ名",
+      "Name_en": "GroupName",
+      "Name_ja": "グループ名",
+      "DataType": "XON",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "10_InsuredSGroupEmpId",
+      "Name_seq_ja": "10_被保険者グループ雇用者ID",
+      "Name_en": "InsuredSGroupEmpId",
+      "Name_ja": "被保険者グループ雇用者ID",
+      "DataType": "CX",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "11_InsuredSGroupEmpName",
+      "Name_seq_ja": "11_被保険者グループ雇用者名",
+      "Name_en": "InsuredSGroupEmpName",
+      "Name_ja": "被保険者グループ雇用者名",
+      "DataType": "XON",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "12_PlanEffectiveDate",
+      "Name_seq_ja": "12_プラン有効日時",
+      "Name_en": "PlanEffectiveDate",
+      "Name_ja": "プラン有効日時",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "13_PlanExpirationDate",
+      "Name_seq_ja": "13_プラン失効日付",
+      "Name_en": "PlanExpirationDate",
+      "Name_ja": "プラン失効日付",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "14_AuthorizationInformation",
+      "Name_seq_ja": "14_認定情報",
+      "Name_en": "AuthorizationInformation",
+      "Name_ja": "認定情報",
+      "DataType": "AUI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "15_PlanType",
+      "Name_seq_ja": "15_プランタイプ",
+      "Name_en": "PlanType",
+      "Name_ja": "プランタイプ",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "16_NameOfInsured",
+      "Name_seq_ja": "16_被保険者名",
+      "Name_en": "NameOfInsured",
+      "Name_ja": "被保険者名",
+      "DataType": "XPN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "17_InsuredSRelationshipToPatient",
+      "Name_seq_ja": "17_患者と被保険者の関係",
+      "Name_en": "InsuredSRelationshipToPatient",
+      "Name_ja": "患者と被保険者の関係",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "18_InsuredSDateOfBirth",
+      "Name_seq_ja": "18_被保険者生年月日",
+      "Name_en": "InsuredSDateOfBirth",
+      "Name_ja": "被保険者生年月日",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "19_InsuredSAddress",
+      "Name_seq_ja": "19_被保険者住所",
+      "Name_en": "InsuredSAddress",
+      "Name_ja": "被保険者住所",
+      "DataType": "XAD",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "20_AssignmentOfBenefits",
+      "Name_seq_ja": "20_給付金の配分",
+      "Name_en": "AssignmentOfBenefits",
+      "Name_ja": "給付金の配分",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "21_CoordinationOfBenefits",
+      "Name_seq_ja": "21_給付金の調整",
+      "Name_en": "CoordinationOfBenefits",
+      "Name_ja": "給付金の調整",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "22_CoordOfBenPriority",
+      "Name_seq_ja": "22_給付金優先順位の調整",
+      "Name_en": "CoordOfBenPriority",
+      "Name_ja": "給付金優先順位の調整",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "23_NoticeOfAdmissionFlag",
+      "Name_seq_ja": "23_入会フラッグの通知",
+      "Name_en": "NoticeOfAdmissionFlag",
+      "Name_ja": "入会フラッグの通知",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "24_NoticeOfAdmissionDate",
+      "Name_seq_ja": "24_入会日付の通知",
+      "Name_en": "NoticeOfAdmissionDate",
+      "Name_ja": "入会日付の通知",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "25_ReportOfEligibilityFlag",
+      "Name_seq_ja": "25_有資格フラッグの報告",
+      "Name_en": "ReportOfEligibilityFlag",
+      "Name_ja": "有資格フラッグの報告",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "26_ReportOfEligibilityDate",
+      "Name_seq_ja": "26_有資格報告日付",
+      "Name_en": "ReportOfEligibilityDate",
+      "Name_ja": "有資格報告日付",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "27_ReleaseInformationCode",
+      "Name_seq_ja": "27_情報コードの解放",
+      "Name_en": "ReleaseInformationCode",
+      "Name_ja": "情報コードの解放",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "28_PreAdmitCert(PAC)",
+      "Name_seq_ja": "28_入会前認定書",
+      "Name_en": "PreAdmitCert(PAC)",
+      "Name_ja": "入会前認定書",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "29_VerificationDateOrTime",
+      "Name_seq_ja": "29_確認日時",
+      "Name_en": "VerificationDateOrTime",
+      "Name_ja": "確認日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "30_VerificationBy",
+      "Name_seq_ja": "30_確認者",
+      "Name_en": "VerificationBy",
+      "Name_ja": "確認者",
+      "DataType": "XCN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "31_TypeOfAgreementCode",
+      "Name_seq_ja": "31_同意コードのタイプ",
+      "Name_en": "TypeOfAgreementCode",
+      "Name_ja": "同意コードのタイプ",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "32_BillingStatus",
+      "Name_seq_ja": "32_請求状況",
+      "Name_en": "BillingStatus",
+      "Name_ja": "請求状況",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "33_LifetimeReserveDays",
+      "Name_seq_ja": "33_予約残日数",
+      "Name_en": "LifetimeReserveDays",
+      "Name_ja": "予約残日数",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "34_DelayBeforeLRDay",
+      "Name_seq_ja": "34_予約残日数前遅延",
+      "Name_en": "DelayBeforeLRDay",
+      "Name_ja": "予約残日数前遅延",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "35_CompanyPlanCode",
+      "Name_seq_ja": "35_会社プランコード",
+      "Name_en": "CompanyPlanCode",
+      "Name_ja": "会社プランコード",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "36_PolicyNumber",
+      "Name_seq_ja": "36_ポリシー番号",
+      "Name_en": "PolicyNumber",
+      "Name_ja": "ポリシー番号",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "37_PolicyDeductible",
+      "Name_seq_ja": "37_免責ポリシー",
+      "Name_en": "PolicyDeductible",
+      "Name_ja": "免責ポリシー",
+      "DataType": "CP",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "38_PolicyLimitAmount",
+      "Name_seq_ja": "38_限度額ポリシー",
+      "Name_en": "PolicyLimitAmount",
+      "Name_ja": "限度額ポリシー",
+      "DataType": "CP",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "39_PolicyLimitDays",
+      "Name_seq_ja": "39_限度日数ポリシー",
+      "Name_en": "PolicyLimitDays",
+      "Name_ja": "限度日数ポリシー",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "40_RoomRateSemiPrivate",
+      "Name_seq_ja": "40_部屋代-半個室",
+      "Name_en": "RoomRateSemiPrivate",
+      "Name_ja": "部屋代-半個室",
+      "DataType": "CP",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "41_RoomRatePrivate",
+      "Name_seq_ja": "41_部屋代-個室",
+      "Name_en": "RoomRatePrivate",
+      "Name_ja": "部屋代-個室",
+      "DataType": "CP",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "42_InsuredSEmploymentStatus",
+      "Name_seq_ja": "42_被保険者雇用状態",
+      "Name_en": "InsuredSEmploymentStatus",
+      "Name_ja": "被保険者雇用状態",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "43_InsuredSAdministrativeSex",
+      "Name_seq_ja": "43_被保険者の管理上の性別",
+      "Name_en": "InsuredSAdministrativeSex",
+      "Name_ja": "被保険者の管理上の性別",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "44_InsuredSEmployerSAddress",
+      "Name_seq_ja": "44_被保険者の雇用者の住所",
+      "Name_en": "InsuredSEmployerSAddress",
+      "Name_ja": "被保険者の雇用者の住所",
+      "DataType": "XAD",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "45_VerificationStatus",
+      "Name_seq_ja": "45_確認状態",
+      "Name_en": "VerificationStatus",
+      "Name_ja": "確認状態",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "46_PriorInsurancePlanId",
+      "Name_seq_ja": "46_前保険プラン",
+      "Name_en": "PriorInsurancePlanId",
+      "Name_ja": "前保険プラン",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "47_CoverageType",
+      "Name_seq_ja": "47_保険範囲タイプ",
+      "Name_en": "CoverageType",
+      "Name_ja": "保険範囲タイプ",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "48_Handicap",
+      "Name_seq_ja": "48_ハンディキャップ",
+      "Name_en": "Handicap",
+      "Name_ja": "ハンディキャップ",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "49_InsuredSIdNumber",
+      "Name_seq_ja": "49_被保険者ID番号",
+      "Name_en": "InsuredSIdNumber",
+      "Name_ja": "被保険者ID番号",
+      "DataType": "CX",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "50_SignatureCode",
+      "Name_seq_ja": "50_署名コード",
+      "Name_en": "SignatureCode",
+      "Name_ja": "署名コード",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "51_SignatureCodeDate",
+      "Name_seq_ja": "51_署名コード日",
+      "Name_en": "SignatureCodeDate",
+      "Name_ja": "署名コード日",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "52_InsuredSBirthPlace",
+      "Name_seq_ja": "52_被保険者出生地",
+      "Name_en": "InsuredSBirthPlace",
+      "Name_ja": "被保険者出生地",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "53_VipIndicator",
+      "Name_seq_ja": "53_VIP識別",
+      "Name_en": "VipIndicator",
+      "Name_ja": "VIP識別",
+      "DataType": "IS",
+      "Repeatability": false
+    }
+  ],
+  "IPC": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_AccessionIdentifier",
+      "Name_seq_ja": "01_受付番号",
+      "Name_en": "AccessionIdentifier",
+      "Name_ja": "受付番号",
+      "DataType": "EI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_RequestedProcedureId",
+      "Name_seq_ja": "02_要求手続きID",
+      "Name_en": "RequestedProcedureId",
+      "Name_ja": "要求手続きID",
+      "DataType": "EI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_StudyInstanceUid",
+      "Name_seq_ja": "03_検査インスタンスUID",
+      "Name_en": "StudyInstanceUid",
+      "Name_ja": "検査インスタンスUID",
+      "DataType": "EI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "04_ScheduledProcedureStepId",
+      "Name_seq_ja": "04_予約済手続きステップID",
+      "Name_en": "ScheduledProcedureStepId",
+      "Name_ja": "予約済手続きステップID",
+      "DataType": "EI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "05_Modality",
+      "Name_seq_ja": "05_モダリティ",
+      "Name_en": "Modality",
+      "Name_ja": "モダリティ",
+      "DataType": "CE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "06_ProtocolCode",
+      "Name_seq_ja": "06_プロトコルコード",
+      "Name_en": "ProtocolCode",
+      "Name_ja": "プロトコルコード",
+      "DataType": "CE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "07_ScheduledStationName",
+      "Name_seq_ja": "07_予約済ステーション名",
+      "Name_en": "ScheduledStationName",
+      "Name_ja": "予約済ステーション名",
+      "DataType": "EI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "08_ScheduledProcedureStepLocation",
+      "Name_seq_ja": "08_予約済手続きステップ場所",
+      "Name_en": "ScheduledProcedureStepLocation",
+      "Name_ja": "予約済手続きステップ場所",
+      "DataType": "CE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "09_ScheduledAeTitle",
+      "Name_seq_ja": "09_予約済AEタイトル",
+      "Name_en": "ScheduledAeTitle",
+      "Name_ja": "予約済AEタイトル",
+      "DataType": "ST",
+      "Repeatability": false
+    }
+  ],
+  "MSH": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_FieldSeparator",
+      "Name_seq_ja": "01_フィールド区切文字",
+      "Name_en": "FieldSeparator",
+      "Name_ja": "フィールド区切文字",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_EncodingCharacters",
+      "Name_seq_ja": "02_コード化文字",
+      "Name_en": "EncodingCharacters",
+      "Name_ja": "コード化文字",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_SendingApplication",
+      "Name_seq_ja": "03_送信アプリケーション",
+      "Name_en": "SendingApplication",
+      "Name_ja": "送信アプリケーション",
+      "DataType": "HD",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "04_SendingFacility",
+      "Name_seq_ja": "04_送信施設",
+      "Name_en": "SendingFacility",
+      "Name_ja": "送信施設",
+      "DataType": "HD",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "05_ReceivingApplication",
+      "Name_seq_ja": "05_受信アプリケーション",
+      "Name_en": "ReceivingApplication",
+      "Name_ja": "受信アプリケーション",
+      "DataType": "HD",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "06_ReceivingFacility",
+      "Name_seq_ja": "06_受信施設",
+      "Name_en": "ReceivingFacility",
+      "Name_ja": "受信施設",
+      "DataType": "HD",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "07_DateOrTimeOfMessage",
+      "Name_seq_ja": "07_メッセージ日時",
+      "Name_en": "DateOrTimeOfMessage",
+      "Name_ja": "メッセージ日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "08_Security",
+      "Name_seq_ja": "08_セキュリティ",
+      "Name_en": "Security",
+      "Name_ja": "セキュリティ",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "09_MessageType",
+      "Name_seq_ja": "09_メッセージ型",
+      "Name_en": "MessageType",
+      "Name_ja": "メッセージ型",
+      "DataType": "MSG",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "10_MessageControlId",
+      "Name_seq_ja": "10_メッセージ制御ID",
+      "Name_en": "MessageControlId",
+      "Name_ja": "メッセージ制御ID",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "11_ProcessingId",
+      "Name_seq_ja": "11_処理ID",
+      "Name_en": "ProcessingId",
+      "Name_ja": "処理ID",
+      "DataType": "PT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "12_VersionId",
+      "Name_seq_ja": "12_バージョンID",
+      "Name_en": "VersionId",
+      "Name_ja": "バージョンID",
+      "DataType": "VID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "13_SequenceNumber",
+      "Name_seq_ja": "13_シーケンス番号",
+      "Name_en": "SequenceNumber",
+      "Name_ja": "シーケンス番号",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "14_ContinuationPointer",
+      "Name_seq_ja": "14_継続ポインタ",
+      "Name_en": "ContinuationPointer",
+      "Name_ja": "継続ポインタ",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "15_AcceptAcknowledgmentType",
+      "Name_seq_ja": "15_受諾応答型",
+      "Name_en": "AcceptAcknowledgmentType",
+      "Name_ja": "受諾応答型",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "16_ApplicationAcknowledgmentType",
+      "Name_seq_ja": "16_アプリケーション応答型",
+      "Name_en": "ApplicationAcknowledgmentType",
+      "Name_ja": "アプリケーション応答型",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "17_CountryCode",
+      "Name_seq_ja": "17_国コード",
+      "Name_en": "CountryCode",
+      "Name_ja": "国コード",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "18_CharacterSet",
+      "Name_seq_ja": "18_文字セット",
+      "Name_en": "CharacterSet",
+      "Name_ja": "文字セット",
+      "DataType": "ID",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "19_PrincipalLanguageOfMessage",
+      "Name_seq_ja": "19_主要言語",
+      "Name_en": "PrincipalLanguageOfMessage",
+      "Name_ja": "主要言語",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "20_AlternateCharacterSetHandlingScheme",
+      "Name_seq_ja": "20_代替文字セット操作法",
+      "Name_en": "AlternateCharacterSetHandlingScheme",
+      "Name_ja": "代替文字セット操作法",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "21_MessageProfileIdentifier",
+      "Name_seq_ja": "21_メッセージプロファイル識別子",
+      "Name_en": "MessageProfileIdentifier",
+      "Name_ja": "メッセージプロファイル識別子",
+      "DataType": "EI",
+      "Repeatability": true
+    }
+  ],
+  "NK1": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_SetIdNk1",
+      "Name_seq_ja": "01_セットID-NK1",
+      "Name_en": "SetIdNk1",
+      "Name_ja": "セットID-NK1",
+      "DataType": "SI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_Name",
+      "Name_seq_ja": "02_氏名",
+      "Name_en": "Name",
+      "Name_ja": "氏名",
+      "DataType": "XPN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "03_Relationship",
+      "Name_seq_ja": "03_続柄",
+      "Name_en": "Relationship",
+      "Name_ja": "続柄",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "04_Address",
+      "Name_seq_ja": "04_住所",
+      "Name_en": "Address",
+      "Name_ja": "住所",
+      "DataType": "XAD",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "05_PhoneNumber",
+      "Name_seq_ja": "05_電話番号",
+      "Name_en": "PhoneNumber",
+      "Name_ja": "電話番号",
+      "DataType": "XTN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "06_BusinessPhoneNumber",
+      "Name_seq_ja": "06_勤務先電話番号",
+      "Name_en": "BusinessPhoneNumber",
+      "Name_ja": "勤務先電話番号",
+      "DataType": "XTN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "07_ContactRole",
+      "Name_seq_ja": "07_役割",
+      "Name_en": "ContactRole",
+      "Name_ja": "役割",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "08_StartDate",
+      "Name_seq_ja": "08_役割の開始日",
+      "Name_en": "StartDate",
+      "Name_ja": "役割の開始日",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "09_EndDate",
+      "Name_seq_ja": "09_役割の終了日",
+      "Name_en": "EndDate",
+      "Name_ja": "役割の終了日",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "10_NextOfKinOrAssociatedPartiesJobTitle",
+      "Name_seq_ja": "10_肩書",
+      "Name_en": "NextOfKinOrAssociatedPartiesJobTitle",
+      "Name_ja": "肩書",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "11_NextOfKinOrAssociatedPartiesJobCodeOrClass",
+      "Name_seq_ja": "11_職種・職位",
+      "Name_en": "NextOfKinOrAssociatedPartiesJobCodeOrClass",
+      "Name_ja": "職種・職位",
+      "DataType": "JCC",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "12_NextOfKinOrAssociatedPartiesEmployeeNumber",
+      "Name_seq_ja": "12_従業員番号",
+      "Name_en": "NextOfKinOrAssociatedPartiesEmployeeNumber",
+      "Name_ja": "従業員番号",
+      "DataType": "CX",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "13_OrganizationNameNk1",
+      "Name_seq_ja": "13_所属組織名",
+      "Name_en": "OrganizationNameNk1",
+      "Name_ja": "所属組織名",
+      "DataType": "XON",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "14_MaritalStatus",
+      "Name_seq_ja": "14_結婚状態",
+      "Name_en": "MaritalStatus",
+      "Name_ja": "結婚状態",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "15_AdministrativeSex",
+      "Name_seq_ja": "15_性別",
+      "Name_en": "AdministrativeSex",
+      "Name_ja": "性別",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "16_DateOrTimeOfBirth",
+      "Name_seq_ja": "16_生年月日",
+      "Name_en": "DateOrTimeOfBirth",
+      "Name_ja": "生年月日",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "17_LivingDependency",
+      "Name_seq_ja": "17_生活依存",
+      "Name_en": "LivingDependency",
+      "Name_ja": "生活依存",
+      "DataType": "IS",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "18_AmbulatoryStatus",
+      "Name_seq_ja": "18_介護区分",
+      "Name_en": "AmbulatoryStatus",
+      "Name_ja": "介護区分",
+      "DataType": "IS",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "19_Citizenship",
+      "Name_seq_ja": "19_市民権情報",
+      "Name_en": "Citizenship",
+      "Name_ja": "市民権情報",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "20_PrimaryLanguage",
+      "Name_seq_ja": "20_使用言語",
+      "Name_en": "PrimaryLanguage",
+      "Name_ja": "使用言語",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "21_LivingArrangement",
+      "Name_seq_ja": "21_生活様式",
+      "Name_en": "LivingArrangement",
+      "Name_ja": "生活様式",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "22_PublicityCode",
+      "Name_seq_ja": "22_周知標識",
+      "Name_en": "PublicityCode",
+      "Name_ja": "周知標識",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "23_ProtectionIndicator",
+      "Name_seq_ja": "23_保護標識",
+      "Name_en": "ProtectionIndicator",
+      "Name_ja": "保護標識",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "24_StudentIndicator",
+      "Name_seq_ja": "24_学生標識",
+      "Name_en": "StudentIndicator",
+      "Name_ja": "学生標識",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "25_Religion",
+      "Name_seq_ja": "25_宗教",
+      "Name_en": "Religion",
+      "Name_ja": "宗教",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "26_MotherSMaidenName",
+      "Name_seq_ja": "26_母親の旧姓",
+      "Name_en": "MotherSMaidenName",
+      "Name_ja": "母親の旧姓",
+      "DataType": "XPN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "27_Nationality",
+      "Name_seq_ja": "27_国籍",
+      "Name_en": "Nationality",
+      "Name_ja": "国籍",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "28_EthnicGroup",
+      "Name_seq_ja": "28_人種のグループ",
+      "Name_en": "EthnicGroup",
+      "Name_ja": "人種のグループ",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "29_ContactReason",
+      "Name_seq_ja": "29_連絡理由",
+      "Name_en": "ContactReason",
+      "Name_ja": "連絡理由",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "30_ContactPersonSName",
+      "Name_seq_ja": "30_連絡先の名前",
+      "Name_en": "ContactPersonSName",
+      "Name_ja": "連絡先の名前",
+      "DataType": "XPN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "31_ContactPersonSTelephoneNumber",
+      "Name_seq_ja": "31_連絡先の電話番号",
+      "Name_en": "ContactPersonSTelephoneNumber",
+      "Name_ja": "連絡先の電話番号",
+      "DataType": "XTN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "32_ContactPersonSAddress",
+      "Name_seq_ja": "32_連絡先の住所",
+      "Name_en": "ContactPersonSAddress",
+      "Name_ja": "連絡先の住所",
+      "DataType": "XAD",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "33_NextOfKinOrAssociatedPartySIdentifiers",
+      "Name_seq_ja": "33_近親者識別情報",
+      "Name_en": "NextOfKinOrAssociatedPartySIdentifiers",
+      "Name_ja": "近親者識別情報",
+      "DataType": "CX",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "34_JobStatus",
+      "Name_seq_ja": "34_職業状態",
+      "Name_en": "JobStatus",
+      "Name_ja": "職業状態",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "35_Race",
+      "Name_seq_ja": "35_人種",
+      "Name_en": "Race",
+      "Name_ja": "人種",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "36_Handicap",
+      "Name_seq_ja": "36_障害情報",
+      "Name_en": "Handicap",
+      "Name_ja": "障害情報",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "37_ContactPersonSocialSecurityNumber",
+      "Name_seq_ja": "37_連絡先の社会保険番号",
+      "Name_en": "ContactPersonSocialSecurityNumber",
+      "Name_ja": "連絡先の社会保険番号",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "38_NextOfKinBirthPlace",
+      "Name_seq_ja": "38_近親者生誕地",
+      "Name_en": "NextOfKinBirthPlace",
+      "Name_ja": "近親者生誕地",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "39_VipIndicator",
+      "Name_seq_ja": "39_VIP標識",
+      "Name_en": "VipIndicator",
+      "Name_ja": "VIP標識",
+      "DataType": "IS",
+      "Repeatability": false
+    }
+  ],
+  "OBR": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_SetIdObservationRequest",
+      "Name_seq_ja": "01_セットID-OBR",
+      "Name_en": "SetIdObservationRequest",
+      "Name_ja": "セットID-OBR",
+      "DataType": "SI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_PlacerOrderNumber",
+      "Name_seq_ja": "02_依頼者オーダ番号",
+      "Name_en": "PlacerOrderNumber",
+      "Name_ja": "依頼者オーダ番号",
+      "DataType": "EI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_FillerOrderNumber",
+      "Name_seq_ja": "03_実施者オーダ番号",
+      "Name_en": "FillerOrderNumber",
+      "Name_ja": "実施者オーダ番号",
+      "DataType": "EI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "04_UniversalServiceId",
+      "Name_seq_ja": "04_検査項目ID",
+      "Name_en": "UniversalServiceId",
+      "Name_ja": "検査項目ID",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "05_PriorityObr",
+      "Name_seq_ja": "05_優先度-OBR",
+      "Name_en": "PriorityObr",
+      "Name_ja": "優先度-OBR",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "06_RequestedDateOrTime",
+      "Name_seq_ja": "06_要求日時",
+      "Name_en": "RequestedDateOrTime",
+      "Name_ja": "要求日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "07_ObservationDateOrTime",
+      "Name_seq_ja": "07_検査日時",
+      "Name_en": "ObservationDateOrTime",
+      "Name_ja": "検査日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "08_ObservationEndDateOrTime",
+      "Name_seq_ja": "08_検査終了日時",
+      "Name_en": "ObservationEndDateOrTime",
+      "Name_ja": "検査終了日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "09_CollectionVolume",
+      "Name_seq_ja": "09_採取量",
+      "Name_en": "CollectionVolume",
+      "Name_ja": "採取量",
+      "DataType": "CQ",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "10_CollectorIdentifier",
+      "Name_seq_ja": "10_採取者ID",
+      "Name_en": "CollectorIdentifier",
+      "Name_ja": "採取者ID",
+      "DataType": "XCN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "11_SpecimenActionCode",
+      "Name_seq_ja": "11_検体処置コード",
+      "Name_en": "SpecimenActionCode",
+      "Name_ja": "検体処置コード",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "12_DangerCode",
+      "Name_seq_ja": "12_危険(検体)コード",
+      "Name_en": "DangerCode",
+      "Name_ja": "危険(検体)コード",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "13_RelevantClinicalInformation",
+      "Name_seq_ja": "13_関連臨床情報",
+      "Name_en": "RelevantClinicalInformation",
+      "Name_ja": "関連臨床情報",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "14_SpecimenReceivedDateOrTime",
+      "Name_seq_ja": "14_検体受理日時",
+      "Name_en": "SpecimenReceivedDateOrTime",
+      "Name_ja": "検体受理日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "15_SpecimenSource",
+      "Name_seq_ja": "15_検体材料",
+      "Name_en": "SpecimenSource",
+      "Name_ja": "検体材料",
+      "DataType": "SPS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "16_OrderingProvider",
+      "Name_seq_ja": "16_依頼者",
+      "Name_en": "OrderingProvider",
+      "Name_ja": "依頼者",
+      "DataType": "XCN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "17_OrderCallbackPhoneNumber",
+      "Name_seq_ja": "17_オーダ問合せ電話番号",
+      "Name_en": "OrderCallbackPhoneNumber",
+      "Name_ja": "オーダ問合せ電話番号",
+      "DataType": "XTN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "18_PlacerField1",
+      "Name_seq_ja": "18_依頼者フィールド1",
+      "Name_en": "PlacerField1",
+      "Name_ja": "依頼者フィールド1",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "19_PlacerField2",
+      "Name_seq_ja": "19_依頼者フィールド2",
+      "Name_en": "PlacerField2",
+      "Name_ja": "依頼者フィールド2",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "20_FillerField1",
+      "Name_seq_ja": "20_実施者フィールド1",
+      "Name_en": "FillerField1",
+      "Name_ja": "実施者フィールド1",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "21_FillerField2",
+      "Name_seq_ja": "21_実施者フィールド2",
+      "Name_en": "FillerField2",
+      "Name_ja": "実施者フィールド2",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "22_ResultsRptOrStatusChngDateOrTime",
+      "Name_seq_ja": "22_結果報告または状態変更日時",
+      "Name_en": "ResultsRptOrStatusChngDateOrTime",
+      "Name_ja": "結果報告または状態変更日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "23_ChargeToPractice",
+      "Name_seq_ja": "23_課金",
+      "Name_en": "ChargeToPractice",
+      "Name_ja": "課金",
+      "DataType": "MOC",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "24_DiagnosticServSectId",
+      "Name_seq_ja": "24_診断サービス部門ID",
+      "Name_en": "DiagnosticServSectId",
+      "Name_ja": "診断サービス部門ID",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "25_ResultStatus",
+      "Name_seq_ja": "25_結果状態",
+      "Name_en": "ResultStatus",
+      "Name_ja": "結果状態",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "26_ParentResult",
+      "Name_seq_ja": "26_親結果",
+      "Name_en": "ParentResult",
+      "Name_ja": "親結果",
+      "DataType": "PRL",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "27_QuantityOrTiming",
+      "Name_seq_ja": "27_数量またはタイミング",
+      "Name_en": "QuantityOrTiming",
+      "Name_ja": "数量またはタイミング",
+      "DataType": "TQ",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "28_ResultCopiesTo",
+      "Name_seq_ja": "28_結果配布先",
+      "Name_en": "ResultCopiesTo",
+      "Name_ja": "結果配布先",
+      "DataType": "XCN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "29_ParentNumber",
+      "Name_seq_ja": "29_親番号",
+      "Name_en": "ParentNumber",
+      "Name_ja": "親番号",
+      "DataType": "EIP",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "30_TransportationMode",
+      "Name_seq_ja": "30_患者移動モード",
+      "Name_en": "TransportationMode",
+      "Name_ja": "患者移動モード",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "31_ReasonForStudy",
+      "Name_seq_ja": "31_検査理由",
+      "Name_en": "ReasonForStudy",
+      "Name_ja": "検査理由",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "32_PrincipalResultInterpreter",
+      "Name_seq_ja": "32_結果判定責任者",
+      "Name_en": "PrincipalResultInterpreter",
+      "Name_ja": "結果判定責任者",
+      "DataType": "NDL",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "33_AssistantResultInterpreter",
+      "Name_seq_ja": "33_結果判定アシスタント",
+      "Name_en": "AssistantResultInterpreter",
+      "Name_ja": "結果判定アシスタント",
+      "DataType": "NDL",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "34_Technician",
+      "Name_seq_ja": "34_医療技術者",
+      "Name_en": "Technician",
+      "Name_ja": "医療技術者",
+      "DataType": "NDL",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "35_Transcriptionist",
+      "Name_seq_ja": "35_転記者",
+      "Name_en": "Transcriptionist",
+      "Name_ja": "転記者",
+      "DataType": "NDL",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "36_ScheduledDateOrTime",
+      "Name_seq_ja": "36_予定日時",
+      "Name_en": "ScheduledDateOrTime",
+      "Name_ja": "予定日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "37_NumberOfSampleContainers",
+      "Name_seq_ja": "37_検体容器数",
+      "Name_en": "NumberOfSampleContainers",
+      "Name_ja": "検体容器数",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "38_TransportLogisticsOfCollectedSample",
+      "Name_seq_ja": "38_採取検体搬送",
+      "Name_en": "TransportLogisticsOfCollectedSample",
+      "Name_ja": "採取検体搬送",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "39_CollectorSComment",
+      "Name_seq_ja": "39_採取者コメント",
+      "Name_en": "CollectorSComment",
+      "Name_ja": "採取者コメント",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "40_TransportArrangementResponsibility",
+      "Name_seq_ja": "40_搬送調整者",
+      "Name_en": "TransportArrangementResponsibility",
+      "Name_ja": "搬送調整者",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "41_TransportArranged",
+      "Name_seq_ja": "41_搬送調整結果",
+      "Name_en": "TransportArranged",
+      "Name_ja": "搬送調整結果",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "42_EscortRequired",
+      "Name_seq_ja": "42_随行者要否",
+      "Name_en": "EscortRequired",
+      "Name_ja": "随行者要否",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "43_PlannedPatientTransportComment",
+      "Name_seq_ja": "43_患者移動コメント",
+      "Name_en": "PlannedPatientTransportComment",
+      "Name_ja": "患者移動コメント",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "44_ProcedureCode",
+      "Name_seq_ja": "44_手続きコード",
+      "Name_en": "ProcedureCode",
+      "Name_ja": "手続きコード",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "45_ProcedureCodeModifier",
+      "Name_seq_ja": "45_手続きコード修飾子",
+      "Name_en": "ProcedureCodeModifier",
+      "Name_ja": "手続きコード修飾子",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "46_PlacerSupplementalServiceInformation",
+      "Name_seq_ja": "46_依頼者補足サービス情報",
+      "Name_en": "PlacerSupplementalServiceInformation",
+      "Name_ja": "依頼者補足サービス情報",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "47_FillerSupplementalServiceInformation",
+      "Name_seq_ja": "47_実施者補足サービス情報",
+      "Name_en": "FillerSupplementalServiceInformation",
+      "Name_ja": "実施者補足サービス情報",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "48_MedicallyNecessaryDuplicateProcedureReason",
+      "Name_seq_ja": "48_重複検査を要する医学的理由",
+      "Name_en": "MedicallyNecessaryDuplicateProcedureReason",
+      "Name_ja": "重複検査を要する医学的理由",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "49_ResultHandling",
+      "Name_seq_ja": "49_結果の取り扱い",
+      "Name_en": "ResultHandling",
+      "Name_ja": "結果の取り扱い",
+      "DataType": "IS",
+      "Repeatability": false
+    }
+  ],
+  "OBX": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_SetIdObx",
+      "Name_seq_ja": "01_セットID-OBX",
+      "Name_en": "SetIdObx",
+      "Name_ja": "セットID-OBX",
+      "DataType": "SI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_ValueType",
+      "Name_seq_ja": "02_値型",
+      "Name_en": "ValueType",
+      "Name_ja": "値型",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_ObservationIdentifier",
+      "Name_seq_ja": "03_検査項目",
+      "Name_en": "ObservationIdentifier",
+      "Name_ja": "検査項目",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "04_ObservationSubId",
+      "Name_seq_ja": "04_検査副ID",
+      "Name_en": "ObservationSubId",
+      "Name_ja": "検査副ID",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "05_ObservationValue",
+      "Name_seq_ja": "05_検査値",
+      "Name_en": "ObservationValue",
+      "Name_ja": "検査値",
+      "DataType": "*",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "06_Units",
+      "Name_seq_ja": "06_単位",
+      "Name_en": "Units",
+      "Name_ja": "単位",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "07_ReferencesRange",
+      "Name_seq_ja": "07_基準値範囲",
+      "Name_en": "ReferencesRange",
+      "Name_ja": "基準値範囲",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "08_AbnormalFlags",
+      "Name_seq_ja": "08_異常フラグ",
+      "Name_en": "AbnormalFlags",
+      "Name_ja": "異常フラグ",
+      "DataType": "IS",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "09_Probability",
+      "Name_seq_ja": "09_確率",
+      "Name_en": "Probability",
+      "Name_ja": "確率",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "10_NatureOfAbnormalTest",
+      "Name_seq_ja": "10_異常検査の性質",
+      "Name_en": "NatureOfAbnormalTest",
+      "Name_ja": "異常検査の性質",
+      "DataType": "ID",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "11_ObservationResultStatus",
+      "Name_seq_ja": "11_検査結果状態",
+      "Name_en": "ObservationResultStatus",
+      "Name_ja": "検査結果状態",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "12_EffectiveDateOfReferenceRange",
+      "Name_seq_ja": "12_基準値範囲有効日付",
+      "Name_en": "EffectiveDateOfReferenceRange",
+      "Name_ja": "基準値範囲有効日付",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "13_UserDefinedAccessChecks",
+      "Name_seq_ja": "13_使用者定義アクセス点検",
+      "Name_en": "UserDefinedAccessChecks",
+      "Name_ja": "使用者定義アクセス点検",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "14_DateOrTimeOfTheObservation",
+      "Name_seq_ja": "14_検査日時",
+      "Name_en": "DateOrTimeOfTheObservation",
+      "Name_ja": "検査日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "15_ProducerSId",
+      "Name_seq_ja": "15_実施者ID",
+      "Name_en": "ProducerSId",
+      "Name_ja": "実施者ID",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "16_ResponsibleObserver",
+      "Name_seq_ja": "16_検査責任者",
+      "Name_en": "ResponsibleObserver",
+      "Name_ja": "検査責任者",
+      "DataType": "XCN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "17_ObservationMethod",
+      "Name_seq_ja": "17_検査方法",
+      "Name_en": "ObservationMethod",
+      "Name_ja": "検査方法",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "18_EquipmentInstanceIdentifier",
+      "Name_seq_ja": "18_装置識別ID",
+      "Name_en": "EquipmentInstanceIdentifier",
+      "Name_ja": "装置識別ID",
+      "DataType": "EI",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "19_DateOrTimeOfTheAnalysis",
+      "Name_seq_ja": "19_分析日時",
+      "Name_en": "DateOrTimeOfTheAnalysis",
+      "Name_ja": "分析日時",
+      "DataType": "TS",
+      "Repeatability": false
+    }
+  ],
+  "ODS": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_Type",
+      "Name_seq_ja": "01_タイプ",
+      "Name_en": "Type",
+      "Name_ja": "タイプ",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_ServicePeriod",
+      "Name_seq_ja": "02_サービス時間帯",
+      "Name_en": "ServicePeriod",
+      "Name_ja": "サービス時間帯",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "03_DietOrSupplementOrPreferencecode",
+      "Name_seq_ja": "03_食事または捕食または嗜好コード",
+      "Name_en": "DietOrSupplementOrPreferencecode",
+      "Name_ja": "食事または捕食または嗜好コード",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "04_TextInstruction",
+      "Name_seq_ja": "04_テキスト指示",
+      "Name_en": "TextInstruction",
+      "Name_ja": "テキスト指示",
+      "DataType": "ST",
+      "Repeatability": true
+    }
+  ],
+  "ORC": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_OrderControl",
+      "Name_seq_ja": "01_オーダ制御",
+      "Name_en": "OrderControl",
+      "Name_ja": "オーダ制御",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_PlacerOrderNumber",
+      "Name_seq_ja": "02_依頼者オーダ番号",
+      "Name_en": "PlacerOrderNumber",
+      "Name_ja": "依頼者オーダ番号",
+      "DataType": "EI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_FillerOrderNumber",
+      "Name_seq_ja": "03_実施者オーダ番号",
+      "Name_en": "FillerOrderNumber",
+      "Name_ja": "実施者オーダ番号",
+      "DataType": "EI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "04_PlacerGroupNumber",
+      "Name_seq_ja": "04_依頼者グループ番号",
+      "Name_en": "PlacerGroupNumber",
+      "Name_ja": "依頼者グループ番号",
+      "DataType": "EI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "05_OrderStatus",
+      "Name_seq_ja": "05_オーダ状態",
+      "Name_en": "OrderStatus",
+      "Name_ja": "オーダ状態",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "06_ResponseFlag",
+      "Name_seq_ja": "06_応答フラグ",
+      "Name_en": "ResponseFlag",
+      "Name_ja": "応答フラグ",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "07_QuantityOrTiming",
+      "Name_seq_ja": "07_数量またはタイミング",
+      "Name_en": "QuantityOrTiming",
+      "Name_ja": "数量またはタイミング",
+      "DataType": "TQ",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "08_Parent",
+      "Name_seq_ja": "08_親",
+      "Name_en": "Parent",
+      "Name_ja": "親",
+      "DataType": "EIP",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "09_DateOrTimeOfTransaction",
+      "Name_seq_ja": "09_トランザクション日時",
+      "Name_en": "DateOrTimeOfTransaction",
+      "Name_ja": "トランザクション日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "10_EnteredBy",
+      "Name_seq_ja": "10_入力者",
+      "Name_en": "EnteredBy",
+      "Name_ja": "入力者",
+      "DataType": "XCN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "11_VerifiedBy",
+      "Name_seq_ja": "11_検証者",
+      "Name_en": "VerifiedBy",
+      "Name_ja": "検証者",
+      "DataType": "XCN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "12_OrderingProvider",
+      "Name_seq_ja": "12_依頼者",
+      "Name_en": "OrderingProvider",
+      "Name_ja": "依頼者",
+      "DataType": "XCN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "13_EntererSLocation",
+      "Name_seq_ja": "13_入力場所",
+      "Name_en": "EntererSLocation",
+      "Name_ja": "入力場所",
+      "DataType": "PL",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "14_CallBackPhoneNumber",
+      "Name_seq_ja": "14_コールバック用電話番号",
+      "Name_en": "CallBackPhoneNumber",
+      "Name_ja": "コールバック用電話番号",
+      "DataType": "XTN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "15_OrderEffectiveDateOrTime",
+      "Name_seq_ja": "15_オーダ有効日時",
+      "Name_en": "OrderEffectiveDateOrTime",
+      "Name_ja": "オーダ有効日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "16_OrderControlCodeReason",
+      "Name_seq_ja": "16_オーダ制御コードの理由",
+      "Name_en": "OrderControlCodeReason",
+      "Name_ja": "オーダ制御コードの理由",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "17_EnteringOrganization",
+      "Name_seq_ja": "17_入力組織",
+      "Name_en": "EnteringOrganization",
+      "Name_ja": "入力組織",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "18_EnteringDevice",
+      "Name_seq_ja": "18_入力装置",
+      "Name_en": "EnteringDevice",
+      "Name_ja": "入力装置",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "19_ActionBy",
+      "Name_seq_ja": "19_発動者",
+      "Name_en": "ActionBy",
+      "Name_ja": "発動者",
+      "DataType": "XCN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "20_AdvancedBeneficiaryNoticeCode",
+      "Name_seq_ja": "20_受益者通知コード",
+      "Name_en": "AdvancedBeneficiaryNoticeCode",
+      "Name_ja": "受益者通知コード",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "21_OrderingFacilityName",
+      "Name_seq_ja": "21_オーダ施設名",
+      "Name_en": "OrderingFacilityName",
+      "Name_ja": "オーダ施設名",
+      "DataType": "XON",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "22_OrderingFacilityAddress",
+      "Name_seq_ja": "22_オーダ施設住所",
+      "Name_en": "OrderingFacilityAddress",
+      "Name_ja": "オーダ施設住所",
+      "DataType": "XAD",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "23_OrderingFacilityPhoneNumber",
+      "Name_seq_ja": "23_オーダ施設電話番号",
+      "Name_en": "OrderingFacilityPhoneNumber",
+      "Name_ja": "オーダ施設電話番号",
+      "DataType": "XTN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "24_OrderingProviderAddress",
+      "Name_seq_ja": "24_オーダ依頼者住所",
+      "Name_en": "OrderingProviderAddress",
+      "Name_ja": "オーダ依頼者住所",
+      "DataType": "XAD",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "25_OrderStatusModifier",
+      "Name_seq_ja": "25_オーダ状態修飾子",
+      "Name_en": "OrderStatusModifier",
+      "Name_ja": "オーダ状態修飾子",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "26_AdvancedBeneficiaryNoticeOverrideReason",
+      "Name_seq_ja": "26_受益者通知上書き理由",
+      "Name_en": "AdvancedBeneficiaryNoticeOverrideReason",
+      "Name_ja": "受益者通知上書き理由",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "27_FillerSExpectedAvailabilityDateOrTime",
+      "Name_seq_ja": "27_実施者可能日時",
+      "Name_en": "FillerSExpectedAvailabilityDateOrTime",
+      "Name_ja": "実施者可能日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "28_ConfidentialityCode",
+      "Name_seq_ja": "28_守秘コード",
+      "Name_en": "ConfidentialityCode",
+      "Name_ja": "守秘コード",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "29_OrderType",
+      "Name_seq_ja": "29_オーダタイプ",
+      "Name_en": "OrderType",
+      "Name_ja": "オーダタイプ",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "30_EntererAuthorizationMode",
+      "Name_seq_ja": "30_入力者承認モード",
+      "Name_en": "EntererAuthorizationMode",
+      "Name_ja": "入力者承認モード",
+      "DataType": "CNE",
+      "Repeatability": false
+    }
+  ],
+  "PID": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_SetIdPid",
+      "Name_seq_ja": "01_セットID-PID",
+      "Name_en": "SetIdPid",
+      "Name_ja": "セットID-PID",
+      "DataType": "SI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_PatientId",
+      "Name_seq_ja": "02_患者ID(外部ID)",
+      "Name_en": "PatientId",
+      "Name_ja": "患者ID(外部ID)",
+      "DataType": "CX",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_PatientIdentifierList",
+      "Name_seq_ja": "03_患者IDリスト",
+      "Name_en": "PatientIdentifierList",
+      "Name_ja": "患者IDリスト",
+      "DataType": "CX",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "04_AlternatePatientIdPid",
+      "Name_seq_ja": "04_代替患者ID",
+      "Name_en": "AlternatePatientIdPid",
+      "Name_ja": "代替患者ID",
+      "DataType": "CX",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "05_PatientName",
+      "Name_seq_ja": "05_患者氏名",
+      "Name_en": "PatientName",
+      "Name_ja": "患者氏名",
+      "DataType": "XPN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "06_MotherSMaidenName",
+      "Name_seq_ja": "06_母親の旧姓",
+      "Name_en": "MotherSMaidenName",
+      "Name_ja": "母親の旧姓",
+      "DataType": "XPN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "07_DateOrTimeOfBirth",
+      "Name_seq_ja": "07_生年月日",
+      "Name_en": "DateOrTimeOfBirth",
+      "Name_ja": "生年月日",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "08_AdministrativeSex",
+      "Name_seq_ja": "08_性別",
+      "Name_en": "AdministrativeSex",
+      "Name_ja": "性別",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "09_PatientAlias",
+      "Name_seq_ja": "09_患者別名",
+      "Name_en": "PatientAlias",
+      "Name_ja": "患者別名",
+      "DataType": "XPN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "10_Race",
+      "Name_seq_ja": "10_人種",
+      "Name_en": "Race",
+      "Name_ja": "人種",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "11_PatientAddress",
+      "Name_seq_ja": "11_患者住所",
+      "Name_en": "PatientAddress",
+      "Name_ja": "患者住所",
+      "DataType": "XAD",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "12_CountyCode",
+      "Name_seq_ja": "12_郡コード",
+      "Name_en": "CountyCode",
+      "Name_ja": "郡コード",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "13_PhoneNumberHome",
+      "Name_seq_ja": "13_電話番号-自宅",
+      "Name_en": "PhoneNumberHome",
+      "Name_ja": "電話番号-自宅",
+      "DataType": "XTN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "14_PhoneNumberBusiness",
+      "Name_seq_ja": "14_電話番号-勤務先",
+      "Name_en": "PhoneNumberBusiness",
+      "Name_ja": "電話番号-勤務先",
+      "DataType": "XTN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "15_PrimaryLanguage",
+      "Name_seq_ja": "15_言語-患者",
+      "Name_en": "PrimaryLanguage",
+      "Name_ja": "言語-患者",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "16_MaritalStatus",
+      "Name_seq_ja": "16_婚姻状況",
+      "Name_en": "MaritalStatus",
+      "Name_ja": "婚姻状況",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "17_Religion",
+      "Name_seq_ja": "17_宗教",
+      "Name_en": "Religion",
+      "Name_ja": "宗教",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "18_PatientAccountNumber",
+      "Name_seq_ja": "18_患者会計番号",
+      "Name_en": "PatientAccountNumber",
+      "Name_ja": "患者会計番号",
+      "DataType": "CX",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "19_SsnNumberPatient",
+      "Name_seq_ja": "19_社会保障番号",
+      "Name_en": "SsnNumberPatient",
+      "Name_ja": "社会保障番号",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "20_DriverSLicenseNumberPatient",
+      "Name_seq_ja": "20_運転免許証番号",
+      "Name_en": "DriverSLicenseNumberPatient",
+      "Name_ja": "運転免許証番号",
+      "DataType": "DLN",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "21_MotherSIdentifier",
+      "Name_seq_ja": "21_母親の識別情報",
+      "Name_en": "MotherSIdentifier",
+      "Name_ja": "母親の識別情報",
+      "DataType": "CX",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "22_EthnicGroup",
+      "Name_seq_ja": "22_民族のグループ",
+      "Name_en": "EthnicGroup",
+      "Name_ja": "民族のグループ",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "23_BirthPlace",
+      "Name_seq_ja": "23_出生地",
+      "Name_en": "BirthPlace",
+      "Name_ja": "出生地",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "24_MultipleBirthIndicator",
+      "Name_seq_ja": "24_多胎児識別情報",
+      "Name_en": "MultipleBirthIndicator",
+      "Name_ja": "多胎児識別情報",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "25_BirthOrder",
+      "Name_seq_ja": "25_誕生順序",
+      "Name_en": "BirthOrder",
+      "Name_ja": "誕生順序",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "26_Citizenship",
+      "Name_seq_ja": "26_市民権",
+      "Name_en": "Citizenship",
+      "Name_ja": "市民権",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "27_VeteransMilitaryStatus",
+      "Name_seq_ja": "27_退役軍人情報",
+      "Name_en": "VeteransMilitaryStatus",
+      "Name_ja": "退役軍人情報",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "28_Nationality",
+      "Name_seq_ja": "28_国籍",
+      "Name_en": "Nationality",
+      "Name_ja": "国籍",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "29_PatientDeathDateAndTime",
+      "Name_seq_ja": "29_患者死亡日時",
+      "Name_en": "PatientDeathDateAndTime",
+      "Name_ja": "患者死亡日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "30_PatientDeathIndicator",
+      "Name_seq_ja": "30_患者死亡識別",
+      "Name_en": "PatientDeathIndicator",
+      "Name_ja": "患者死亡識別",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "31_IdentityUnknownIndicator",
+      "Name_seq_ja": "31_身元確認識別",
+      "Name_en": "IdentityUnknownIndicator",
+      "Name_ja": "身元確認識別",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "32_IdentityReliabilityCode",
+      "Name_seq_ja": "32_識別情報の信頼性",
+      "Name_en": "IdentityReliabilityCode",
+      "Name_ja": "識別情報の信頼性",
+      "DataType": "IS",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "33_LastUpdateDateOrTime",
+      "Name_seq_ja": "33_最終更新日付",
+      "Name_en": "LastUpdateDateOrTime",
+      "Name_ja": "最終更新日付",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "34_LastUpdateFacility",
+      "Name_seq_ja": "34_最終更新施設",
+      "Name_en": "LastUpdateFacility",
+      "Name_ja": "最終更新施設",
+      "DataType": "HD",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "35_SpeciesCode",
+      "Name_seq_ja": "35_種コード",
+      "Name_en": "SpeciesCode",
+      "Name_ja": "種コード",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "36_BreedCode",
+      "Name_seq_ja": "36_品種コード",
+      "Name_en": "BreedCode",
+      "Name_ja": "品種コード",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "37_Strain",
+      "Name_seq_ja": "37_血統情報",
+      "Name_en": "Strain",
+      "Name_ja": "血統情報",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "38_ProductionClassCode",
+      "Name_seq_ja": "38_生産分類コード",
+      "Name_en": "ProductionClassCode",
+      "Name_ja": "生産分類コード",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "39_TribalCitizenship",
+      "Name_seq_ja": "39_所属部族",
+      "Name_en": "TribalCitizenship",
+      "Name_ja": "所属部族",
+      "DataType": "CWE",
+      "Repeatability": true
+    }
+  ],
+  "PRB": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_ActionCode",
+      "Name_seq_ja": "01_アクションコード",
+      "Name_en": "ActionCode",
+      "Name_ja": "アクションコード",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_ActionDateOrTime",
+      "Name_seq_ja": "02_アクション日時",
+      "Name_en": "ActionDateOrTime",
+      "Name_ja": "アクション日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_ProblemId",
+      "Name_seq_ja": "03_プロブレムID",
+      "Name_en": "ProblemId",
+      "Name_ja": "プロブレムID",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "04_ProblemInstanceId",
+      "Name_seq_ja": "04_プロブレムインスタンスID",
+      "Name_en": "ProblemInstanceId",
+      "Name_ja": "プロブレムインスタンスID",
+      "DataType": "EI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "05_EpisodeOfCareId",
+      "Name_seq_ja": "05_診療IDのエピソード",
+      "Name_en": "EpisodeOfCareId",
+      "Name_ja": "診療IDのエピソード",
+      "DataType": "EI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "06_ProblemListPriority",
+      "Name_seq_ja": "06_プロブレムリストの優先権",
+      "Name_en": "ProblemListPriority",
+      "Name_ja": "プロブレムリストの優先権",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "07_ProblemEstablishedDateOrTime",
+      "Name_seq_ja": "07_プロブレム設定日時",
+      "Name_en": "ProblemEstablishedDateOrTime",
+      "Name_ja": "プロブレム設定日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "08_AnticipatedProblemResolutionDateOrTime",
+      "Name_seq_ja": "08_予想されるプロブレム解決日時",
+      "Name_en": "AnticipatedProblemResolutionDateOrTime",
+      "Name_ja": "予想されるプロブレム解決日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "09_ActualProblemResolutionDateOrTime",
+      "Name_seq_ja": "09_実際のプロブレム解決日時",
+      "Name_en": "ActualProblemResolutionDateOrTime",
+      "Name_ja": "実際のプロブレム解決日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "10_ProblemClassification",
+      "Name_seq_ja": "10_プロブレムの分類",
+      "Name_en": "ProblemClassification",
+      "Name_ja": "プロブレムの分類",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "11_ProblemManagementDiscipline",
+      "Name_seq_ja": "11_プロブレムマネージメント職種",
+      "Name_en": "ProblemManagementDiscipline",
+      "Name_ja": "プロブレムマネージメント職種",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "12_ProblemPersistence",
+      "Name_seq_ja": "12_プロブレムの長期化",
+      "Name_en": "ProblemPersistence",
+      "Name_ja": "プロブレムの長期化",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "13_ProblemConfirmationStatus",
+      "Name_seq_ja": "13_プロブレムの確認状態",
+      "Name_en": "ProblemConfirmationStatus",
+      "Name_ja": "プロブレムの確認状態",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "14_ProblemLifeCycleStatus",
+      "Name_seq_ja": "14_プロブレムのライフサイクル状態",
+      "Name_en": "ProblemLifeCycleStatus",
+      "Name_ja": "プロブレムのライフサイクル状態",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "15_ProblemLifeCycleStatusDateOrTime",
+      "Name_seq_ja": "15_プロブレムのライフサイクル状態の日時",
+      "Name_en": "ProblemLifeCycleStatusDateOrTime",
+      "Name_ja": "プロブレムのライフサイクル状態の日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "16_ProblemDateOfOnset",
+      "Name_seq_ja": "16_プロブレム発生日時",
+      "Name_en": "ProblemDateOfOnset",
+      "Name_ja": "プロブレム発生日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "17_ProblemOnsetText",
+      "Name_seq_ja": "17_プロブレムの発生テキスト",
+      "Name_en": "ProblemOnsetText",
+      "Name_ja": "プロブレムの発生テキスト",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "18_ProblemRanking",
+      "Name_seq_ja": "18_プロブレムのランキング",
+      "Name_en": "ProblemRanking",
+      "Name_ja": "プロブレムのランキング",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "19_CertaintyOfProblem",
+      "Name_seq_ja": "19_プロブレム確実性",
+      "Name_en": "CertaintyOfProblem",
+      "Name_ja": "プロブレム確実性",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "20_ProbabilityOfProblem",
+      "Name_seq_ja": "20_プロブレムの確率",
+      "Name_en": "ProbabilityOfProblem",
+      "Name_ja": "プロブレムの確率",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "21_IndividualAwarenessOfProblem",
+      "Name_seq_ja": "21_プロブレムの患者個人の認識",
+      "Name_en": "IndividualAwarenessOfProblem",
+      "Name_ja": "プロブレムの患者個人の認識",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "22_ProblemPrognosis",
+      "Name_seq_ja": "22_プロブレムの予後",
+      "Name_en": "ProblemPrognosis",
+      "Name_ja": "プロブレムの予後",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "23_IndividualAwarenessOfPrognosis",
+      "Name_seq_ja": "23_予後についての患者個人の認識",
+      "Name_en": "IndividualAwarenessOfPrognosis",
+      "Name_ja": "予後についての患者個人の認識",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "24_FamilyOrSignificantOtherAwarenessOfProblemOrPrognosis",
+      "Name_seq_ja": "24_プロブレムまたは予後についての家族その他重要な関係者の認識",
+      "Name_en": "FamilyOrSignificantOtherAwarenessOfProblemOrPrognosis",
+      "Name_ja": "プロブレムまたは予後についての家族その他重要な関係者の認識",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "25_SecurityOrSensitivity",
+      "Name_seq_ja": "25_セキュリティまたは感受性",
+      "Name_en": "SecurityOrSensitivity",
+      "Name_ja": "セキュリティまたは感受性",
+      "DataType": "CWE",
+      "Repeatability": false
+    }
+  ],
+  "PV1": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_SetIdPv1",
+      "Name_seq_ja": "01_セットID-PV1",
+      "Name_en": "SetIdPv1",
+      "Name_ja": "セットID-PV1",
+      "DataType": "SI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_PatientClass",
+      "Name_seq_ja": "02_患者区分",
+      "Name_en": "PatientClass",
+      "Name_ja": "患者区分",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_AssignedPatientLocation",
+      "Name_seq_ja": "03_患者所在場所",
+      "Name_en": "AssignedPatientLocation",
+      "Name_ja": "患者所在場所",
+      "DataType": "PL",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "04_AdmissionType",
+      "Name_seq_ja": "04_入院タイプ",
+      "Name_en": "AdmissionType",
+      "Name_ja": "入院タイプ",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "05_PreadmitNumber",
+      "Name_seq_ja": "05_仮入院",
+      "Name_en": "PreadmitNumber",
+      "Name_ja": "仮入院",
+      "DataType": "CX",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "06_PriorPatientLocation",
+      "Name_seq_ja": "06_以前の患者所在場所",
+      "Name_en": "PriorPatientLocation",
+      "Name_ja": "以前の患者所在場所",
+      "DataType": "PL",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "07_AttendingDoctor",
+      "Name_seq_ja": "07_担当医",
+      "Name_en": "AttendingDoctor",
+      "Name_ja": "担当医",
+      "DataType": "XCN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "08_ReferringDoctor",
+      "Name_seq_ja": "08_紹介医師",
+      "Name_en": "ReferringDoctor",
+      "Name_ja": "紹介医師",
+      "DataType": "XCN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "09_ConsultingDoctor",
+      "Name_seq_ja": "09_コンサルティング医師",
+      "Name_en": "ConsultingDoctor",
+      "Name_ja": "コンサルティング医師",
+      "DataType": "XCN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "10_HospitalService",
+      "Name_seq_ja": "10_病院サービス",
+      "Name_en": "HospitalService",
+      "Name_ja": "病院サービス",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "11_TemporaryLocation",
+      "Name_seq_ja": "11_一時的な所在場所",
+      "Name_en": "TemporaryLocation",
+      "Name_ja": "一時的な所在場所",
+      "DataType": "PL",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "12_PreadmitTestIndicator",
+      "Name_seq_ja": "12_入院前検査標識",
+      "Name_en": "PreadmitTestIndicator",
+      "Name_ja": "入院前検査標識",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "13_ReAdmissionIndicator",
+      "Name_seq_ja": "13_再入院標識",
+      "Name_en": "ReAdmissionIndicator",
+      "Name_ja": "再入院標識",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "14_AdmitSource",
+      "Name_seq_ja": "14_入院元",
+      "Name_en": "AdmitSource",
+      "Name_ja": "入院元",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "15_AmbulatoryStatus",
+      "Name_seq_ja": "15_歩行状態",
+      "Name_en": "AmbulatoryStatus",
+      "Name_ja": "歩行状態",
+      "DataType": "IS",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "16_VipIndicator",
+      "Name_seq_ja": "16_VIP標識",
+      "Name_en": "VipIndicator",
+      "Name_ja": "VIP標識",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "17_AdmittingDoctor",
+      "Name_seq_ja": "17_入院許可医",
+      "Name_en": "AdmittingDoctor",
+      "Name_ja": "入院許可医",
+      "DataType": "XCN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "18_PatientType",
+      "Name_seq_ja": "18_患者タイプ",
+      "Name_en": "PatientType",
+      "Name_ja": "患者タイプ",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "19_VisitNumber",
+      "Name_seq_ja": "19_来院番号",
+      "Name_en": "VisitNumber",
+      "Name_ja": "来院番号",
+      "DataType": "CX",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "20_FinancialClass",
+      "Name_seq_ja": "20_会計クラス",
+      "Name_en": "FinancialClass",
+      "Name_ja": "会計クラス",
+      "DataType": "FC",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "21_ChargePriceIndicator",
+      "Name_seq_ja": "21_課金表識別",
+      "Name_en": "ChargePriceIndicator",
+      "Name_ja": "課金表識別",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "22_CourtesyCode",
+      "Name_seq_ja": "22_優待コード",
+      "Name_en": "CourtesyCode",
+      "Name_ja": "優待コード",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "23_CreditRating",
+      "Name_seq_ja": "23_信用等級",
+      "Name_en": "CreditRating",
+      "Name_ja": "信用等級",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "24_ContractCode",
+      "Name_seq_ja": "24_契約コード",
+      "Name_en": "ContractCode",
+      "Name_ja": "契約コード",
+      "DataType": "IS",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "25_ContractEffectiveDate",
+      "Name_seq_ja": "25_契約発効日",
+      "Name_en": "ContractEffectiveDate",
+      "Name_ja": "契約発効日",
+      "DataType": "DT",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "26_ContractAmount",
+      "Name_seq_ja": "26_契約金額",
+      "Name_en": "ContractAmount",
+      "Name_ja": "契約金額",
+      "DataType": "NM",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "27_ContractPeriod",
+      "Name_seq_ja": "27_契約期間",
+      "Name_en": "ContractPeriod",
+      "Name_ja": "契約期間",
+      "DataType": "NM",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "28_InterestCode",
+      "Name_seq_ja": "28_利息コード",
+      "Name_en": "InterestCode",
+      "Name_ja": "利息コード",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "29_TransferToBadDebtCode",
+      "Name_seq_ja": "29_不良負債転換コード",
+      "Name_en": "TransferToBadDebtCode",
+      "Name_ja": "不良負債転換コード",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "30_TransferToBadDebtDate",
+      "Name_seq_ja": "30_不良負債転換日",
+      "Name_en": "TransferToBadDebtDate",
+      "Name_ja": "不良負債転換日",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "31_BadDebtAgencyCode",
+      "Name_seq_ja": "31_不良負債代理店コード",
+      "Name_en": "BadDebtAgencyCode",
+      "Name_ja": "不良負債代理店コード",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "32_BadDebtTransferAmount",
+      "Name_seq_ja": "32_不良負債転換額",
+      "Name_en": "BadDebtTransferAmount",
+      "Name_ja": "不良負債転換額",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "33_BadDebtRecoveryAmount",
+      "Name_seq_ja": "33_不良負債回収額",
+      "Name_en": "BadDebtRecoveryAmount",
+      "Name_ja": "不良負債回収額",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "34_DeleteAccountIndicator",
+      "Name_seq_ja": "34_会計情報削除標識",
+      "Name_en": "DeleteAccountIndicator",
+      "Name_ja": "会計情報削除標識",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "35_DeleteAccountDate",
+      "Name_seq_ja": "35_会計情報削除日",
+      "Name_en": "DeleteAccountDate",
+      "Name_ja": "会計情報削除日",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "36_DischargeDisposition",
+      "Name_seq_ja": "36_退院配置",
+      "Name_en": "DischargeDisposition",
+      "Name_ja": "退院配置",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "37_DischargedToLocation",
+      "Name_seq_ja": "37_退院先",
+      "Name_en": "DischargedToLocation",
+      "Name_ja": "退院先",
+      "DataType": "DLD",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "38_DietType",
+      "Name_seq_ja": "38_給食タイプ",
+      "Name_en": "DietType",
+      "Name_ja": "給食タイプ",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "39_ServicingFacility",
+      "Name_seq_ja": "39_サービス提供施設",
+      "Name_en": "ServicingFacility",
+      "Name_ja": "サービス提供施設",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "40_BedStatus",
+      "Name_seq_ja": "40_ベッド状況",
+      "Name_en": "BedStatus",
+      "Name_ja": "ベッド状況",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "41_AccountStatus",
+      "Name_seq_ja": "41_会計状況",
+      "Name_en": "AccountStatus",
+      "Name_ja": "会計状況",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "42_PendingLocation",
+      "Name_seq_ja": "42_保留所在場所",
+      "Name_en": "PendingLocation",
+      "Name_ja": "保留所在場所",
+      "DataType": "PL",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "43_PriorTemporaryLocation",
+      "Name_seq_ja": "43_事前の一時的所在",
+      "Name_en": "PriorTemporaryLocation",
+      "Name_ja": "事前の一時的所在",
+      "DataType": "PL",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "44_AdmitDateOrTime",
+      "Name_seq_ja": "44_入院日時",
+      "Name_en": "AdmitDateOrTime",
+      "Name_ja": "入院日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "45_DischargeDateOrTime",
+      "Name_seq_ja": "45_退院日時",
+      "Name_en": "DischargeDateOrTime",
+      "Name_ja": "退院日時",
+      "DataType": "TS",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "46_CurrentPatientBalance",
+      "Name_seq_ja": "46_未納額",
+      "Name_en": "CurrentPatientBalance",
+      "Name_ja": "未納額",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "47_TotalCharges",
+      "Name_seq_ja": "47_総費用",
+      "Name_en": "TotalCharges",
+      "Name_ja": "総費用",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "48_TotalAdjustments",
+      "Name_seq_ja": "48_総調整額",
+      "Name_en": "TotalAdjustments",
+      "Name_ja": "総調整額",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "49_TotalPayments",
+      "Name_seq_ja": "49_合計支払額",
+      "Name_en": "TotalPayments",
+      "Name_ja": "合計支払額",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "50_AlternateVisitId",
+      "Name_seq_ja": "50_代替来院ID",
+      "Name_en": "AlternateVisitId",
+      "Name_ja": "代替来院ID",
+      "DataType": "CX",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "51_VisitIndicator",
+      "Name_seq_ja": "51_来院標識",
+      "Name_en": "VisitIndicator",
+      "Name_ja": "来院標識",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "52_OtherHealthcareProvider",
+      "Name_seq_ja": "52_他の医療提供機関",
+      "Name_en": "OtherHealthcareProvider",
+      "Name_ja": "他の医療提供機関",
+      "DataType": "XCN",
+      "Repeatability": true
+    }
+  ],
+  "PV2": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_PriorPendingLocation",
+      "Name_seq_ja": "01_確保されていた場所",
+      "Name_en": "PriorPendingLocation",
+      "Name_ja": "確保されていた場所",
+      "DataType": "PL",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_AccommodationCode",
+      "Name_seq_ja": "02_設備コード",
+      "Name_en": "AccommodationCode",
+      "Name_ja": "設備コード",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_AdmitReason",
+      "Name_seq_ja": "03_入院の理由",
+      "Name_en": "AdmitReason",
+      "Name_ja": "入院の理由",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "04_TransferReason",
+      "Name_seq_ja": "04_転科転棟の理由",
+      "Name_en": "TransferReason",
+      "Name_ja": "転科転棟の理由",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "05_PatientValuables",
+      "Name_seq_ja": "05_患者貴重品情報",
+      "Name_en": "PatientValuables",
+      "Name_ja": "患者貴重品情報",
+      "DataType": "ST",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "06_PatientValuablesLocation",
+      "Name_seq_ja": "06_患者貴重品の保管場所",
+      "Name_en": "PatientValuablesLocation",
+      "Name_ja": "患者貴重品の保管場所",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "07_VisitUserCode",
+      "Name_seq_ja": "07_来院種別コード",
+      "Name_en": "VisitUserCode",
+      "Name_ja": "来院種別コード",
+      "DataType": "IS",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "08_ExpectedAdmitDateOrTime",
+      "Name_seq_ja": "08_予定入院日時",
+      "Name_en": "ExpectedAdmitDateOrTime",
+      "Name_ja": "予定入院日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "09_ExpectedDischargeDateOrTime",
+      "Name_seq_ja": "09_予定退院日時",
+      "Name_en": "ExpectedDischargeDateOrTime",
+      "Name_ja": "予定退院日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "10_EstimatedLengthOfInpatientStay",
+      "Name_seq_ja": "10_予定入院期間",
+      "Name_en": "EstimatedLengthOfInpatientStay",
+      "Name_ja": "予定入院期間",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "11_ActualLengthOfInpatientStay",
+      "Name_seq_ja": "11_入院期間",
+      "Name_en": "ActualLengthOfInpatientStay",
+      "Name_ja": "入院期間",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "12_VisitDescription",
+      "Name_seq_ja": "12_来院時記述情報",
+      "Name_en": "VisitDescription",
+      "Name_ja": "来院時記述情報",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "13_ReferralSourceCode",
+      "Name_seq_ja": "13_紹介元情報",
+      "Name_en": "ReferralSourceCode",
+      "Name_ja": "紹介元情報",
+      "DataType": "XCN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "14_PreviousServiceDate",
+      "Name_seq_ja": "14_前回来院日",
+      "Name_en": "PreviousServiceDate",
+      "Name_ja": "前回来院日",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "15_EmploymentIllnessRelatedIndicator",
+      "Name_seq_ja": "15_職業由来疾病標識",
+      "Name_en": "EmploymentIllnessRelatedIndicator",
+      "Name_ja": "職業由来疾病標識",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "16_PurgeStatusCode",
+      "Name_seq_ja": "16_削除状態",
+      "Name_en": "PurgeStatusCode",
+      "Name_ja": "削除状態",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "17_PurgeStatusDate",
+      "Name_seq_ja": "17_削除予定日",
+      "Name_en": "PurgeStatusDate",
+      "Name_ja": "削除予定日",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "18_SpecialProgramCode",
+      "Name_seq_ja": "18_特別プログラムコード",
+      "Name_en": "SpecialProgramCode",
+      "Name_ja": "特別プログラムコード",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "19_RetentionIndicator",
+      "Name_seq_ja": "19_保持標識",
+      "Name_en": "RetentionIndicator",
+      "Name_ja": "保持標識",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "20_ExpectedNumberOfInsurancePlans",
+      "Name_seq_ja": "20_適応可能保険の数",
+      "Name_en": "ExpectedNumberOfInsurancePlans",
+      "Name_ja": "適応可能保険の数",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "21_VisitPublicityCode",
+      "Name_seq_ja": "21_来院情報周知範囲",
+      "Name_en": "VisitPublicityCode",
+      "Name_ja": "来院情報周知範囲",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "22_VisitProtectionIndicator",
+      "Name_seq_ja": "22_来院情報保護標識",
+      "Name_en": "VisitProtectionIndicator",
+      "Name_ja": "来院情報保護標識",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "23_ClinicOrganizationName",
+      "Name_seq_ja": "23_病院・部門名",
+      "Name_en": "ClinicOrganizationName",
+      "Name_ja": "病院・部門名",
+      "DataType": "XON",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "24_PatientStatusCode",
+      "Name_seq_ja": "24_患者状態",
+      "Name_en": "PatientStatusCode",
+      "Name_ja": "患者状態",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "25_VisitPriorityCode",
+      "Name_seq_ja": "25_受診優先指標",
+      "Name_en": "VisitPriorityCode",
+      "Name_ja": "受診優先指標",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "26_PreviousTreatmentDate",
+      "Name_seq_ja": "26_最終治療日",
+      "Name_en": "PreviousTreatmentDate",
+      "Name_ja": "最終治療日",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "27_ExpectedDischargeDisposition",
+      "Name_seq_ja": "27_希望退院種別",
+      "Name_en": "ExpectedDischargeDisposition",
+      "Name_ja": "希望退院種別",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "28_SignatureOnFileDate",
+      "Name_seq_ja": "28_署名日",
+      "Name_en": "SignatureOnFileDate",
+      "Name_ja": "署名日",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "29_FirstSimilarIllnessDate",
+      "Name_seq_ja": "29_発症日",
+      "Name_en": "FirstSimilarIllnessDate",
+      "Name_ja": "発症日",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "30_PatientChargeAdjustmentCode",
+      "Name_seq_ja": "30_患者費用補正コード",
+      "Name_en": "PatientChargeAdjustmentCode",
+      "Name_ja": "患者費用補正コード",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "31_RecurringServiceCode",
+      "Name_seq_ja": "31_通院治療標識",
+      "Name_en": "RecurringServiceCode",
+      "Name_ja": "通院治療標識",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "32_BillingMediaCode",
+      "Name_seq_ja": "32_請求媒体コード",
+      "Name_en": "BillingMediaCode",
+      "Name_ja": "請求媒体コード",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "33_ExpectedSurgeryDateAndTime",
+      "Name_seq_ja": "33_予定手術日時",
+      "Name_en": "ExpectedSurgeryDateAndTime",
+      "Name_ja": "予定手術日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "34_MilitaryPartnershipCode",
+      "Name_seq_ja": "34_軍隊との契約の有無",
+      "Name_en": "MilitaryPartnershipCode",
+      "Name_ja": "軍隊との契約の有無",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "35_MilitaryNonAvailabilityCode",
+      "Name_seq_ja": "35_非軍隊施設の利用許可の有無",
+      "Name_en": "MilitaryNonAvailabilityCode",
+      "Name_ja": "非軍隊施設の利用許可の有無",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "36_NewbornBabyIndicator",
+      "Name_seq_ja": "36_新生児標識",
+      "Name_en": "NewbornBabyIndicator",
+      "Name_ja": "新生児標識",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "37_BabyDetainedIndicator",
+      "Name_seq_ja": "37_新生児残留標識",
+      "Name_en": "BabyDetainedIndicator",
+      "Name_ja": "新生児残留標識",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "38_ModeOfArrivalCode",
+      "Name_seq_ja": "38_患者到着手段",
+      "Name_en": "ModeOfArrivalCode",
+      "Name_ja": "患者到着手段",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "39_RecreationalDrugUseCode",
+      "Name_seq_ja": "39_嗜好薬情報",
+      "Name_en": "RecreationalDrugUseCode",
+      "Name_ja": "嗜好薬情報",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "40_AdmissionLevelOfCareCode",
+      "Name_seq_ja": "40_入院時患者重症度",
+      "Name_en": "AdmissionLevelOfCareCode",
+      "Name_ja": "入院時患者重症度",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "41_PrecautionCode",
+      "Name_seq_ja": "41_要注意コード",
+      "Name_en": "PrecautionCode",
+      "Name_ja": "要注意コード",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "42_PatientConditionCode",
+      "Name_seq_ja": "42_患者容態標識",
+      "Name_en": "PatientConditionCode",
+      "Name_ja": "患者容態標識",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "43_LivingWillCode",
+      "Name_seq_ja": "43_延命希望標識",
+      "Name_en": "LivingWillCode",
+      "Name_ja": "延命希望標識",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "44_OrganDonorCode",
+      "Name_seq_ja": "44_臓器提供希望標識",
+      "Name_en": "OrganDonorCode",
+      "Name_ja": "臓器提供希望標識",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "45_AdvanceDirectiveCode",
+      "Name_seq_ja": "45_その他の患者要望",
+      "Name_en": "AdvanceDirectiveCode",
+      "Name_ja": "その他の患者要望",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "46_PatientStatusEffectiveDate",
+      "Name_seq_ja": "46_患者状態の発効日",
+      "Name_en": "PatientStatusEffectiveDate",
+      "Name_ja": "患者状態の発効日",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "47_ExpectedLoaReturnDateOrTime",
+      "Name_seq_ja": "47_予定帰院日時",
+      "Name_en": "ExpectedLoaReturnDateOrTime",
+      "Name_ja": "予定帰院日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "48_ExpectedPreAdmissionTestingDateOrTime",
+      "Name_seq_ja": "48_入院前検査予定日時",
+      "Name_en": "ExpectedPreAdmissionTestingDateOrTime",
+      "Name_ja": "入院前検査予定日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "49_NotifyClergyCode",
+      "Name_seq_ja": "49_聖職者通知標識",
+      "Name_en": "NotifyClergyCode",
+      "Name_ja": "聖職者通知標識",
+      "DataType": "IS",
+      "Repeatability": true
+    }
+  ],
+  "RXA": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_GiveSubIdCounter",
+      "Name_seq_ja": "01_与薬サブIDカウンター",
+      "Name_en": "GiveSubIdCounter",
+      "Name_ja": "与薬サブIDカウンター",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_AdministrationSubIdCounter",
+      "Name_seq_ja": "02_投薬サブIDカウンター",
+      "Name_en": "AdministrationSubIdCounter",
+      "Name_ja": "投薬サブIDカウンター",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_DateOrTimeStartOfAdministration",
+      "Name_seq_ja": "03_投薬開始日時",
+      "Name_en": "DateOrTimeStartOfAdministration",
+      "Name_ja": "投薬開始日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "04_DateOrTimeEndOfAdministration(IfApplies)",
+      "Name_seq_ja": "04_投薬終了日時",
+      "Name_en": "DateOrTimeEndOfAdministration(IfApplies)",
+      "Name_ja": "投薬終了日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "05_AdministeredCode",
+      "Name_seq_ja": "05_投薬コード",
+      "Name_en": "AdministeredCode",
+      "Name_ja": "投薬コード",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "06_AdministeredAmount",
+      "Name_seq_ja": "06_投薬量",
+      "Name_en": "AdministeredAmount",
+      "Name_ja": "投薬量",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "07_AdministeredUnits",
+      "Name_seq_ja": "07_投薬単位",
+      "Name_en": "AdministeredUnits",
+      "Name_ja": "投薬単位",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "08_AdministeredDosageForm",
+      "Name_seq_ja": "08_投薬剤形",
+      "Name_en": "AdministeredDosageForm",
+      "Name_ja": "投薬剤形",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "09_AdministrationNotes",
+      "Name_seq_ja": "09_投薬注記",
+      "Name_en": "AdministrationNotes",
+      "Name_ja": "投薬注記",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "10_AdministeringProvider",
+      "Name_seq_ja": "10_投薬者",
+      "Name_en": "AdministeringProvider",
+      "Name_ja": "投薬者",
+      "DataType": "XCN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "11_AdministeredAtLocation",
+      "Name_seq_ja": "11_投薬場所",
+      "Name_en": "AdministeredAtLocation",
+      "Name_ja": "投薬場所",
+      "DataType": "LA2",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "12_AdministeredPerTimeUnit",
+      "Name_seq_ja": "12_単位時間あたりの投薬量",
+      "Name_en": "AdministeredPerTimeUnit",
+      "Name_ja": "単位時間あたりの投薬量",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "13_AdministeredStrength",
+      "Name_seq_ja": "13_投薬力価",
+      "Name_en": "AdministeredStrength",
+      "Name_ja": "投薬力価",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "14_AdministeredStrengthUnits",
+      "Name_seq_ja": "14_投薬力価単位",
+      "Name_en": "AdministeredStrengthUnits",
+      "Name_ja": "投薬力価単位",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "15_SubstanceLotNumber",
+      "Name_seq_ja": "15_薬剤ロット番号",
+      "Name_en": "SubstanceLotNumber",
+      "Name_ja": "薬剤ロット番号",
+      "DataType": "ST",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "16_SubstanceExpirationDate",
+      "Name_seq_ja": "16_薬剤有効期限",
+      "Name_en": "SubstanceExpirationDate",
+      "Name_ja": "薬剤有効期限",
+      "DataType": "TS",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "17_SubstanceManufacturerName",
+      "Name_seq_ja": "17_薬剤製造者名",
+      "Name_en": "SubstanceManufacturerName",
+      "Name_ja": "薬剤製造者名",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "18_SubstanceOrTreatmentRefusalReason",
+      "Name_seq_ja": "18_薬剤または治療拒否理由",
+      "Name_en": "SubstanceOrTreatmentRefusalReason",
+      "Name_ja": "薬剤または治療拒否理由",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "19_Indication",
+      "Name_seq_ja": "19_指示",
+      "Name_en": "Indication",
+      "Name_ja": "指示",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "20_CompletionStatus",
+      "Name_seq_ja": "20_完了状態",
+      "Name_en": "CompletionStatus",
+      "Name_ja": "完了状態",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "21_ActionCodeRxa",
+      "Name_seq_ja": "21_アクションコード-RXA",
+      "Name_en": "ActionCodeRxa",
+      "Name_ja": "アクションコード-RXA",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "22_SystemEntryDateOrTime",
+      "Name_seq_ja": "22_システム入力日時",
+      "Name_en": "SystemEntryDateOrTime",
+      "Name_ja": "システム入力日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "23_AdministeredDrugStrengthVolume",
+      "Name_seq_ja": "23_投薬力価量",
+      "Name_en": "AdministeredDrugStrengthVolume",
+      "Name_ja": "投薬力価量",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "24_AdministeredDrugStrengthVolumeUnits",
+      "Name_seq_ja": "24_投薬力価量単位",
+      "Name_en": "AdministeredDrugStrengthVolumeUnits",
+      "Name_ja": "投薬力価量単位",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "25_AdministeredBarcodeIdentifier",
+      "Name_seq_ja": "25_投薬バーコード識別子",
+      "Name_en": "AdministeredBarcodeIdentifier",
+      "Name_ja": "投薬バーコード識別子",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "26_PharmacyOrderType",
+      "Name_seq_ja": "26_薬剤オーダタイプ",
+      "Name_en": "PharmacyOrderType",
+      "Name_ja": "薬剤オーダタイプ",
+      "DataType": "ID",
+      "Repeatability": false
+    }
+  ],
+  "RXC": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_RxComponentType",
+      "Name_seq_ja": "01_RX成分タイプ",
+      "Name_en": "RxComponentType",
+      "Name_ja": "RX成分タイプ",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_ComponentCode",
+      "Name_seq_ja": "02_成分コード",
+      "Name_en": "ComponentCode",
+      "Name_ja": "成分コード",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_ComponentAmount",
+      "Name_seq_ja": "03_成分量",
+      "Name_en": "ComponentAmount",
+      "Name_ja": "成分量",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "04_ComponentUnits",
+      "Name_seq_ja": "04_成分単位",
+      "Name_en": "ComponentUnits",
+      "Name_ja": "成分単位",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "05_ComponentStrength",
+      "Name_seq_ja": "05_成分力価",
+      "Name_en": "ComponentStrength",
+      "Name_ja": "成分力価",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "06_ComponentStrengthUnits",
+      "Name_seq_ja": "06_成分力価単位",
+      "Name_en": "ComponentStrengthUnits",
+      "Name_ja": "成分力価単位",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "07_SupplementaryCode",
+      "Name_seq_ja": "07_補足コード",
+      "Name_en": "SupplementaryCode",
+      "Name_ja": "補足コード",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "08_ComponentDrugStrengthVolume",
+      "Name_seq_ja": "08_成分薬力価量",
+      "Name_en": "ComponentDrugStrengthVolume",
+      "Name_ja": "成分薬力価量",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "09_ComponentDrugStrengthVolumeUnits",
+      "Name_seq_ja": "09_成分薬力価量単位",
+      "Name_en": "ComponentDrugStrengthVolumeUnits",
+      "Name_ja": "成分薬力価量単位",
+      "DataType": "CWE",
+      "Repeatability": false
+    }
+  ],
+  "RXE": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_QuantityOrTiming",
+      "Name_seq_ja": "01_数量またはタイミング",
+      "Name_en": "QuantityOrTiming",
+      "Name_ja": "数量またはタイミング",
+      "DataType": "TQ",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_GiveCode",
+      "Name_seq_ja": "02_与薬コード",
+      "Name_en": "GiveCode",
+      "Name_ja": "与薬コード",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_GiveAmountMinimum",
+      "Name_seq_ja": "03_与薬量-最小",
+      "Name_en": "GiveAmountMinimum",
+      "Name_ja": "与薬量-最小",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "04_GiveAmountMaximum",
+      "Name_seq_ja": "04_与薬量-最大",
+      "Name_en": "GiveAmountMaximum",
+      "Name_ja": "与薬量-最大",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "05_GiveUnits",
+      "Name_seq_ja": "05_与薬単位",
+      "Name_en": "GiveUnits",
+      "Name_ja": "与薬単位",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "06_GiveDosageForm",
+      "Name_seq_ja": "06_与薬剤形",
+      "Name_en": "GiveDosageForm",
+      "Name_ja": "与薬剤形",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "07_ProviderSAdministrationInstructions",
+      "Name_seq_ja": "07_依頼者の投薬指示",
+      "Name_en": "ProviderSAdministrationInstructions",
+      "Name_ja": "依頼者の投薬指示",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "08_DeliverToLocation",
+      "Name_seq_ja": "08_配布先",
+      "Name_en": "DeliverToLocation",
+      "Name_ja": "配布先",
+      "DataType": "LA1",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "09_SubstitutionStatus",
+      "Name_seq_ja": "09_代替品状態",
+      "Name_en": "SubstitutionStatus",
+      "Name_ja": "代替品状態",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "10_DispenseAmount",
+      "Name_seq_ja": "10_調剤量",
+      "Name_en": "DispenseAmount",
+      "Name_ja": "調剤量",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "11_DispenseUnits",
+      "Name_seq_ja": "11_調剤単位",
+      "Name_en": "DispenseUnits",
+      "Name_ja": "調剤単位",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "12_NumberOfRefills",
+      "Name_seq_ja": "12_同一薬発行数",
+      "Name_en": "NumberOfRefills",
+      "Name_ja": "同一薬発行数",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "13_OrderingProviderSDeaNumber",
+      "Name_seq_ja": "13_オーダ発行者のDEA番号",
+      "Name_en": "OrderingProviderSDeaNumber",
+      "Name_ja": "オーダ発行者のDEA番号",
+      "DataType": "XCN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "14_PharmacistOrTreatmentSupplierSVerifierId",
+      "Name_seq_ja": "14_薬剤師または治療提供者の検証ID",
+      "Name_en": "PharmacistOrTreatmentSupplierSVerifierId",
+      "Name_ja": "薬剤師または治療提供者の検証ID",
+      "DataType": "XCN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "15_PrescriptionNumber",
+      "Name_seq_ja": "15_処方せん番号",
+      "Name_en": "PrescriptionNumber",
+      "Name_ja": "処方せん番号",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "16_NumberOfRefillsRemaining",
+      "Name_seq_ja": "16_薬剤残数",
+      "Name_en": "NumberOfRefillsRemaining",
+      "Name_ja": "薬剤残数",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "17_NumberOfRefillsOrDosesDispensed",
+      "Name_seq_ja": "17_調剤済薬品数または投与数",
+      "Name_en": "NumberOfRefillsOrDosesDispensed",
+      "Name_ja": "調剤済薬品数または投与数",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "18_DOrTOfMostRecentRefillOrDoseDispensed",
+      "Name_seq_ja": "18_調剤済薬品数または投与数の最新日時",
+      "Name_en": "DOrTOfMostRecentRefillOrDoseDispensed",
+      "Name_ja": "調剤済薬品数または投与数の最新日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "19_TotalDailyDose",
+      "Name_seq_ja": "19_1日あたりの総投与量",
+      "Name_en": "TotalDailyDose",
+      "Name_ja": "1日あたりの総投与量",
+      "DataType": "CQ",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "20_NeedsHumanReview",
+      "Name_seq_ja": "20_人によるレビューの必要性",
+      "Name_en": "NeedsHumanReview",
+      "Name_ja": "人によるレビューの必要性",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "21_PharmacyOrTreatmentSupplierSSpecialDispensingInstructions",
+      "Name_seq_ja": "21_薬剤部門または治療部門による特別な調剤指示",
+      "Name_en": "PharmacyOrTreatmentSupplierSSpecialDispensingInstructions",
+      "Name_ja": "薬剤部門または治療部門による特別な調剤指示",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "22_GivePerTimeUnit",
+      "Name_seq_ja": "22_時間あたりの与薬",
+      "Name_en": "GivePerTimeUnit",
+      "Name_ja": "時間あたりの与薬",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "23_GiveRateAmount",
+      "Name_seq_ja": "23_与薬速度",
+      "Name_en": "GiveRateAmount",
+      "Name_ja": "与薬速度",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "24_GiveRateUnits",
+      "Name_seq_ja": "24_与薬速度単位",
+      "Name_en": "GiveRateUnits",
+      "Name_ja": "与薬速度単位",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "25_GiveStrength",
+      "Name_seq_ja": "25_与薬力価",
+      "Name_en": "GiveStrength",
+      "Name_ja": "与薬力価",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "26_GiveStrengthUnits",
+      "Name_seq_ja": "26_与薬力価単位",
+      "Name_en": "GiveStrengthUnits",
+      "Name_ja": "与薬力価単位",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "27_GiveIndication",
+      "Name_seq_ja": "27_与薬指示",
+      "Name_en": "GiveIndication",
+      "Name_ja": "与薬指示",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "28_DispensePackageSize",
+      "Name_seq_ja": "28_調剤パッケージサイズ",
+      "Name_en": "DispensePackageSize",
+      "Name_ja": "調剤パッケージサイズ",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "29_DispensePackageSizeUnit",
+      "Name_seq_ja": "29_調剤パッケージサイズの単位",
+      "Name_en": "DispensePackageSizeUnit",
+      "Name_ja": "調剤パッケージサイズの単位",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "30_DispensePackageMethod",
+      "Name_seq_ja": "30_調剤パッケージ方法",
+      "Name_en": "DispensePackageMethod",
+      "Name_ja": "調剤パッケージ方法",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "31_SupplementaryCode",
+      "Name_seq_ja": "31_補足コード",
+      "Name_en": "SupplementaryCode",
+      "Name_ja": "補足コード",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "32_OriginalOrderDateOrTime",
+      "Name_seq_ja": "32_当初のオーダ日時",
+      "Name_en": "OriginalOrderDateOrTime",
+      "Name_ja": "当初のオーダ日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "33_GiveDrugStrengthVolume",
+      "Name_seq_ja": "33_与薬力価量",
+      "Name_en": "GiveDrugStrengthVolume",
+      "Name_ja": "与薬力価量",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "34_GiveDrugStrengthVolumeUnits",
+      "Name_seq_ja": "34_与薬力価量単位",
+      "Name_en": "GiveDrugStrengthVolumeUnits",
+      "Name_ja": "与薬力価量単位",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "35_ControlledSubstanceSchedule",
+      "Name_seq_ja": "35_薬物コントロールスケジュール",
+      "Name_en": "ControlledSubstanceSchedule",
+      "Name_ja": "薬物コントロールスケジュール",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "36_FormularyStatus",
+      "Name_seq_ja": "36_処方集ステータス",
+      "Name_en": "FormularyStatus",
+      "Name_ja": "処方集ステータス",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "37_PharmaceuticalSubstanceAlternative",
+      "Name_seq_ja": "37_薬物代替え",
+      "Name_en": "PharmaceuticalSubstanceAlternative",
+      "Name_ja": "薬物代替え",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "38_PharmacyOfMostRecentFill",
+      "Name_seq_ja": "38_最新の与薬の薬剤部",
+      "Name_en": "PharmacyOfMostRecentFill",
+      "Name_ja": "最新の与薬の薬剤部",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "39_InitialDispenseAmount",
+      "Name_seq_ja": "39_最初の調剤量",
+      "Name_en": "InitialDispenseAmount",
+      "Name_ja": "最初の調剤量",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "40_DispensingPharmacy",
+      "Name_seq_ja": "40_調剤薬剤部",
+      "Name_en": "DispensingPharmacy",
+      "Name_ja": "調剤薬剤部",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "41_DispensingPharmacyAddress",
+      "Name_seq_ja": "41_調剤薬剤部の住所",
+      "Name_en": "DispensingPharmacyAddress",
+      "Name_ja": "調剤薬剤部の住所",
+      "DataType": "XAD",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "42_DeliverToPatientLocation",
+      "Name_seq_ja": "42_患者への配達場所",
+      "Name_en": "DeliverToPatientLocation",
+      "Name_ja": "患者への配達場所",
+      "DataType": "PL",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "43_DeliverToAddress",
+      "Name_seq_ja": "43_配達先住所",
+      "Name_en": "DeliverToAddress",
+      "Name_ja": "配達先住所",
+      "DataType": "XAD",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "44_PharmacyOrderType",
+      "Name_seq_ja": "44_薬剤オーダタイプ",
+      "Name_en": "PharmacyOrderType",
+      "Name_ja": "薬剤オーダタイプ",
+      "DataType": "ID",
+      "Repeatability": false
+    }
+  ],
+  "RXR": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_Route",
+      "Name_seq_ja": "01_経路",
+      "Name_en": "Route",
+      "Name_ja": "経路",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_AdministrationSite",
+      "Name_seq_ja": "02_投薬部位",
+      "Name_en": "AdministrationSite",
+      "Name_ja": "投薬部位",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_AdministrationDevice",
+      "Name_seq_ja": "03_投薬装置",
+      "Name_en": "AdministrationDevice",
+      "Name_ja": "投薬装置",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "04_AdministrationMethod",
+      "Name_seq_ja": "04_投薬方法",
+      "Name_en": "AdministrationMethod",
+      "Name_ja": "投薬方法",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "05_RoutingInstruction",
+      "Name_seq_ja": "05_経路指示",
+      "Name_en": "RoutingInstruction",
+      "Name_ja": "経路指示",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "06_AdministrationSiteModifier",
+      "Name_seq_ja": "06_投薬部位モディファイアー",
+      "Name_en": "AdministrationSiteModifier",
+      "Name_ja": "投薬部位モディファイアー",
+      "DataType": "CWE",
+      "Repeatability": false
+    }
+  ],
+  "SPM": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_SetIdSpm",
+      "Name_seq_ja": "01_セットID-SPM",
+      "Name_en": "SetIdSpm",
+      "Name_ja": "セットID-SPM",
+      "DataType": "SI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_SpecimenId",
+      "Name_seq_ja": "02_検体ID",
+      "Name_en": "SpecimenId",
+      "Name_ja": "検体ID",
+      "DataType": "EIP",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_SpecimenParentIds",
+      "Name_seq_ja": "03_親検体ID",
+      "Name_en": "SpecimenParentIds",
+      "Name_ja": "親検体ID",
+      "DataType": "EIP",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "04_SpecimenType",
+      "Name_seq_ja": "04_検体タイプ",
+      "Name_en": "SpecimenType",
+      "Name_ja": "検体タイプ",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "05_SpecimenTypeModifier",
+      "Name_seq_ja": "05_検体タイプ修飾子",
+      "Name_en": "SpecimenTypeModifier",
+      "Name_ja": "検体タイプ修飾子",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "06_SpecimenAdditives",
+      "Name_seq_ja": "06_検体添加物",
+      "Name_en": "SpecimenAdditives",
+      "Name_ja": "検体添加物",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "07_SpecimenCollectionMethod",
+      "Name_seq_ja": "07_検体採取法",
+      "Name_en": "SpecimenCollectionMethod",
+      "Name_ja": "検体採取法",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "08_SpecimenSourceSite",
+      "Name_seq_ja": "08_検査材料・検査部位",
+      "Name_en": "SpecimenSourceSite",
+      "Name_ja": "検査材料・検査部位",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "09_SpecimenSourceSiteModifier",
+      "Name_seq_ja": "09_検査材料修飾子",
+      "Name_en": "SpecimenSourceSiteModifier",
+      "Name_ja": "検査材料修飾子",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "10_SpecimenCollectionSite",
+      "Name_seq_ja": "10_検体採取部位",
+      "Name_en": "SpecimenCollectionSite",
+      "Name_ja": "検体採取部位",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "11_SpecimenRole",
+      "Name_seq_ja": "11_検体役割",
+      "Name_en": "SpecimenRole",
+      "Name_ja": "検体役割",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "12_SpecimenCollectionAmount",
+      "Name_seq_ja": "12_検体採取量",
+      "Name_en": "SpecimenCollectionAmount",
+      "Name_ja": "検体採取量",
+      "DataType": "CQ",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "13_GroupedSpecimenCount",
+      "Name_seq_ja": "13_検体総数",
+      "Name_en": "GroupedSpecimenCount",
+      "Name_ja": "検体総数",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "14_SpecimenDescription",
+      "Name_seq_ja": "14_検体記述",
+      "Name_en": "SpecimenDescription",
+      "Name_ja": "検体記述",
+      "DataType": "ST",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "15_SpecimenHandlingCode",
+      "Name_seq_ja": "15_検体取り扱いコード",
+      "Name_en": "SpecimenHandlingCode",
+      "Name_ja": "検体取り扱いコード",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "16_SpecimenRiskCode",
+      "Name_seq_ja": "16_検体リスクコード",
+      "Name_en": "SpecimenRiskCode",
+      "Name_ja": "検体リスクコード",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "17_SpecimenCollectionDateOrTime",
+      "Name_seq_ja": "17_検体採取日時",
+      "Name_en": "SpecimenCollectionDateOrTime",
+      "Name_ja": "検体採取日時",
+      "DataType": "DR",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "18_SpecimenReceivedDateOrTime",
+      "Name_seq_ja": "18_検体受領日時",
+      "Name_en": "SpecimenReceivedDateOrTime",
+      "Name_ja": "検体受領日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "19_SpecimenExpirationDateOrTime",
+      "Name_seq_ja": "19_検体有効日時",
+      "Name_en": "SpecimenExpirationDateOrTime",
+      "Name_ja": "検体有効日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "20_SpecimenAvailability",
+      "Name_seq_ja": "20_検体有効性",
+      "Name_en": "SpecimenAvailability",
+      "Name_ja": "検体有効性",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "21_SpecimenRejectReason",
+      "Name_seq_ja": "21_検体拒否理由",
+      "Name_en": "SpecimenRejectReason",
+      "Name_ja": "検体拒否理由",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "22_SpecimenQuality",
+      "Name_seq_ja": "22_検体品質",
+      "Name_en": "SpecimenQuality",
+      "Name_ja": "検体品質",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "23_SpecimenAppropriateness",
+      "Name_seq_ja": "23_検体適合性",
+      "Name_en": "SpecimenAppropriateness",
+      "Name_ja": "検体適合性",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "24_SpecimenCondition",
+      "Name_seq_ja": "24_検体条件",
+      "Name_en": "SpecimenCondition",
+      "Name_ja": "検体条件",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "25_SpecimenCurrentQuantity",
+      "Name_seq_ja": "25_検体量",
+      "Name_en": "SpecimenCurrentQuantity",
+      "Name_ja": "検体量",
+      "DataType": "CQ",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "26_NumberOfSpecimenContainers",
+      "Name_seq_ja": "26_検体容器数",
+      "Name_en": "NumberOfSpecimenContainers",
+      "Name_ja": "検体容器数",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "27_ContainerType",
+      "Name_seq_ja": "27_容器タイプ",
+      "Name_en": "ContainerType",
+      "Name_ja": "容器タイプ",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "28_ContainerCondition",
+      "Name_seq_ja": "28_容器状態",
+      "Name_en": "ContainerCondition",
+      "Name_ja": "容器状態",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "29_SpecimenChildRole",
+      "Name_seq_ja": "29_子検体役割",
+      "Name_en": "SpecimenChildRole",
+      "Name_ja": "子検体役割",
+      "DataType": "CWE",
+      "Repeatability": false
+    }
+  ],
+  "TQ1": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_SetIdTq1",
+      "Name_seq_ja": "01_TQ1をIDにセット",
+      "Name_en": "SetIdTq1",
+      "Name_ja": "TQ1をIDにセット",
+      "DataType": "SI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_Quantity",
+      "Name_seq_ja": "02_数量",
+      "Name_en": "Quantity",
+      "Name_ja": "数量",
+      "DataType": "CQ",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_RepeatPattern",
+      "Name_seq_ja": "03_繰返しパターン",
+      "Name_en": "RepeatPattern",
+      "Name_ja": "繰返しパターン",
+      "DataType": "RPT",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "04_ExplicitTime",
+      "Name_seq_ja": "04_明示的な時間",
+      "Name_en": "ExplicitTime",
+      "Name_ja": "明示的な時間",
+      "DataType": "TM",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "05_RelativeTimeAndUnits",
+      "Name_seq_ja": "05_関連時間または単位",
+      "Name_en": "RelativeTimeAndUnits",
+      "Name_ja": "関連時間または単位",
+      "DataType": "CQ",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "06_ServiceDuration",
+      "Name_seq_ja": "06_サービス期間",
+      "Name_en": "ServiceDuration",
+      "Name_ja": "サービス期間",
+      "DataType": "CQ",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "07_StartDateOrTime",
+      "Name_seq_ja": "07_開始日時",
+      "Name_en": "StartDateOrTime",
+      "Name_ja": "開始日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "08_EndDateOrTime",
+      "Name_seq_ja": "08_終了日時",
+      "Name_en": "EndDateOrTime",
+      "Name_ja": "終了日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "09_Priority",
+      "Name_seq_ja": "09_優先度",
+      "Name_en": "Priority",
+      "Name_ja": "優先度",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "10_ConditionText",
+      "Name_seq_ja": "10_条件テキスト",
+      "Name_en": "ConditionText",
+      "Name_ja": "条件テキスト",
+      "DataType": "TX",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "11_TextInstruction",
+      "Name_seq_ja": "11_テキスト指令",
+      "Name_en": "TextInstruction",
+      "Name_ja": "テキスト指令",
+      "DataType": "TX",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "12_Conjunction",
+      "Name_seq_ja": "12_連結",
+      "Name_en": "Conjunction",
+      "Name_ja": "連結",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "13_OccurrenceDuration",
+      "Name_seq_ja": "13_発生期間",
+      "Name_en": "OccurrenceDuration",
+      "Name_ja": "発生期間",
+      "DataType": "CQ",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "14_TotalOccurrenceS",
+      "Name_seq_ja": "14_総発生",
+      "Name_en": "TotalOccurrenceS",
+      "Name_ja": "総発生",
+      "DataType": "NM",
+      "Repeatability": false
+    }
+  ],
+  "ZE1": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_SetIdZe1",
+      "Name_seq_ja": "01_セットID―ZE1",
+      "Name_en": "SetIdZe1",
+      "Name_ja": "セットID―ZE1",
+      "DataType": "SI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_ControllCode",
+      "Name_seq_ja": "02_制御コード",
+      "Name_en": "ControllCode",
+      "Name_ja": "制御コード",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_Procedure",
+      "Name_seq_ja": "03_手技",
+      "Name_en": "Procedure",
+      "Name_ja": "手技",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "04_NumberOfProcedure",
+      "Name_seq_ja": "04_手技回数",
+      "Name_en": "NumberOfProcedure",
+      "Name_ja": "手技回数",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "05_AdditionOfClaim",
+      "Name_seq_ja": "05_医事加算",
+      "Name_en": "AdditionOfClaim",
+      "Name_ja": "医事加算",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "06_TypeOfPractitioner",
+      "Name_seq_ja": "06_医療従事者種別",
+      "Name_en": "TypeOfPractitioner",
+      "Name_ja": "医療従事者種別",
+      "DataType": "JCC",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "07_PractitionersName",
+      "Name_seq_ja": "07_医療従事者",
+      "Name_en": "PractitionersName",
+      "Name_ja": "医療従事者",
+      "DataType": "XCN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "08_TypeOfUsedItems",
+      "Name_seq_ja": "08_使用物品種別",
+      "Name_en": "TypeOfUsedItems",
+      "Name_ja": "使用物品種別",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "09_UsedItems",
+      "Name_seq_ja": "09_使用物品",
+      "Name_en": "UsedItems",
+      "Name_ja": "使用物品",
+      "DataType": "ZRD",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "10_PractitionersContactAddress",
+      "Name_seq_ja": "10_連絡先",
+      "Name_en": "PractitionersContactAddress",
+      "Name_ja": "連絡先",
+      "DataType": "XTN",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "11_PracticedCommentField",
+      "Name_seq_ja": "11_実施フィールド",
+      "Name_en": "PracticedCommentField",
+      "Name_ja": "実施フィールド",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "12_ClaimCommentField",
+      "Name_seq_ja": "12_会計フィールド",
+      "Name_en": "ClaimCommentField",
+      "Name_ja": "会計フィールド",
+      "DataType": "ST",
+      "Repeatability": false
+    }
+  ],
+  "ZE2": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_SetId",
+      "Name_seq_ja": "01_セットID",
+      "Name_en": "SetId",
+      "Name_ja": "セットID",
+      "DataType": "SI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_TubeVoltage",
+      "Name_seq_ja": "02_管電圧",
+      "Name_en": "TubeVoltage",
+      "Name_ja": "管電圧",
+      "DataType": "CQ",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_TubeCurrent",
+      "Name_seq_ja": "03_管電流",
+      "Name_en": "TubeCurrent",
+      "Name_ja": "管電流",
+      "DataType": "CQ",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "04_Distance",
+      "Name_seq_ja": "04_距離",
+      "Name_en": "Distance",
+      "Name_ja": "距離",
+      "DataType": "CQ",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "05_Time",
+      "Name_seq_ja": "05_時間",
+      "Name_en": "Time",
+      "Name_ja": "時間",
+      "DataType": "CQ",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "06_NumberOfExposure",
+      "Name_seq_ja": "06_回数",
+      "Name_en": "NumberOfExposure",
+      "Name_ja": "回数",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "07_ExposureCommentField",
+      "Name_seq_ja": "07_撮影フィールド",
+      "Name_en": "ExposureCommentField",
+      "Name_ja": "撮影フィールド",
+      "DataType": "ST",
+      "Repeatability": false
+    }
+  ],
+  "ZI1": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_SetIdIn1",
+      "Name_seq_ja": "01_セットID",
+      "Name_en": "SetIdIn1",
+      "Name_ja": "セットID",
+      "DataType": "SI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_InsurancePlanId",
+      "Name_seq_ja": "02_保険プランID",
+      "Name_en": "InsurancePlanId",
+      "Name_ja": "保険プランID",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_InsuranceCompanyId",
+      "Name_seq_ja": "03_保険会社ID",
+      "Name_en": "InsuranceCompanyId",
+      "Name_ja": "保険会社ID",
+      "DataType": "CX",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "04_InsuranceCompanyName",
+      "Name_seq_ja": "04_保険会社名",
+      "Name_en": "InsuranceCompanyName",
+      "Name_ja": "保険会社名",
+      "DataType": "XON",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "05_InsuranceCompanyAddress",
+      "Name_seq_ja": "05_保険会社住所",
+      "Name_en": "InsuranceCompanyAddress",
+      "Name_ja": "保険会社住所",
+      "DataType": "XAD",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "06_InsuranceCoContactPerson",
+      "Name_seq_ja": "06_保険会社連絡者",
+      "Name_en": "InsuranceCoContactPerson",
+      "Name_ja": "保険会社連絡者",
+      "DataType": "XPN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "07_InsuranceCoPhoneNumber",
+      "Name_seq_ja": "07_保険会社電話番号",
+      "Name_en": "InsuranceCoPhoneNumber",
+      "Name_ja": "保険会社電話番号",
+      "DataType": "XTN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "08_GroupNumber",
+      "Name_seq_ja": "08_グループ番号",
+      "Name_en": "GroupNumber",
+      "Name_ja": "グループ番号",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "09_GroupName",
+      "Name_seq_ja": "09_グループ名",
+      "Name_en": "GroupName",
+      "Name_ja": "グループ名",
+      "DataType": "XON",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "10_InsuredSGroupEmpId",
+      "Name_seq_ja": "10_被保険者グループ雇用者ID",
+      "Name_en": "InsuredSGroupEmpId",
+      "Name_ja": "被保険者グループ雇用者ID",
+      "DataType": "CX",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "11_InsuredSGroupEmpName",
+      "Name_seq_ja": "11_被保険者グループ雇用者名",
+      "Name_en": "InsuredSGroupEmpName",
+      "Name_ja": "被保険者グループ雇用者名",
+      "DataType": "XON",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "12_PlanEffectiveDate",
+      "Name_seq_ja": "12_プラン有効日時",
+      "Name_en": "PlanEffectiveDate",
+      "Name_ja": "プラン有効日時",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "13_PlanExpirationDate",
+      "Name_seq_ja": "13_プラン失効日付",
+      "Name_en": "PlanExpirationDate",
+      "Name_ja": "プラン失効日付",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "14_AuthorizationInformation",
+      "Name_seq_ja": "14_認定情報",
+      "Name_en": "AuthorizationInformation",
+      "Name_ja": "認定情報",
+      "DataType": "AUI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "15_PlanType",
+      "Name_seq_ja": "15_プランタイプ",
+      "Name_en": "PlanType",
+      "Name_ja": "プランタイプ",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "16_NameOfInsured",
+      "Name_seq_ja": "16_被保険者名",
+      "Name_en": "NameOfInsured",
+      "Name_ja": "被保険者名",
+      "DataType": "XPN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "17_InsuredSRelationshipToPatient",
+      "Name_seq_ja": "17_患者と被保険者の関係",
+      "Name_en": "InsuredSRelationshipToPatient",
+      "Name_ja": "患者と被保険者の関係",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "18_InsuredSDateOfBirth",
+      "Name_seq_ja": "18_被保険者生年月日",
+      "Name_en": "InsuredSDateOfBirth",
+      "Name_ja": "被保険者生年月日",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "19_InsuredSAddress",
+      "Name_seq_ja": "19_被保険者住所",
+      "Name_en": "InsuredSAddress",
+      "Name_ja": "被保険者住所",
+      "DataType": "XAD",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "20_AssignmentOfBenefits",
+      "Name_seq_ja": "20_給付金の配分",
+      "Name_en": "AssignmentOfBenefits",
+      "Name_ja": "給付金の配分",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "21_CoordinationOfBenefits",
+      "Name_seq_ja": "21_給付金の調整",
+      "Name_en": "CoordinationOfBenefits",
+      "Name_ja": "給付金の調整",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "22_CoordOfBenPriority",
+      "Name_seq_ja": "22_給付金優先順位の調整",
+      "Name_en": "CoordOfBenPriority",
+      "Name_ja": "給付金優先順位の調整",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "23_NoticeOfAdmissionFlag",
+      "Name_seq_ja": "23_入会フラッグの通知",
+      "Name_en": "NoticeOfAdmissionFlag",
+      "Name_ja": "入会フラッグの通知",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "24_NoticeOfAdmissionDate",
+      "Name_seq_ja": "24_入会日付の通知",
+      "Name_en": "NoticeOfAdmissionDate",
+      "Name_ja": "入会日付の通知",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "25_ReportOfEligibilityFlag",
+      "Name_seq_ja": "25_有資格フラッグの報告",
+      "Name_en": "ReportOfEligibilityFlag",
+      "Name_ja": "有資格フラッグの報告",
+      "DataType": "ID",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "26_ReportOfEligibilityDate",
+      "Name_seq_ja": "26_有資格報告日付",
+      "Name_en": "ReportOfEligibilityDate",
+      "Name_ja": "有資格報告日付",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "27_ReleaseInformationCode",
+      "Name_seq_ja": "27_情報コードの解放",
+      "Name_en": "ReleaseInformationCode",
+      "Name_ja": "情報コードの解放",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "28_PreAdmitCert(PAC)",
+      "Name_seq_ja": "28_入会前認定書",
+      "Name_en": "PreAdmitCert(PAC)",
+      "Name_ja": "入会前認定書",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "29_VerificationDateOrTime",
+      "Name_seq_ja": "29_確認日時",
+      "Name_en": "VerificationDateOrTime",
+      "Name_ja": "確認日時",
+      "DataType": "TS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "30_VerificationBy",
+      "Name_seq_ja": "30_確認者",
+      "Name_en": "VerificationBy",
+      "Name_ja": "確認者",
+      "DataType": "XCN",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "31_TypeOfAgreementCode",
+      "Name_seq_ja": "31_同意コードのタイプ",
+      "Name_en": "TypeOfAgreementCode",
+      "Name_ja": "同意コードのタイプ",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "32_BillingStatus",
+      "Name_seq_ja": "32_請求状況",
+      "Name_en": "BillingStatus",
+      "Name_ja": "請求状況",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "33_LifetimeReserveDays",
+      "Name_seq_ja": "33_予約残日数",
+      "Name_en": "LifetimeReserveDays",
+      "Name_ja": "予約残日数",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "34_DelayBeforeLRDay",
+      "Name_seq_ja": "34_予約残日数前遅延",
+      "Name_en": "DelayBeforeLRDay",
+      "Name_ja": "予約残日数前遅延",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "35_CompanyPlanCode",
+      "Name_seq_ja": "35_会社プランコード",
+      "Name_en": "CompanyPlanCode",
+      "Name_ja": "会社プランコード",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "36_PolicyNumber",
+      "Name_seq_ja": "36_ポリシー番号",
+      "Name_en": "PolicyNumber",
+      "Name_ja": "ポリシー番号",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "37_PolicyDeductible",
+      "Name_seq_ja": "37_免責ポリシー",
+      "Name_en": "PolicyDeductible",
+      "Name_ja": "免責ポリシー",
+      "DataType": "CP",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "38_PolicyLimitAmount",
+      "Name_seq_ja": "38_限度額ポリシー",
+      "Name_en": "PolicyLimitAmount",
+      "Name_ja": "限度額ポリシー",
+      "DataType": "CP",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "39_PolicyLimitDays",
+      "Name_seq_ja": "39_限度日数ポリシー",
+      "Name_en": "PolicyLimitDays",
+      "Name_ja": "限度日数ポリシー",
+      "DataType": "NM",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "40_RoomRateSemiPrivate",
+      "Name_seq_ja": "40_部屋代-半個室",
+      "Name_en": "RoomRateSemiPrivate",
+      "Name_ja": "部屋代-半個室",
+      "DataType": "CP",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "41_RoomRatePrivate",
+      "Name_seq_ja": "41_部屋代-個室",
+      "Name_en": "RoomRatePrivate",
+      "Name_ja": "部屋代-個室",
+      "DataType": "CP",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "42_InsuredSEmploymentStatus",
+      "Name_seq_ja": "42_被保険者雇用状態",
+      "Name_en": "InsuredSEmploymentStatus",
+      "Name_ja": "被保険者雇用状態",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "43_InsuredSAdministrativeSex",
+      "Name_seq_ja": "43_被保険者の管理上の性別",
+      "Name_en": "InsuredSAdministrativeSex",
+      "Name_ja": "被保険者の管理上の性別",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "44_InsuredSEmployerSAddress",
+      "Name_seq_ja": "44_被保険者の雇用者の住所",
+      "Name_en": "InsuredSEmployerSAddress",
+      "Name_ja": "被保険者の雇用者の住所",
+      "DataType": "XAD",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "45_VerificationStatus",
+      "Name_seq_ja": "45_確認状態",
+      "Name_en": "VerificationStatus",
+      "Name_ja": "確認状態",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "46_PriorInsurancePlanId",
+      "Name_seq_ja": "46_前保険プラン",
+      "Name_en": "PriorInsurancePlanId",
+      "Name_ja": "前保険プラン",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "47_CoverageType",
+      "Name_seq_ja": "47_保険範囲タイプ",
+      "Name_en": "CoverageType",
+      "Name_ja": "保険範囲タイプ",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "48_Handicap",
+      "Name_seq_ja": "48_ハンディキャップ",
+      "Name_en": "Handicap",
+      "Name_ja": "ハンディキャップ",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "49_InsuredSIdNumber",
+      "Name_seq_ja": "49_被保険者ID番号",
+      "Name_en": "InsuredSIdNumber",
+      "Name_ja": "被保険者ID番号",
+      "DataType": "CX",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "50_SignatureCode",
+      "Name_seq_ja": "50_署名コード",
+      "Name_en": "SignatureCode",
+      "Name_ja": "署名コード",
+      "DataType": "IS",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "51_SignatureCodeDate",
+      "Name_seq_ja": "51_署名コード日",
+      "Name_en": "SignatureCodeDate",
+      "Name_ja": "署名コード日",
+      "DataType": "DT",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "52_InsuredSBirthPlace",
+      "Name_seq_ja": "52_被保険者出生地",
+      "Name_en": "InsuredSBirthPlace",
+      "Name_ja": "被保険者出生地",
+      "DataType": "ST",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "53_VipIndicator",
+      "Name_seq_ja": "53_VIP識別",
+      "Name_en": "VipIndicator",
+      "Name_ja": "VIP識別",
+      "DataType": "IS",
+      "Repeatability": false
+    }
+  ],
+  "ZPD": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_SetId",
+      "Name_seq_ja": "01_セットID-ZPD",
+      "Name_en": "SetId",
+      "Name_ja": "セットID-ZPD",
+      "DataType": "SI",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "02_DentalFormulaInformation",
+      "Name_seq_ja": "02_歯式情報",
+      "Name_en": "DentalFormulaInformation",
+      "Name_ja": "歯式情報",
+      "DataType": "CWE",
+      "Repeatability": false
+    }
+  ],
+  "ZPR": [
+    {
+      "Name_seq_en": "",
+      "Name_seq_ja": "",
+      "Name_en": "",
+      "Name_ja": "",
+      "DataType": "",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "01_ModifierCode(Prefix)",
+      "Name_seq_ja": "01_修飾語管理番号(接頭語)",
+      "Name_en": "ModifierCode(Prefix)",
+      "Name_ja": "修飾語管理番号(接頭語)",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "02_DiseaseCode",
+      "Name_seq_ja": "02_病名管理番号",
+      "Name_en": "DiseaseCode",
+      "Name_ja": "病名管理番号",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "03_ModifierCode(Suffix)",
+      "Name_seq_ja": "03_修飾語管理番号(接尾語)",
+      "Name_en": "ModifierCode(Suffix)",
+      "Name_ja": "修飾語管理番号(接尾語)",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "04_ModifierCodeForExchange(Prefix)",
+      "Name_seq_ja": "04_修飾語交換用コード(接頭語)",
+      "Name_en": "ModifierCodeForExchange(Prefix)",
+      "Name_ja": "修飾語交換用コード(接頭語)",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "05_DiseaseCodeForExchange",
+      "Name_seq_ja": "05_病名交換用コード",
+      "Name_en": "DiseaseCodeForExchange",
+      "Name_ja": "病名交換用コード",
+      "DataType": "CWE",
+      "Repeatability": false
+    },
+    {
+      "Name_seq_en": "06_ModifierCodeForExchange(Suffix)",
+      "Name_seq_ja": "06_修飾語交換用コード(接尾語)",
+      "Name_en": "ModifierCodeForExchange(Suffix)",
+      "Name_ja": "修飾語交換用コード(接尾語)",
+      "DataType": "CWE",
+      "Repeatability": true
+    },
+    {
+      "Name_seq_en": "07_Comment",
+      "Name_seq_ja": "07_コメント",
+      "Name_en": "Comment",
+      "Name_ja": "コメント",
+      "DataType": "ST",
+      "Repeatability": false
+    }
+  ]
+}

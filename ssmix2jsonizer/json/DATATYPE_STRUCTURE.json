@@ -1,0 +1,3052 @@
+{
+  "AUI": [
+    {
+      "Name_seq_en": "01_AuthorizationNumber",
+      "Name_seq_ja": "01_承認番号",
+      "Name_en": "AuthorizationNumber",
+      "Name_ja": "承認番号",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_Date",
+      "Name_seq_ja": "02_日付",
+      "Name_en": "Date",
+      "Name_ja": "日付",
+      "DataType": "DT"
+    },
+    {
+      "Name_seq_en": "03_Source",
+      "Name_seq_ja": "03_承認元",
+      "Name_en": "Source",
+      "Name_ja": "承認元",
+      "DataType": "ST"
+    }
+  ],
+  "CCD": [
+    {
+      "Name_seq_en": "01_InvocationEvent",
+      "Name_seq_ja": "01_発効イベント",
+      "Name_en": "InvocationEvent",
+      "Name_ja": "発効イベント",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "02_DateOrTime",
+      "Name_seq_ja": "02_日時",
+      "Name_en": "DateOrTime",
+      "Name_ja": "日時",
+      "DataType": "TS"
+    }
+  ],
+  "CCP": [
+    {
+      "Name_seq_en": "01_ChannelCalibrationSensitivityCorrectionFactor",
+      "Name_seq_ja": "01_チャンネル調整感度補正因子",
+      "Name_en": "ChannelCalibrationSensitivityCorrectionFactor",
+      "Name_ja": "チャンネル調整感度補正因子",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "02_ChannelCalibrationBaseline",
+      "Name_seq_ja": "02_チャンネル調整基底値",
+      "Name_en": "ChannelCalibrationBaseline",
+      "Name_ja": "チャンネル調整基底値",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "03_ChannelCalibrationTimeSkew",
+      "Name_seq_ja": "03_チャンネル調整時差",
+      "Name_en": "ChannelCalibrationTimeSkew",
+      "Name_ja": "チャンネル調整時差",
+      "DataType": "NM"
+    }
+  ],
+  "CD": [
+    {
+      "Name_seq_en": "01_ChannelIdentifier",
+      "Name_seq_ja": "01_チャンネル識別子",
+      "Name_en": "ChannelIdentifier",
+      "Name_ja": "チャンネル識別子",
+      "DataType": "WVI"
+    },
+    {
+      "Name_seq_en": "02_WaveformSource",
+      "Name_seq_ja": "02_波形の発生源",
+      "Name_en": "WaveformSource",
+      "Name_ja": "波形の発生源",
+      "DataType": "WVS"
+    },
+    {
+      "Name_seq_en": "03_ChannelSensitivityOrUnits",
+      "Name_seq_ja": "03_チャンネル感度または単位",
+      "Name_en": "ChannelSensitivityOrUnits",
+      "Name_ja": "チャンネル感度または単位",
+      "DataType": "CSU"
+    },
+    {
+      "Name_seq_en": "04_ChannelCalibrationParameters",
+      "Name_seq_ja": "04_チャンネル調整パラメータ",
+      "Name_en": "ChannelCalibrationParameters",
+      "Name_ja": "チャンネル調整パラメータ",
+      "DataType": "CCP"
+    },
+    {
+      "Name_seq_en": "05_ChannelSamplingFrequency",
+      "Name_seq_ja": "05_チャンネルサンプリング周波数",
+      "Name_en": "ChannelSamplingFrequency",
+      "Name_ja": "チャンネルサンプリング周波数",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "06_MinimumOrMaximumDataValues",
+      "Name_seq_ja": "06_最小または最大データ値",
+      "Name_en": "MinimumOrMaximumDataValues",
+      "Name_ja": "最小または最大データ値",
+      "DataType": "NR"
+    }
+  ],
+  "CE": [
+    {
+      "Name_seq_en": "01_Identifier",
+      "Name_seq_ja": "01_識別子",
+      "Name_en": "Identifier",
+      "Name_ja": "識別子",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_Text",
+      "Name_seq_ja": "02_テキスト",
+      "Name_en": "Text",
+      "Name_ja": "テキスト",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "03_NameOfCodingSystem",
+      "Name_seq_ja": "03_コード体系名称",
+      "Name_en": "NameOfCodingSystem",
+      "Name_ja": "コード体系名称",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "04_AlternateIdentifier",
+      "Name_seq_ja": "04_代替識別子",
+      "Name_en": "AlternateIdentifier",
+      "Name_ja": "代替識別子",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "05_AlternateText",
+      "Name_seq_ja": "05_代替テキスト",
+      "Name_en": "AlternateText",
+      "Name_ja": "代替テキスト",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "06_NameOfAlternateCodingSystem",
+      "Name_seq_ja": "06_代替コード体系名称",
+      "Name_en": "NameOfAlternateCodingSystem",
+      "Name_ja": "代替コード体系名称",
+      "DataType": "ID"
+    }
+  ],
+  "CF": [
+    {
+      "Name_seq_en": "01_Identifier",
+      "Name_seq_ja": "01_識別子",
+      "Name_en": "Identifier",
+      "Name_ja": "識別子",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_FormattedText",
+      "Name_seq_ja": "02_書式付テキスト",
+      "Name_en": "FormattedText",
+      "Name_ja": "書式付テキスト",
+      "DataType": "FT"
+    },
+    {
+      "Name_seq_en": "03_NameOfCodingSystem",
+      "Name_seq_ja": "03_コード体系名称",
+      "Name_en": "NameOfCodingSystem",
+      "Name_ja": "コード体系名称",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "04_AlternateIdentifier",
+      "Name_seq_ja": "04_代替識別子",
+      "Name_en": "AlternateIdentifier",
+      "Name_ja": "代替識別子",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "05_AlternateFormattedText",
+      "Name_seq_ja": "05_代替書式付テキスト",
+      "Name_en": "AlternateFormattedText",
+      "Name_ja": "代替書式付テキスト",
+      "DataType": "FT"
+    },
+    {
+      "Name_seq_en": "06_NameOfAlternateCodingSystem",
+      "Name_seq_ja": "06_代替コード体系名称",
+      "Name_en": "NameOfAlternateCodingSystem",
+      "Name_ja": "代替コード体系名称",
+      "DataType": "ID"
+    }
+  ],
+  "CNE": [
+    {
+      "Name_seq_en": "01_Identifier",
+      "Name_seq_ja": "01_識別子",
+      "Name_en": "Identifier",
+      "Name_ja": "識別子",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_Text",
+      "Name_seq_ja": "02_テキスト",
+      "Name_en": "Text",
+      "Name_ja": "テキスト",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "03_NameOfCodingSystem",
+      "Name_seq_ja": "03_コード体系名称",
+      "Name_en": "NameOfCodingSystem",
+      "Name_ja": "コード体系名称",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "04_AlternateIdentifier",
+      "Name_seq_ja": "04_代替識別子",
+      "Name_en": "AlternateIdentifier",
+      "Name_ja": "代替識別子",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "05_AlternateText",
+      "Name_seq_ja": "05_代替テキスト",
+      "Name_en": "AlternateText",
+      "Name_ja": "代替テキスト",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "06_NameOfAlternateCodingSystem",
+      "Name_seq_ja": "06_代替コード体系名称",
+      "Name_en": "NameOfAlternateCodingSystem",
+      "Name_ja": "代替コード体系名称",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "07_CodingSystemVersionId",
+      "Name_seq_ja": "07_コード体系バージョンID",
+      "Name_en": "CodingSystemVersionId",
+      "Name_ja": "コード体系バージョンID",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "08_AlternateCodingSystemVersionId",
+      "Name_seq_ja": "08_代替コード体系バージョンID",
+      "Name_en": "AlternateCodingSystemVersionId",
+      "Name_ja": "代替コード体系バージョンID",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "09_OriginalText",
+      "Name_seq_ja": "09_元のテキスト",
+      "Name_en": "OriginalText",
+      "Name_ja": "元のテキスト",
+      "DataType": "ST"
+    }
+  ],
+  "CNN": [
+    {
+      "Name_seq_en": "01_IdNumber",
+      "Name_seq_ja": "01_ID番号",
+      "Name_en": "IdNumber",
+      "Name_ja": "ID番号",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_FamilyName",
+      "Name_seq_ja": "02_姓",
+      "Name_en": "FamilyName",
+      "Name_ja": "姓",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "03_GivenName",
+      "Name_seq_ja": "03_名",
+      "Name_en": "GivenName",
+      "Name_ja": "名",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "04_SecondAndFurtherGivenNamesOrInitialsThereof",
+      "Name_seq_ja": "04_2番目以降の名またはそれらのイニシャル",
+      "Name_en": "SecondAndFurtherGivenNamesOrInitialsThereof",
+      "Name_ja": "2番目以降の名またはそれらのイニシャル",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "05_Suffix",
+      "Name_seq_ja": "05_接尾辞(例:JRまたはIII)",
+      "Name_en": "Suffix",
+      "Name_ja": "接尾辞(例:JRまたはIII)",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "06_Prefix",
+      "Name_seq_ja": "06_接頭辞(例:DR)",
+      "Name_en": "Prefix",
+      "Name_ja": "接頭辞(例:DR)",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "07_Degree",
+      "Name_seq_ja": "07_学位(例:MD)",
+      "Name_en": "Degree",
+      "Name_ja": "学位(例:MD)",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "08_SourceTable",
+      "Name_seq_ja": "08_出典表",
+      "Name_en": "SourceTable",
+      "Name_ja": "出典表",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "09_AssigningAuthority_NamespaceID",
+      "Name_seq_ja": "09_割当て権限者_ネームスペースID",
+      "Name_en": "AssigningAuthority_NamespaceID",
+      "Name_ja": "割当て権限者_ネームスペースID",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "10_AssigningAuthority_UniversalId",
+      "Name_seq_ja": "10_割当て権限者_汎用ID",
+      "Name_en": "AssigningAuthority_UniversalId",
+      "Name_ja": "割当て権限者_汎用ID",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "11_AssigningAuthority_UniversalIdType",
+      "Name_seq_ja": "11_割当て権限者_汎用ID型",
+      "Name_en": "AssigningAuthority_UniversalIdType",
+      "Name_ja": "割当て権限者_汎用ID型",
+      "DataType": "ID"
+    }
+  ],
+  "CP": [
+    {
+      "Name_seq_en": "01_Price",
+      "Name_seq_ja": "01_金額",
+      "Name_en": "Price",
+      "Name_ja": "金額",
+      "DataType": "MO"
+    },
+    {
+      "Name_seq_en": "02_PriceType",
+      "Name_seq_ja": "02_価格型",
+      "Name_en": "PriceType",
+      "Name_ja": "価格型",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "03_FromValue",
+      "Name_seq_ja": "03_始点の値",
+      "Name_en": "FromValue",
+      "Name_ja": "始点の値",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "04_ToValue",
+      "Name_seq_ja": "04_終点の値",
+      "Name_en": "ToValue",
+      "Name_ja": "終点の値",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "05_RangeUnits",
+      "Name_seq_ja": "05_範囲単位",
+      "Name_en": "RangeUnits",
+      "Name_ja": "範囲単位",
+      "DataType": "CWE"
+    },
+    {
+      "Name_seq_en": "06_RangeType",
+      "Name_seq_ja": "06_範囲型",
+      "Name_en": "RangeType",
+      "Name_ja": "範囲型",
+      "DataType": "ID"
+    }
+  ],
+  "CQ": [
+    {
+      "Name_seq_en": "01_Quantity",
+      "Name_seq_ja": "01_数量",
+      "Name_en": "Quantity",
+      "Name_ja": "数量",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "02_Units",
+      "Name_seq_ja": "02_単位",
+      "Name_en": "Units",
+      "Name_ja": "単位",
+      "DataType": "CWE"
+    }
+  ],
+  "CSU": [
+    {
+      "Name_seq_en": "01_ChannelSensitivity",
+      "Name_seq_ja": "01_チャンネル感度",
+      "Name_en": "ChannelSensitivity",
+      "Name_ja": "チャンネル感度",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "02_UnitOfMeasureIdentifier",
+      "Name_seq_ja": "02_測定単位識別子",
+      "Name_en": "UnitOfMeasureIdentifier",
+      "Name_ja": "測定単位識別子",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "03_UnitOfMeasureDescription",
+      "Name_seq_ja": "03_測定単位記述",
+      "Name_en": "UnitOfMeasureDescription",
+      "Name_ja": "測定単位記述",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "04_UnitOfMeasureCodingSystem",
+      "Name_seq_ja": "04_測定単位コード体系",
+      "Name_en": "UnitOfMeasureCodingSystem",
+      "Name_ja": "測定単位コード体系",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "05_AlternateUnitOfMeasureIdentifier",
+      "Name_seq_ja": "05_代替測定単位識別子",
+      "Name_en": "AlternateUnitOfMeasureIdentifier",
+      "Name_ja": "代替測定単位識別子",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "06_AlternateUnitOfMeasureDescription",
+      "Name_seq_ja": "06_代替測定単位記述",
+      "Name_en": "AlternateUnitOfMeasureDescription",
+      "Name_ja": "代替測定単位記述",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "07_AlternateUnitOfMeasureCodingSystem",
+      "Name_seq_ja": "07_代替測定単位コード体系",
+      "Name_en": "AlternateUnitOfMeasureCodingSystem",
+      "Name_ja": "代替測定単位コード体系",
+      "DataType": "ID"
+    }
+  ],
+  "CWE": [
+    {
+      "Name_seq_en": "01_Identifier",
+      "Name_seq_ja": "01_識別子",
+      "Name_en": "Identifier",
+      "Name_ja": "識別子",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_Text",
+      "Name_seq_ja": "02_テキスト",
+      "Name_en": "Text",
+      "Name_ja": "テキスト",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "03_NameOfCodingSystem",
+      "Name_seq_ja": "03_コード体系名称",
+      "Name_en": "NameOfCodingSystem",
+      "Name_ja": "コード体系名称",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "04_AlternateIdentifier",
+      "Name_seq_ja": "04_代替識別子",
+      "Name_en": "AlternateIdentifier",
+      "Name_ja": "代替識別子",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "05_AlternateText",
+      "Name_seq_ja": "05_代替テキスト",
+      "Name_en": "AlternateText",
+      "Name_ja": "代替テキスト",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "06_NameOfAlternateCodingSystem",
+      "Name_seq_ja": "06_代替コード体系名称",
+      "Name_en": "NameOfAlternateCodingSystem",
+      "Name_ja": "代替コード体系名称",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "07_CodingSystemVersionId",
+      "Name_seq_ja": "07_コード体系バージョンID",
+      "Name_en": "CodingSystemVersionId",
+      "Name_ja": "コード体系バージョンID",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "08_AlternateCodingSystemVersionId",
+      "Name_seq_ja": "08_代替コード体系バージョンID",
+      "Name_en": "AlternateCodingSystemVersionId",
+      "Name_ja": "代替コード体系バージョンID",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "09_OriginalText",
+      "Name_seq_ja": "09_元のテキスト",
+      "Name_en": "OriginalText",
+      "Name_ja": "元のテキスト",
+      "DataType": "ST"
+    }
+  ],
+  "CX": [
+    {
+      "Name_seq_en": "01_IdNumber",
+      "Name_seq_ja": "01_ID番号",
+      "Name_en": "IdNumber",
+      "Name_ja": "ID番号",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_CheckDigit",
+      "Name_seq_ja": "02_チェックディジット",
+      "Name_en": "CheckDigit",
+      "Name_ja": "チェックディジット",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "03_CheckDigitScheme",
+      "Name_seq_ja": "03_チェックディジット形式",
+      "Name_en": "CheckDigitScheme",
+      "Name_ja": "チェックディジット形式",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "04_AssigningAuthority",
+      "Name_seq_ja": "04_割当権限者",
+      "Name_en": "AssigningAuthority",
+      "Name_ja": "割当権限者",
+      "DataType": "HD"
+    },
+    {
+      "Name_seq_en": "05_IdentifierTypeCode",
+      "Name_seq_ja": "05_識別子型コード",
+      "Name_en": "IdentifierTypeCode",
+      "Name_ja": "識別子型コード",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "06_AssigningFacility",
+      "Name_seq_ja": "06_割当施設",
+      "Name_en": "AssigningFacility",
+      "Name_ja": "割当施設",
+      "DataType": "HD"
+    },
+    {
+      "Name_seq_en": "07_EffectiveDate",
+      "Name_seq_ja": "07_発行日付",
+      "Name_en": "EffectiveDate",
+      "Name_ja": "発行日付",
+      "DataType": "DT"
+    },
+    {
+      "Name_seq_en": "08_ExpirationDate",
+      "Name_seq_ja": "08_失効日付",
+      "Name_en": "ExpirationDate",
+      "Name_ja": "失効日付",
+      "DataType": "DT"
+    },
+    {
+      "Name_seq_en": "09_AssigningJurisdiction",
+      "Name_seq_ja": "09_割当管轄",
+      "Name_en": "AssigningJurisdiction",
+      "Name_ja": "割当管轄",
+      "DataType": "CWE"
+    },
+    {
+      "Name_seq_en": "10_AssigningAgencyOrDepartment",
+      "Name_seq_ja": "10_割当期間または行政組織",
+      "Name_en": "AssigningAgencyOrDepartment",
+      "Name_ja": "割当期間または行政組織",
+      "DataType": "CWE"
+    }
+  ],
+  "DIN": [
+    {
+      "Name_seq_en": "01_Date",
+      "Name_seq_ja": "01_日付",
+      "Name_en": "Date",
+      "Name_ja": "日付",
+      "DataType": "TS"
+    },
+    {
+      "Name_seq_en": "02_InstitutionName",
+      "Name_seq_ja": "02_施設名",
+      "Name_en": "InstitutionName",
+      "Name_ja": "施設名",
+      "DataType": "CE"
+    }
+  ],
+  "DLD": [
+    {
+      "Name_seq_en": "01_DischargeLocation",
+      "Name_seq_ja": "01_退院先",
+      "Name_en": "DischargeLocation",
+      "Name_ja": "退院先",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "02_EffectiveDate",
+      "Name_seq_ja": "02_発行日付",
+      "Name_en": "EffectiveDate",
+      "Name_ja": "発行日付",
+      "DataType": "TS"
+    }
+  ],
+  "DLN": [
+    {
+      "Name_seq_en": "01_LicenseNumber",
+      "Name_seq_ja": "01_免許番号",
+      "Name_en": "LicenseNumber",
+      "Name_ja": "免許番号",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_IssuingStateOrProvinceOrCountry",
+      "Name_seq_ja": "02_発行州または省または国",
+      "Name_en": "IssuingStateOrProvinceOrCountry",
+      "Name_ja": "発行州または省または国",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "03_ExpirationDate",
+      "Name_seq_ja": "03_失効日付",
+      "Name_en": "ExpirationDate",
+      "Name_ja": "失効日付",
+      "DataType": "DT"
+    }
+  ],
+  "DLT": [
+    {
+      "Name_seq_en": "01_NormalRange",
+      "Name_seq_ja": "01_正常範囲",
+      "Name_en": "NormalRange",
+      "Name_ja": "正常範囲",
+      "DataType": "NR"
+    },
+    {
+      "Name_seq_en": "02_NumericThreshold",
+      "Name_seq_ja": "02_閾値",
+      "Name_en": "NumericThreshold",
+      "Name_ja": "閾値",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "03_ChangeComputation",
+      "Name_seq_ja": "03_変化量の計算",
+      "Name_en": "ChangeComputation",
+      "Name_ja": "変化量の計算",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "04_DaysRetained",
+      "Name_seq_ja": "04_保持日数",
+      "Name_en": "DaysRetained",
+      "Name_ja": "保持日数",
+      "DataType": "NM"
+    }
+  ],
+  "DR": [
+    {
+      "Name_seq_en": "01_RangeStartDateOrTime",
+      "Name_seq_ja": "01_開始日時",
+      "Name_en": "RangeStartDateOrTime",
+      "Name_ja": "開始日時",
+      "DataType": "TS"
+    },
+    {
+      "Name_seq_en": "02_RangeEndDateOrTime",
+      "Name_seq_ja": "02_終了日時",
+      "Name_en": "RangeEndDateOrTime",
+      "Name_ja": "終了日時",
+      "DataType": "TS"
+    }
+  ],
+  "DTN": [
+    {
+      "Name_seq_en": "01_DayType",
+      "Name_seq_ja": "01_日の型",
+      "Name_en": "DayType",
+      "Name_ja": "日の型",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "02_NumberOfDays",
+      "Name_seq_ja": "02_日数",
+      "Name_en": "NumberOfDays",
+      "Name_ja": "日数",
+      "DataType": "NM"
+    }
+  ],
+  "ED": [
+    {
+      "Name_seq_en": "01_SourceApplication",
+      "Name_seq_ja": "01_作成アプリケーション",
+      "Name_en": "SourceApplication",
+      "Name_ja": "作成アプリケーション",
+      "DataType": "HD"
+    },
+    {
+      "Name_seq_en": "02_TypeOfData",
+      "Name_seq_ja": "02_データ型",
+      "Name_en": "TypeOfData",
+      "Name_ja": "データ型",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "03_DataSubtype",
+      "Name_seq_ja": "03_データサブ型",
+      "Name_en": "DataSubtype",
+      "Name_ja": "データサブ型",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "04_Encoding",
+      "Name_seq_ja": "04_符号化",
+      "Name_en": "Encoding",
+      "Name_ja": "符号化",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "05_Data",
+      "Name_seq_ja": "05_データ",
+      "Name_en": "Data",
+      "Name_ja": "データ",
+      "DataType": "TX"
+    }
+  ],
+  "EI": [
+    {
+      "Name_seq_en": "01_EntityIdentifier",
+      "Name_seq_ja": "01_エンティティ識別子",
+      "Name_en": "EntityIdentifier",
+      "Name_ja": "エンティティ識別子",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_NamespaceId",
+      "Name_seq_ja": "02_ネームスペースID",
+      "Name_en": "NamespaceId",
+      "Name_ja": "ネームスペースID",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "03_UniversalId",
+      "Name_seq_ja": "03_汎用ID",
+      "Name_en": "UniversalId",
+      "Name_ja": "汎用ID",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "04_UniversalIdType",
+      "Name_seq_ja": "04_汎用ID型",
+      "Name_en": "UniversalIdType",
+      "Name_ja": "汎用ID型",
+      "DataType": "ID"
+    }
+  ],
+  "EIP": [
+    {
+      "Name_seq_en": "01_PlacerAssignedIdentifier",
+      "Name_seq_ja": "01_依頼者割当識別子",
+      "Name_en": "PlacerAssignedIdentifier",
+      "Name_ja": "依頼者割当識別子",
+      "DataType": "EI"
+    },
+    {
+      "Name_seq_en": "02_FillerAssignedIdentifier",
+      "Name_seq_ja": "02_実施者割当識別子",
+      "Name_en": "FillerAssignedIdentifier",
+      "Name_ja": "実施者割当識別子",
+      "DataType": "EI"
+    }
+  ],
+  "ELD": [
+    {
+      "Name_seq_en": "01_SegmentId",
+      "Name_seq_ja": "01_セグメントID",
+      "Name_en": "SegmentId",
+      "Name_ja": "セグメントID",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_SegmentSequence",
+      "Name_seq_ja": "02_セグメント連番",
+      "Name_en": "SegmentSequence",
+      "Name_ja": "セグメント連番",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "03_FieldPosition",
+      "Name_seq_ja": "03_フィールド位置",
+      "Name_en": "FieldPosition",
+      "Name_ja": "フィールド位置",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "04_CodeIdentifyingError",
+      "Name_seq_ja": "04_エラーを特定するコード",
+      "Name_en": "CodeIdentifyingError",
+      "Name_ja": "エラーを特定するコード",
+      "DataType": "CWE"
+    }
+  ],
+  "ERL": [
+    {
+      "Name_seq_en": "01_SegmentId",
+      "Name_seq_ja": "01_セグメントID",
+      "Name_en": "SegmentId",
+      "Name_ja": "セグメントID",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_SegmentSequence",
+      "Name_seq_ja": "02_セグメント連番",
+      "Name_en": "SegmentSequence",
+      "Name_ja": "セグメント連番",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "03_FieldPosition",
+      "Name_seq_ja": "03_フィールド位置",
+      "Name_en": "FieldPosition",
+      "Name_ja": "フィールド位置",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "04_FieldRepetition",
+      "Name_seq_ja": "04_フィールド繰り返し番号",
+      "Name_en": "FieldRepetition",
+      "Name_ja": "フィールド繰り返し番号",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "05_ComponentNumber",
+      "Name_seq_ja": "05_成分番号",
+      "Name_en": "ComponentNumber",
+      "Name_ja": "成分番号",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "06_SubComponentNumber",
+      "Name_seq_ja": "06_副成分番号",
+      "Name_en": "SubComponentNumber",
+      "Name_ja": "副成分番号",
+      "DataType": "NM"
+    }
+  ],
+  "FC": [
+    {
+      "Name_seq_en": "01_FinancialClassCode",
+      "Name_seq_ja": "01_保険種別コード",
+      "Name_en": "FinancialClassCode",
+      "Name_ja": "保険種別コード",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "02_EffectiveDate",
+      "Name_seq_ja": "02_発行期限",
+      "Name_en": "EffectiveDate",
+      "Name_ja": "発行期限",
+      "DataType": "TS"
+    }
+  ],
+  "FN": [
+    {
+      "Name_seq_en": "01_Surname",
+      "Name_seq_ja": "01_姓",
+      "Name_en": "Surname",
+      "Name_ja": "姓",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_OwnSurnamePrefix",
+      "Name_seq_ja": "02_自身の姓の接頭辞",
+      "Name_en": "OwnSurnamePrefix",
+      "Name_ja": "自身の姓の接頭辞",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "03_OwnSurname",
+      "Name_seq_ja": "03_自身の姓",
+      "Name_en": "OwnSurname",
+      "Name_ja": "自身の姓",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "04_SurnamePrefixFromPartnerOrSpouse",
+      "Name_seq_ja": "04_配偶者からの姓の接頭辞",
+      "Name_en": "SurnamePrefixFromPartnerOrSpouse",
+      "Name_ja": "配偶者からの姓の接頭辞",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "05_SurnameFromPartnerOrSpouse",
+      "Name_seq_ja": "05_配偶者からの姓",
+      "Name_en": "SurnameFromPartnerOrSpouse",
+      "Name_ja": "配偶者からの姓",
+      "DataType": "ST"
+    }
+  ],
+  "HD": [
+    {
+      "Name_seq_en": "01_NamespaceId",
+      "Name_seq_ja": "01_ネームスペースID",
+      "Name_en": "NamespaceId",
+      "Name_ja": "ネームスペースID",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "02_UniversalId",
+      "Name_seq_ja": "02_汎用ID",
+      "Name_en": "UniversalId",
+      "Name_ja": "汎用ID",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "03_UniversalIdType",
+      "Name_seq_ja": "03_汎用ID型",
+      "Name_en": "UniversalIdType",
+      "Name_ja": "汎用ID型",
+      "DataType": "ID"
+    }
+  ],
+  "ICD": [
+    {
+      "Name_seq_en": "01_CertificationPatientType",
+      "Name_seq_ja": "01_承認患者タイプ",
+      "Name_en": "CertificationPatientType",
+      "Name_ja": "承認患者タイプ",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "02_CertificationRequired",
+      "Name_seq_ja": "02_承認の必要性",
+      "Name_en": "CertificationRequired",
+      "Name_ja": "承認の必要性",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "03_DateOrTimeCertificationRequired",
+      "Name_seq_ja": "03_承認の必要な日時",
+      "Name_en": "DateOrTimeCertificationRequired",
+      "Name_ja": "承認の必要な日時",
+      "DataType": "TS"
+    }
+  ],
+  "JCC": [
+    {
+      "Name_seq_en": "01_JobCode",
+      "Name_seq_ja": "01_職コード",
+      "Name_en": "JobCode",
+      "Name_ja": "職コード",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "02_JobClass",
+      "Name_seq_ja": "02_職クラス",
+      "Name_en": "JobClass",
+      "Name_ja": "職クラス",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "03_JobDescriptionText",
+      "Name_seq_ja": "03_職を記述するテキスト",
+      "Name_en": "JobDescriptionText",
+      "Name_ja": "職を記述するテキスト",
+      "DataType": "TX"
+    }
+  ],
+  "LA1": [
+    {
+      "Name_seq_en": "01_PointOfCare",
+      "Name_seq_ja": "01_ケアの場所",
+      "Name_en": "PointOfCare",
+      "Name_ja": "ケアの場所",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "02_Room",
+      "Name_seq_ja": "02_病室",
+      "Name_en": "Room",
+      "Name_ja": "病室",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "03_Bed",
+      "Name_seq_ja": "03_病床",
+      "Name_en": "Bed",
+      "Name_ja": "病床",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "04_Facility",
+      "Name_seq_ja": "04_施設",
+      "Name_en": "Facility",
+      "Name_ja": "施設",
+      "DataType": "HD"
+    },
+    {
+      "Name_seq_en": "05_LocationStatus",
+      "Name_seq_ja": "05_位置の状態",
+      "Name_en": "LocationStatus",
+      "Name_ja": "位置の状態",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "06_PatientLocationType",
+      "Name_seq_ja": "06_患者の位置タイプ",
+      "Name_en": "PatientLocationType",
+      "Name_ja": "患者の位置タイプ",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "07_Building",
+      "Name_seq_ja": "07_建物",
+      "Name_en": "Building",
+      "Name_ja": "建物",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "08_Floor",
+      "Name_seq_ja": "08_階",
+      "Name_en": "Floor",
+      "Name_ja": "階",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "09_Address",
+      "Name_seq_ja": "09_住所",
+      "Name_en": "Address",
+      "Name_ja": "住所",
+      "DataType": "AD"
+    }
+  ],
+  "LA2": [
+    {
+      "Name_seq_en": "01_PointOfCare",
+      "Name_seq_ja": "01_ケアの場所",
+      "Name_en": "PointOfCare",
+      "Name_ja": "ケアの場所",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "02_Room",
+      "Name_seq_ja": "02_病室",
+      "Name_en": "Room",
+      "Name_ja": "病室",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "03_Bed",
+      "Name_seq_ja": "03_病床",
+      "Name_en": "Bed",
+      "Name_ja": "病床",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "04_Facility",
+      "Name_seq_ja": "04_施設",
+      "Name_en": "Facility",
+      "Name_ja": "施設",
+      "DataType": "HD"
+    },
+    {
+      "Name_seq_en": "05_LocationStatus",
+      "Name_seq_ja": "05_位置の状態",
+      "Name_en": "LocationStatus",
+      "Name_ja": "位置の状態",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "06_PatientLocationType",
+      "Name_seq_ja": "06_患者の位置タイプ",
+      "Name_en": "PatientLocationType",
+      "Name_ja": "患者の位置タイプ",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "07_Building",
+      "Name_seq_ja": "07_建物",
+      "Name_en": "Building",
+      "Name_ja": "建物",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "08_Floor",
+      "Name_seq_ja": "08_階",
+      "Name_en": "Floor",
+      "Name_ja": "階",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "09_StreetAddress",
+      "Name_seq_ja": "09_通りの住所",
+      "Name_en": "StreetAddress",
+      "Name_ja": "通りの住所",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "10_OtherDesignation",
+      "Name_seq_ja": "10_その他表示",
+      "Name_en": "OtherDesignation",
+      "Name_ja": "その他表示",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "11_City",
+      "Name_seq_ja": "11_市",
+      "Name_en": "City",
+      "Name_ja": "市",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "12_StateOrProvince",
+      "Name_seq_ja": "12_州または省",
+      "Name_en": "StateOrProvince",
+      "Name_ja": "州または省",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "13_ZipOrPostalCode",
+      "Name_seq_ja": "13_ジップコードまたは郵便番号",
+      "Name_en": "ZipOrPostalCode",
+      "Name_ja": "ジップコードまたは郵便番号",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "14_Country",
+      "Name_seq_ja": "14_国",
+      "Name_en": "Country",
+      "Name_ja": "国",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "15_AddressType",
+      "Name_seq_ja": "15_住所タイプ",
+      "Name_en": "AddressType",
+      "Name_ja": "住所タイプ",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "16_OtherGeographicDesignation",
+      "Name_seq_ja": "16_その他の地理表示",
+      "Name_en": "OtherGeographicDesignation",
+      "Name_ja": "その他の地理表示",
+      "DataType": "ST"
+    }
+  ],
+  "MA": [
+    {
+      "Name_seq_en": "01_Sample1FromChannel1",
+      "Name_seq_ja": "01_チャンネル1のサンプル値1",
+      "Name_en": "Sample1FromChannel1",
+      "Name_ja": "チャンネル1のサンプル値1",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "02_Sample1FromChannel2",
+      "Name_seq_ja": "02_チャンネル2のサンプル値1",
+      "Name_en": "Sample1FromChannel2",
+      "Name_ja": "チャンネル2のサンプル値1",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "03_Sample1FromChannelN",
+      "Name_seq_ja": "03_チャンネルNのサンプル値1",
+      "Name_en": "Sample1FromChannelN",
+      "Name_ja": "チャンネルNのサンプル値1",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "04_Sample2FromChannel1",
+      "Name_seq_ja": "04_チャンネル1のサンプル値2",
+      "Name_en": "Sample2FromChannel1",
+      "Name_ja": "チャンネル1のサンプル値2",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "05_Sample2FromChannelN",
+      "Name_seq_ja": "05_チャンネルNのサンプル値2",
+      "Name_en": "Sample2FromChannelN",
+      "Name_ja": "チャンネルNのサンプル値2",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "06_SampleNFromChannelN",
+      "Name_seq_ja": "06_チャンネルNのサンプル値N",
+      "Name_en": "SampleNFromChannelN",
+      "Name_ja": "チャンネルNのサンプル値N",
+      "DataType": "NM"
+    }
+  ],
+  "MO": [
+    {
+      "Name_seq_en": "01_Quantity",
+      "Name_seq_ja": "01_金額",
+      "Name_en": "Quantity",
+      "Name_ja": "金額",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "02_Denomination",
+      "Name_seq_ja": "02_通貨",
+      "Name_en": "Denomination",
+      "Name_ja": "通貨",
+      "DataType": "ID"
+    }
+  ],
+  "MOC": [
+    {
+      "Name_seq_en": "01_MonetaryAmount",
+      "Name_seq_ja": "01_金額",
+      "Name_en": "MonetaryAmount",
+      "Name_ja": "金額",
+      "DataType": "MO"
+    },
+    {
+      "Name_seq_en": "02_ChargeCode",
+      "Name_seq_ja": "02_請求コード",
+      "Name_en": "ChargeCode",
+      "Name_ja": "請求コード",
+      "DataType": "CWE"
+    }
+  ],
+  "MOP": [
+    {
+      "Name_seq_en": "01_MoneyOrPercentageIndicator",
+      "Name_seq_ja": "01_金額とパーセンテージの区別",
+      "Name_en": "MoneyOrPercentageIndicator",
+      "Name_ja": "金額とパーセンテージの区別",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "02_MoneyOrPercentageQuantity",
+      "Name_seq_ja": "02_金額またはパーセンテージの数字",
+      "Name_en": "MoneyOrPercentageQuantity",
+      "Name_ja": "金額またはパーセンテージの数字",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "03_CurrencyDenomination",
+      "Name_seq_ja": "03_通貨表示",
+      "Name_en": "CurrencyDenomination",
+      "Name_ja": "通貨表示",
+      "DataType": "ID"
+    }
+  ],
+  "MSG": [
+    {
+      "Name_seq_en": "01_MessageCode",
+      "Name_seq_ja": "01_メッセージコード",
+      "Name_en": "MessageCode",
+      "Name_ja": "メッセージコード",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "02_TriggerEvent",
+      "Name_seq_ja": "02_トリガーイベント",
+      "Name_en": "TriggerEvent",
+      "Name_ja": "トリガーイベント",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "03_MessageStructure",
+      "Name_seq_ja": "03_メッセージ構造",
+      "Name_en": "MessageStructure",
+      "Name_ja": "メッセージ構造",
+      "DataType": "ID"
+    }
+  ],
+  "NA": [
+    {
+      "Name_seq_en": "01_Value1",
+      "Name_seq_ja": "01_値1",
+      "Name_en": "Value1",
+      "Name_ja": "値1",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "02_Value2",
+      "Name_seq_ja": "02_値2",
+      "Name_en": "Value2",
+      "Name_ja": "値2",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "03_Value3",
+      "Name_seq_ja": "03_値3",
+      "Name_en": "Value3",
+      "Name_ja": "値3",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "04_Value4",
+      "Name_seq_ja": "04_値4",
+      "Name_en": "Value4",
+      "Name_ja": "値4",
+      "DataType": "NM"
+    }
+  ],
+  "NDL": [
+    {
+      "Name_seq_en": "01_Name",
+      "Name_seq_ja": "01_名前",
+      "Name_en": "Name",
+      "Name_ja": "名前",
+      "DataType": "CNN"
+    },
+    {
+      "Name_seq_en": "02_StartDateOrTime",
+      "Name_seq_ja": "02_開始日時",
+      "Name_en": "StartDateOrTime",
+      "Name_ja": "開始日時",
+      "DataType": "TS"
+    },
+    {
+      "Name_seq_en": "03_EndDateOrTime",
+      "Name_seq_ja": "03_終了日時",
+      "Name_en": "EndDateOrTime",
+      "Name_ja": "終了日時",
+      "DataType": "TS"
+    },
+    {
+      "Name_seq_en": "04_PointOfCare",
+      "Name_seq_ja": "04_ケアの場所",
+      "Name_en": "PointOfCare",
+      "Name_ja": "ケアの場所",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "05_Room",
+      "Name_seq_ja": "05_病室",
+      "Name_en": "Room",
+      "Name_ja": "病室",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "06_Bed",
+      "Name_seq_ja": "06_病床",
+      "Name_en": "Bed",
+      "Name_ja": "病床",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "07_Facility",
+      "Name_seq_ja": "07_施設",
+      "Name_en": "Facility",
+      "Name_ja": "施設",
+      "DataType": "HD"
+    },
+    {
+      "Name_seq_en": "08_LocationStatus",
+      "Name_seq_ja": "08_場所の状態",
+      "Name_en": "LocationStatus",
+      "Name_ja": "場所の状態",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "09_PatientLocationType",
+      "Name_seq_ja": "09_患者場所型",
+      "Name_en": "PatientLocationType",
+      "Name_ja": "患者場所型",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "10_Building",
+      "Name_seq_ja": "10_建物",
+      "Name_en": "Building",
+      "Name_ja": "建物",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "11_Floor",
+      "Name_seq_ja": "11_階",
+      "Name_en": "Floor",
+      "Name_ja": "階",
+      "DataType": "IS"
+    }
+  ],
+  "NR": [
+    {
+      "Name_seq_en": "01_LowValue",
+      "Name_seq_ja": "01_下限",
+      "Name_en": "LowValue",
+      "Name_ja": "下限",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "02_HighValue",
+      "Name_seq_ja": "02_上限",
+      "Name_en": "HighValue",
+      "Name_ja": "上限",
+      "DataType": "NM"
+    }
+  ],
+  "OCD": [
+    {
+      "Name_seq_en": "01_OccurrenceCode",
+      "Name_seq_ja": "01_発生コード",
+      "Name_en": "OccurrenceCode",
+      "Name_ja": "発生コード",
+      "DataType": "CNE"
+    },
+    {
+      "Name_seq_en": "02_OccurrenceDate",
+      "Name_seq_ja": "02_発生日付",
+      "Name_en": "OccurrenceDate",
+      "Name_ja": "発生日付",
+      "DataType": "DT"
+    }
+  ],
+  "OSD": [
+    {
+      "Name_seq_en": "01_SequenceOrResultsFlag",
+      "Name_seq_ja": "01_連鎖または結果フラグ",
+      "Name_en": "SequenceOrResultsFlag",
+      "Name_ja": "連鎖または結果フラグ",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "02_PlacerOrderNumber:EntityIdentifier",
+      "Name_seq_ja": "02_依頼者オーダ番号:エンティティ識別子",
+      "Name_en": "PlacerOrderNumber:EntityIdentifier",
+      "Name_ja": "依頼者オーダ番号:エンティティ識別子",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "03_PlacerOrderNumber:NamespaceId",
+      "Name_seq_ja": "03_依頼者オーダ番号:ネームスペースID",
+      "Name_en": "PlacerOrderNumber:NamespaceId",
+      "Name_ja": "依頼者オーダ番号:ネームスペースID",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "04_FillerOrderNumber:EntityIdentifier",
+      "Name_seq_ja": "04_実施者オーダ番号:エンティティ識別子",
+      "Name_en": "FillerOrderNumber:EntityIdentifier",
+      "Name_ja": "実施者オーダ番号:エンティティ識別子",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "05_FillerOrderNumber:NamespaceId",
+      "Name_seq_ja": "05_実施者オーダ番号:ネームスペースID",
+      "Name_en": "FillerOrderNumber:NamespaceId",
+      "Name_ja": "実施者オーダ番号:ネームスペースID",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "06_SequenceConditionValue",
+      "Name_seq_ja": "06_連鎖条件値",
+      "Name_en": "SequenceConditionValue",
+      "Name_ja": "連鎖条件値",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "07_MaximumNumberOfRepeats",
+      "Name_seq_ja": "07_最大反復数",
+      "Name_en": "MaximumNumberOfRepeats",
+      "Name_ja": "最大反復数",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "08_PlacerOrderNumber:UniversalId",
+      "Name_seq_ja": "08_依頼者オーダ番号:汎用ID",
+      "Name_en": "PlacerOrderNumber:UniversalId",
+      "Name_ja": "依頼者オーダ番号:汎用ID",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "09_PlacerOrderNumber:UniversalIdType",
+      "Name_seq_ja": "09_依頼者オーダ番号:汎用ID型",
+      "Name_en": "PlacerOrderNumber:UniversalIdType",
+      "Name_ja": "依頼者オーダ番号:汎用ID型",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "10_FillerOrderNumber:UniversalId",
+      "Name_seq_ja": "10_実施者オーダ番号:汎用ID",
+      "Name_en": "FillerOrderNumber:UniversalId",
+      "Name_ja": "実施者オーダ番号:汎用ID",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "11_FillerOrderNumber:UniversalIdType",
+      "Name_seq_ja": "11_実施者オーダ番号:汎用ID型",
+      "Name_en": "FillerOrderNumber:UniversalIdType",
+      "Name_ja": "実施者オーダ番号:汎用ID型",
+      "DataType": "ID"
+    }
+  ],
+  "OSP": [
+    {
+      "Name_seq_en": "01_OccurrenceSpanCode",
+      "Name_seq_ja": "01_発生スパン・コード",
+      "Name_en": "OccurrenceSpanCode",
+      "Name_ja": "発生スパン・コード",
+      "DataType": "CNE"
+    },
+    {
+      "Name_seq_en": "02_OccurrenceSpanStartDate",
+      "Name_seq_ja": "02_発生スパン開始日付",
+      "Name_en": "OccurrenceSpanStartDate",
+      "Name_ja": "発生スパン開始日付",
+      "DataType": "DT"
+    },
+    {
+      "Name_seq_en": "03_OccurrenceSpanStopDate",
+      "Name_seq_ja": "03_発生スパン終了日付",
+      "Name_en": "OccurrenceSpanStopDate",
+      "Name_ja": "発生スパン終了日付",
+      "DataType": "DT"
+    }
+  ],
+  "PIP": [
+    {
+      "Name_seq_en": "01_Privilege",
+      "Name_seq_ja": "01_特権",
+      "Name_en": "Privilege",
+      "Name_ja": "特権",
+      "DataType": "CE"
+    },
+    {
+      "Name_seq_en": "02_PrivilegeClass",
+      "Name_seq_ja": "02_特権クラス",
+      "Name_en": "PrivilegeClass",
+      "Name_ja": "特権クラス",
+      "DataType": "CE"
+    },
+    {
+      "Name_seq_en": "03_ExpirationDate",
+      "Name_seq_ja": "03_失効日付",
+      "Name_en": "ExpirationDate",
+      "Name_ja": "失効日付",
+      "DataType": "DT"
+    },
+    {
+      "Name_seq_en": "04_ActivationDate",
+      "Name_seq_ja": "04_発効日付",
+      "Name_en": "ActivationDate",
+      "Name_ja": "発効日付",
+      "DataType": "DT"
+    },
+    {
+      "Name_seq_en": "05_Facility",
+      "Name_seq_ja": "05_施設",
+      "Name_en": "Facility",
+      "Name_ja": "施設",
+      "DataType": "EI"
+    }
+  ],
+  "PL": [
+    {
+      "Name_seq_en": "01_PointOfCare",
+      "Name_seq_ja": "01_ケアの場所",
+      "Name_en": "PointOfCare",
+      "Name_ja": "ケアの場所",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "02_Room",
+      "Name_seq_ja": "02_病室",
+      "Name_en": "Room",
+      "Name_ja": "病室",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "03_Bed",
+      "Name_seq_ja": "03_病床",
+      "Name_en": "Bed",
+      "Name_ja": "病床",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "04_Facility",
+      "Name_seq_ja": "04_施設",
+      "Name_en": "Facility",
+      "Name_ja": "施設",
+      "DataType": "HD"
+    },
+    {
+      "Name_seq_en": "05_LocationStatus",
+      "Name_seq_ja": "05_場所の状態",
+      "Name_en": "LocationStatus",
+      "Name_ja": "場所の状態",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "06_PersonLocationType",
+      "Name_seq_ja": "06_所在場所型",
+      "Name_en": "PersonLocationType",
+      "Name_ja": "所在場所型",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "07_Building",
+      "Name_seq_ja": "07_建物",
+      "Name_en": "Building",
+      "Name_ja": "建物",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "08_Floor",
+      "Name_seq_ja": "08_階",
+      "Name_en": "Floor",
+      "Name_ja": "階",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "09_LocationDescription",
+      "Name_seq_ja": "09_場所の詳細",
+      "Name_en": "LocationDescription",
+      "Name_ja": "場所の詳細",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "10_ComprehensiveLocationIdentifier",
+      "Name_seq_ja": "10_包括的な場所識別子",
+      "Name_en": "ComprehensiveLocationIdentifier",
+      "Name_ja": "包括的な場所識別子",
+      "DataType": "EI"
+    },
+    {
+      "Name_seq_en": "11_AssigningAuthorityForLocation",
+      "Name_seq_ja": "11_場所についての割当権限者",
+      "Name_en": "AssigningAuthorityForLocation",
+      "Name_ja": "場所についての割当権限者",
+      "DataType": "HD"
+    }
+  ],
+  "PLN": [
+    {
+      "Name_seq_en": "01_IdNumber",
+      "Name_seq_ja": "01_ID番号",
+      "Name_en": "IdNumber",
+      "Name_ja": "ID番号",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_TypeOfIdNumber",
+      "Name_seq_ja": "02_ID番号のタイプ",
+      "Name_en": "TypeOfIdNumber",
+      "Name_ja": "ID番号のタイプ",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "03_StateOrOtherQualifyingInformation",
+      "Name_seq_ja": "03_州またはその他の資格情報",
+      "Name_en": "StateOrOtherQualifyingInformation",
+      "Name_ja": "州またはその他の資格情報",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "04_ExpirationDate",
+      "Name_seq_ja": "04_有効期限",
+      "Name_en": "ExpirationDate",
+      "Name_ja": "有効期限",
+      "DataType": "DT"
+    }
+  ],
+  "PPN": [
+    {
+      "Name_seq_en": "01_IdNumber",
+      "Name_seq_ja": "01_ID番号",
+      "Name_en": "IdNumber",
+      "Name_ja": "ID番号",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_FamilyName",
+      "Name_seq_ja": "02_姓",
+      "Name_en": "FamilyName",
+      "Name_ja": "姓",
+      "DataType": "FN"
+    },
+    {
+      "Name_seq_en": "03_GivenName",
+      "Name_seq_ja": "03_名",
+      "Name_en": "GivenName",
+      "Name_ja": "名",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "04_SecondAndFurtherGivenNamesOrInitialsThereof",
+      "Name_seq_ja": "04_2番目以降の名またはそれらのイニシャル",
+      "Name_en": "SecondAndFurtherGivenNamesOrInitialsThereof",
+      "Name_ja": "2番目以降の名またはそれらのイニシャル",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "05_Suffix",
+      "Name_seq_ja": "05_接尾語(例:JRまたはIII)",
+      "Name_en": "Suffix",
+      "Name_ja": "接尾語(例:JRまたはIII)",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "06_Prefix",
+      "Name_seq_ja": "06_接頭語(例:DR)",
+      "Name_en": "Prefix",
+      "Name_ja": "接頭語(例:DR)",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "07_Degree",
+      "Name_seq_ja": "07_学位(例:MD)V2_5より非推奨",
+      "Name_en": "Degree",
+      "Name_ja": "学位(例:MD)V2_5より非推奨",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "08_SourceTable",
+      "Name_seq_ja": "08_ID管理表",
+      "Name_en": "SourceTable",
+      "Name_ja": "ID管理表",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "09_AssigningAuthority",
+      "Name_seq_ja": "09_割当権限者",
+      "Name_en": "AssigningAuthority",
+      "Name_ja": "割当権限者",
+      "DataType": "HD"
+    },
+    {
+      "Name_seq_en": "10_NameTypeCode",
+      "Name_seq_ja": "10_名前型コード",
+      "Name_en": "NameTypeCode",
+      "Name_ja": "名前型コード",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "11_IdentifierCheckDigit",
+      "Name_seq_ja": "11_識別子チェックディジット",
+      "Name_en": "IdentifierCheckDigit",
+      "Name_ja": "識別子チェックディジット",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "12_CheckDigitScheme",
+      "Name_seq_ja": "12_チェックディジット体系",
+      "Name_en": "CheckDigitScheme",
+      "Name_ja": "チェックディジット体系",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "13_IdentifierTypeCode",
+      "Name_seq_ja": "13_識別子型コード",
+      "Name_en": "IdentifierTypeCode",
+      "Name_ja": "識別子型コード",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "14_AssigningFacility",
+      "Name_seq_ja": "14_割当施設",
+      "Name_en": "AssigningFacility",
+      "Name_ja": "割当施設",
+      "DataType": "HD"
+    },
+    {
+      "Name_seq_en": "15_DateOrTimeActionPerformed",
+      "Name_seq_ja": "15_行為実施日時",
+      "Name_en": "DateOrTimeActionPerformed",
+      "Name_ja": "行為実施日時",
+      "DataType": "TS"
+    },
+    {
+      "Name_seq_en": "16_NameRepresentationCode",
+      "Name_seq_ja": "16_名前表記コード",
+      "Name_en": "NameRepresentationCode",
+      "Name_ja": "名前表記コード",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "17_NameContext",
+      "Name_seq_ja": "17_名前の文脈",
+      "Name_en": "NameContext",
+      "Name_ja": "名前の文脈",
+      "DataType": "CWE"
+    },
+    {
+      "Name_seq_en": "18_NameValidityRange",
+      "Name_seq_ja": "18_名前の有効範囲(v2_5より非推奨)",
+      "Name_en": "NameValidityRange",
+      "Name_ja": "名前の有効範囲(v2_5より非推奨)",
+      "DataType": "DR"
+    },
+    {
+      "Name_seq_en": "19_NameAssemblyOrder",
+      "Name_seq_ja": "19_名前構成順序",
+      "Name_en": "NameAssemblyOrder",
+      "Name_ja": "名前構成順序",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "20_EffectiveDate",
+      "Name_seq_ja": "20_発行日付",
+      "Name_en": "EffectiveDate",
+      "Name_ja": "発行日付",
+      "DataType": "TS"
+    },
+    {
+      "Name_seq_en": "21_ExpirationDate",
+      "Name_seq_ja": "21_失効日付",
+      "Name_en": "ExpirationDate",
+      "Name_ja": "失効日付",
+      "DataType": "TS"
+    },
+    {
+      "Name_seq_en": "22_ProfessionalSuffix",
+      "Name_seq_ja": "22_専門職の接頭辞",
+      "Name_en": "ProfessionalSuffix",
+      "Name_ja": "専門職の接頭辞",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "23_AssigningJurisdiction",
+      "Name_seq_ja": "23_割当管轄",
+      "Name_en": "AssigningJurisdiction",
+      "Name_ja": "割当管轄",
+      "DataType": "CWE"
+    },
+    {
+      "Name_seq_en": "24_AssigningAgencyOrDepartment",
+      "Name_seq_ja": "24_割当権限者または行政組織",
+      "Name_en": "AssigningAgencyOrDepartment",
+      "Name_ja": "割当権限者または行政組織",
+      "DataType": "CWE"
+    }
+  ],
+  "PRL": [
+    {
+      "Name_seq_en": "01_ParentObservationIdentifier",
+      "Name_seq_ja": "01_親検査識別子",
+      "Name_en": "ParentObservationIdentifier",
+      "Name_ja": "親検査識別子",
+      "DataType": "CWE"
+    },
+    {
+      "Name_seq_en": "02_ParentObservationSubIdentifier",
+      "Name_seq_ja": "02_親検査副識別子",
+      "Name_en": "ParentObservationSubIdentifier",
+      "Name_ja": "親検査副識別子",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "03_ParentObservationValueDescriptor",
+      "Name_seq_ja": "03_親検査の値の記述",
+      "Name_en": "ParentObservationValueDescriptor",
+      "Name_ja": "親検査の値の記述",
+      "DataType": "TX"
+    }
+  ],
+  "PT": [
+    {
+      "Name_seq_en": "01_ProcessingId",
+      "Name_seq_ja": "01_処理ID",
+      "Name_en": "ProcessingId",
+      "Name_ja": "処理ID",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "02_ProcessingMode",
+      "Name_seq_ja": "02_処理モード",
+      "Name_en": "ProcessingMode",
+      "Name_ja": "処理モード",
+      "DataType": "ID"
+    }
+  ],
+  "PTA": [
+    {
+      "Name_seq_en": "01_PolicyType",
+      "Name_seq_ja": "01_保険タイプ",
+      "Name_en": "PolicyType",
+      "Name_ja": "保険タイプ",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "02_AmountClass",
+      "Name_seq_ja": "02_金額クラス",
+      "Name_en": "AmountClass",
+      "Name_ja": "金額クラス",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "03_MoneyOrPercentageQuantity",
+      "Name_seq_ja": "03_金額またはパーセンテージの数字",
+      "Name_en": "MoneyOrPercentageQuantity",
+      "Name_ja": "金額またはパーセンテージの数字",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "04_MoneyOrPercentage",
+      "Name_seq_ja": "04_金額またはパーセンテージ",
+      "Name_en": "MoneyOrPercentage",
+      "Name_ja": "金額またはパーセンテージ",
+      "DataType": "MOP"
+    }
+  ],
+  "QIP": [
+    {
+      "Name_seq_en": "01_SegmentFieldName",
+      "Name_seq_ja": "01_セグメントフィールド名",
+      "Name_en": "SegmentFieldName",
+      "Name_ja": "セグメントフィールド名",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_Values",
+      "Name_seq_ja": "02_値1&値2&値3___",
+      "Name_en": "Values",
+      "Name_ja": "値1&値2&値3___",
+      "DataType": "ST"
+    }
+  ],
+  "QSC": [
+    {
+      "Name_seq_en": "01_SegmentFieldName",
+      "Name_seq_ja": "01_セグメントフィールド名",
+      "Name_en": "SegmentFieldName",
+      "Name_ja": "セグメントフィールド名",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_RelationalOperator",
+      "Name_seq_ja": "02_比較演算子",
+      "Name_en": "RelationalOperator",
+      "Name_ja": "比較演算子",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "03_Value",
+      "Name_seq_ja": "03_値",
+      "Name_en": "Value",
+      "Name_ja": "値",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "04_RelationalConjunction",
+      "Name_seq_ja": "04_比較論理積",
+      "Name_en": "RelationalConjunction",
+      "Name_ja": "比較論理積",
+      "DataType": "ID"
+    }
+  ],
+  "RCD": [
+    {
+      "Name_seq_en": "01_SegmentFieldName",
+      "Name_seq_ja": "01_セグメントフィールド名",
+      "Name_en": "SegmentFieldName",
+      "Name_ja": "セグメントフィールド名",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_Hl7DataType",
+      "Name_seq_ja": "02_HL7データ型",
+      "Name_en": "Hl7DataType",
+      "Name_ja": "HL7データ型",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "03_MaximumColumnWidth",
+      "Name_seq_ja": "03_最大コラム幅",
+      "Name_en": "MaximumColumnWidth",
+      "Name_ja": "最大コラム幅",
+      "DataType": "NM"
+    }
+  ],
+  "RFR": [
+    {
+      "Name_seq_en": "01_NumericRange",
+      "Name_seq_ja": "01_数値範囲",
+      "Name_en": "NumericRange",
+      "Name_ja": "数値範囲",
+      "DataType": "NR"
+    },
+    {
+      "Name_seq_en": "02_AdministrativeSex",
+      "Name_seq_ja": "02_管理上の性別",
+      "Name_en": "AdministrativeSex",
+      "Name_ja": "管理上の性別",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "03_AgeRange",
+      "Name_seq_ja": "03_年齢範囲",
+      "Name_en": "AgeRange",
+      "Name_ja": "年齢範囲",
+      "DataType": "NR"
+    },
+    {
+      "Name_seq_en": "04_GestationalAgeRange",
+      "Name_seq_ja": "04_妊娠週数範囲",
+      "Name_en": "GestationalAgeRange",
+      "Name_ja": "妊娠週数範囲",
+      "DataType": "NR"
+    },
+    {
+      "Name_seq_en": "05_Species",
+      "Name_seq_ja": "05_種",
+      "Name_en": "Species",
+      "Name_ja": "種",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "06_RaceOrSubspecies",
+      "Name_seq_ja": "06_人種または亜種",
+      "Name_en": "RaceOrSubspecies",
+      "Name_ja": "人種または亜種",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "07_Conditions",
+      "Name_seq_ja": "07_条件",
+      "Name_en": "Conditions",
+      "Name_ja": "条件",
+      "DataType": "TX"
+    }
+  ],
+  "RI": [
+    {
+      "Name_seq_en": "01_RepeatPattern",
+      "Name_seq_ja": "01_繰り返しパターン",
+      "Name_en": "RepeatPattern",
+      "Name_ja": "繰り返しパターン",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "02_ExplicitTimeInterval",
+      "Name_seq_ja": "02_明示的時間間隔",
+      "Name_en": "ExplicitTimeInterval",
+      "Name_ja": "明示的時間間隔",
+      "DataType": "ST"
+    }
+  ],
+  "RMC": [
+    {
+      "Name_seq_en": "01_RoomType",
+      "Name_seq_ja": "01_病室タイプ",
+      "Name_en": "RoomType",
+      "Name_ja": "病室タイプ",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "02_AmountType",
+      "Name_seq_ja": "02_金額タイプ",
+      "Name_en": "AmountType",
+      "Name_ja": "金額タイプ",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "03_CoverageAmount",
+      "Name_seq_ja": "03_填補額",
+      "Name_en": "CoverageAmount",
+      "Name_ja": "填補額",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "04_MoneyOrPercentage",
+      "Name_seq_ja": "04_金額またはパーセンテージ",
+      "Name_en": "MoneyOrPercentage",
+      "Name_ja": "金額またはパーセンテージ",
+      "DataType": "MOP"
+    }
+  ],
+  "RP": [
+    {
+      "Name_seq_en": "01_Pointer",
+      "Name_seq_ja": "01_ポインタ",
+      "Name_en": "Pointer",
+      "Name_ja": "ポインタ",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_ApplicationId",
+      "Name_seq_ja": "02_アプリケーションID",
+      "Name_en": "ApplicationId",
+      "Name_ja": "アプリケーションID",
+      "DataType": "HD"
+    },
+    {
+      "Name_seq_en": "03_TypeOfData",
+      "Name_seq_ja": "03_データの型",
+      "Name_en": "TypeOfData",
+      "Name_ja": "データの型",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "04_Subtype",
+      "Name_seq_ja": "04_サブタイプ",
+      "Name_en": "Subtype",
+      "Name_ja": "サブタイプ",
+      "DataType": "ID"
+    }
+  ],
+  "RPT": [
+    {
+      "Name_seq_en": "01_RepeatPatternCode",
+      "Name_seq_ja": "01_繰り返しパターンコード",
+      "Name_en": "RepeatPatternCode",
+      "Name_ja": "繰り返しパターンコード",
+      "DataType": "CWE"
+    },
+    {
+      "Name_seq_en": "02_CalendarAlignment",
+      "Name_seq_ja": "02_カレンダー上の位置",
+      "Name_en": "CalendarAlignment",
+      "Name_ja": "カレンダー上の位置",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "03_PhaseRangeBeginValue",
+      "Name_seq_ja": "03_フェーズ範囲開始値",
+      "Name_en": "PhaseRangeBeginValue",
+      "Name_ja": "フェーズ範囲開始値",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "04_PhaseRangeEndValue",
+      "Name_seq_ja": "04_フェーズ範囲終了値",
+      "Name_en": "PhaseRangeEndValue",
+      "Name_ja": "フェーズ範囲終了値",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "05_PeriodQuantity",
+      "Name_seq_ja": "05_期間数値",
+      "Name_en": "PeriodQuantity",
+      "Name_ja": "期間数値",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "06_PeriodUnits",
+      "Name_seq_ja": "06_期間単位",
+      "Name_en": "PeriodUnits",
+      "Name_ja": "期間単位",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "07_InstitutionSpecifiedTime",
+      "Name_seq_ja": "07_施設設定の時刻",
+      "Name_en": "InstitutionSpecifiedTime",
+      "Name_ja": "施設設定の時刻",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "08_Event",
+      "Name_seq_ja": "08_イベント",
+      "Name_en": "Event",
+      "Name_ja": "イベント",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "09_EventOffsetQuantity",
+      "Name_seq_ja": "09_イベントオフセット数値",
+      "Name_en": "EventOffsetQuantity",
+      "Name_ja": "イベントオフセット数値",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "10_EventOffsetUnits",
+      "Name_seq_ja": "10_イベントオフセット単位",
+      "Name_en": "EventOffsetUnits",
+      "Name_ja": "イベントオフセット単位",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "11_GeneralTimingSpecification",
+      "Name_seq_ja": "11_汎用タイミング指定",
+      "Name_en": "GeneralTimingSpecification",
+      "Name_ja": "汎用タイミング指定",
+      "DataType": "GTS"
+    }
+  ],
+  "SAD": [
+    {
+      "Name_seq_en": "01_StreetOrMailingAddress",
+      "Name_seq_ja": "01_通りまたは集配単位の住所",
+      "Name_en": "StreetOrMailingAddress",
+      "Name_ja": "通りまたは集配単位の住所",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_StreetName",
+      "Name_seq_ja": "02_通りの名称",
+      "Name_en": "StreetName",
+      "Name_ja": "通りの名称",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "03_DwellingNumber",
+      "Name_seq_ja": "03_住居番号",
+      "Name_en": "DwellingNumber",
+      "Name_ja": "住居番号",
+      "DataType": "ST"
+    }
+  ],
+  "SCV": [
+    {
+      "Name_seq_en": "01_ParameterClass",
+      "Name_seq_ja": "01_パラメータクラス",
+      "Name_en": "ParameterClass",
+      "Name_ja": "パラメータクラス",
+      "DataType": "CWE"
+    },
+    {
+      "Name_seq_en": "02_ParameterValue",
+      "Name_seq_ja": "02_パラメータ値",
+      "Name_en": "ParameterValue",
+      "Name_ja": "パラメータ値",
+      "DataType": "ST"
+    }
+  ],
+  "SN": [
+    {
+      "Name_seq_en": "01_Comparator",
+      "Name_seq_ja": "01_比較演算子",
+      "Name_en": "Comparator",
+      "Name_ja": "比較演算子",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_Num1",
+      "Name_seq_ja": "02_数字1",
+      "Name_en": "Num1",
+      "Name_ja": "数字1",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "03_SeparatorOrSuffix",
+      "Name_seq_ja": "03_区切りまたは接尾語",
+      "Name_en": "SeparatorOrSuffix",
+      "Name_ja": "区切りまたは接尾語",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "04_Num2",
+      "Name_seq_ja": "04_数字2",
+      "Name_en": "Num2",
+      "Name_ja": "数字2",
+      "DataType": "NM"
+    }
+  ],
+  "SPD": [
+    {
+      "Name_seq_en": "01_SpecialtyName",
+      "Name_seq_ja": "01_専門の名前",
+      "Name_en": "SpecialtyName",
+      "Name_ja": "専門の名前",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_GoverningBoard",
+      "Name_seq_ja": "02_管理委員会",
+      "Name_en": "GoverningBoard",
+      "Name_ja": "管理委員会",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "03_EligibleOrCertified",
+      "Name_seq_ja": "03_適格または公認",
+      "Name_en": "EligibleOrCertified",
+      "Name_ja": "適格または公認",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "04_DateOfCertification",
+      "Name_seq_ja": "04_公認日付",
+      "Name_en": "DateOfCertification",
+      "Name_ja": "公認日付",
+      "DataType": "DT"
+    }
+  ],
+  "SPS": [
+    {
+      "Name_seq_en": "01_SpecimenSourceNameOrCode",
+      "Name_seq_ja": "01_検査材料名またはコード",
+      "Name_en": "SpecimenSourceNameOrCode",
+      "Name_ja": "検査材料名またはコード",
+      "DataType": "CWE"
+    },
+    {
+      "Name_seq_en": "02_Additives",
+      "Name_seq_ja": "02_添加物",
+      "Name_en": "Additives",
+      "Name_ja": "添加物",
+      "DataType": "CWE"
+    },
+    {
+      "Name_seq_en": "03_SpecimenCollectionMethod",
+      "Name_seq_ja": "03_検体採取方法",
+      "Name_en": "SpecimenCollectionMethod",
+      "Name_ja": "検体採取方法",
+      "DataType": "TX"
+    },
+    {
+      "Name_seq_en": "04_BodySite",
+      "Name_seq_ja": "04_部位",
+      "Name_en": "BodySite",
+      "Name_ja": "部位",
+      "DataType": "CWE"
+    },
+    {
+      "Name_seq_en": "05_SiteModifier",
+      "Name_seq_ja": "05_部位修飾子",
+      "Name_en": "SiteModifier",
+      "Name_ja": "部位修飾子",
+      "DataType": "CWE"
+    },
+    {
+      "Name_seq_en": "06_CollectionMethodModifierCode",
+      "Name_seq_ja": "06_採取方法修飾子コード",
+      "Name_en": "CollectionMethodModifierCode",
+      "Name_ja": "採取方法修飾子コード",
+      "DataType": "CWE"
+    },
+    {
+      "Name_seq_en": "07_SpecimenRole",
+      "Name_seq_ja": "07_検体の役割",
+      "Name_en": "SpecimenRole",
+      "Name_ja": "検体の役割",
+      "DataType": "CWE"
+    }
+  ],
+  "SRT": [
+    {
+      "Name_seq_en": "01_SortByField",
+      "Name_seq_ja": "01_ソート基準フィールド",
+      "Name_en": "SortByField",
+      "Name_ja": "ソート基準フィールド",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_Sequencing",
+      "Name_seq_ja": "02_順番",
+      "Name_en": "Sequencing",
+      "Name_ja": "順番",
+      "DataType": "ID"
+    }
+  ],
+  "TS": [
+    {
+      "Name_seq_en": "01_Time",
+      "Name_seq_ja": "01_時刻",
+      "Name_en": "Time",
+      "Name_ja": "時刻",
+      "DataType": "DTM"
+    },
+    {
+      "Name_seq_en": "02_DegreeOfPrecision",
+      "Name_seq_ja": "02_精度",
+      "Name_en": "DegreeOfPrecision",
+      "Name_ja": "精度",
+      "DataType": "ID"
+    }
+  ],
+  "UVC": [
+    {
+      "Name_seq_en": "01_ValueCode",
+      "Name_seq_ja": "01_値コード",
+      "Name_en": "ValueCode",
+      "Name_ja": "値コード",
+      "DataType": "CNE"
+    },
+    {
+      "Name_seq_en": "02_ValueAmount",
+      "Name_seq_ja": "02_値額",
+      "Name_en": "ValueAmount",
+      "Name_ja": "値額",
+      "DataType": "MO"
+    }
+  ],
+  "VH": [
+    {
+      "Name_seq_en": "01_StartDayRange",
+      "Name_seq_ja": "01_開始曜日",
+      "Name_en": "StartDayRange",
+      "Name_ja": "開始曜日",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "02_EndDayRange",
+      "Name_seq_ja": "02_終了曜日",
+      "Name_en": "EndDayRange",
+      "Name_ja": "終了曜日",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "03_StartHourRange",
+      "Name_seq_ja": "03_開始時刻",
+      "Name_en": "StartHourRange",
+      "Name_ja": "開始時刻",
+      "DataType": "TM"
+    },
+    {
+      "Name_seq_en": "04_EndHourRange",
+      "Name_seq_ja": "04_終了時刻",
+      "Name_en": "EndHourRange",
+      "Name_ja": "終了時刻",
+      "DataType": "TM"
+    }
+  ],
+  "VID": [
+    {
+      "Name_seq_en": "01_VersionId",
+      "Name_seq_ja": "01_バージョンID",
+      "Name_en": "VersionId",
+      "Name_ja": "バージョンID",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "02_InternationalizationCode",
+      "Name_seq_ja": "02_国際化コード",
+      "Name_en": "InternationalizationCode",
+      "Name_ja": "国際化コード",
+      "DataType": "CWE"
+    },
+    {
+      "Name_seq_en": "03_InternationalVersionId",
+      "Name_seq_ja": "03_国際化バージョンID",
+      "Name_en": "InternationalVersionId",
+      "Name_ja": "国際化バージョンID",
+      "DataType": "CWE"
+    }
+  ],
+  "VR": [
+    {
+      "Name_seq_en": "01_FirstDataCodeValue",
+      "Name_seq_ja": "01_最初のデータコード値",
+      "Name_en": "FirstDataCodeValue",
+      "Name_ja": "最初のデータコード値",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_LastDataCodeValue",
+      "Name_seq_ja": "02_最後のデータコード値",
+      "Name_en": "LastDataCodeValue",
+      "Name_ja": "最後のデータコード値",
+      "DataType": "ST"
+    }
+  ],
+  "WVI": [
+    {
+      "Name_seq_en": "01_ChannelNumber",
+      "Name_seq_ja": "01_チャンネル番号",
+      "Name_en": "ChannelNumber",
+      "Name_ja": "チャンネル番号",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "02_ChannelName",
+      "Name_seq_ja": "02_チャンネル名",
+      "Name_en": "ChannelName",
+      "Name_ja": "チャンネル名",
+      "DataType": "ST"
+    }
+  ],
+  "WVS": [
+    {
+      "Name_seq_en": "01_SourceOneName",
+      "Name_seq_ja": "01_信号源1名称",
+      "Name_en": "SourceOneName",
+      "Name_ja": "信号源1名称",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_SourceTwoName",
+      "Name_seq_ja": "02_信号源2名称",
+      "Name_en": "SourceTwoName",
+      "Name_ja": "信号源2名称",
+      "DataType": "ST"
+    }
+  ],
+  "XAD": [
+    {
+      "Name_seq_en": "01_StreetAddress",
+      "Name_seq_ja": "01_通りの住所",
+      "Name_en": "StreetAddress",
+      "Name_ja": "通りの住所",
+      "DataType": "SAD"
+    },
+    {
+      "Name_seq_en": "02_OtherDesignation",
+      "Name_seq_ja": "02_その他表示",
+      "Name_en": "OtherDesignation",
+      "Name_ja": "その他表示",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "03_City",
+      "Name_seq_ja": "03_市",
+      "Name_en": "City",
+      "Name_ja": "市",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "04_StateOrProvince",
+      "Name_seq_ja": "04_州または省",
+      "Name_en": "StateOrProvince",
+      "Name_ja": "州または省",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "05_ZipOrPostalCode",
+      "Name_seq_ja": "05_ZIPコードまたは郵便番号",
+      "Name_en": "ZipOrPostalCode",
+      "Name_ja": "ZIPコードまたは郵便番号",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "06_Country",
+      "Name_seq_ja": "06_国",
+      "Name_en": "Country",
+      "Name_ja": "国",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "07_AddressType",
+      "Name_seq_ja": "07_住所型",
+      "Name_en": "AddressType",
+      "Name_ja": "住所型",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "08_OtherGeographicDesignation",
+      "Name_seq_ja": "08_その他の地理表示",
+      "Name_en": "OtherGeographicDesignation",
+      "Name_ja": "その他の地理表示",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "09_CountyOrParishCode",
+      "Name_seq_ja": "09_郡または教区コード",
+      "Name_en": "CountyOrParishCode",
+      "Name_ja": "郡または教区コード",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "10_CensusTract",
+      "Name_seq_ja": "10_国勢調査区域",
+      "Name_en": "CensusTract",
+      "Name_ja": "国勢調査区域",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "11_AddressRepresentationCode",
+      "Name_seq_ja": "11_住所表記コード",
+      "Name_en": "AddressRepresentationCode",
+      "Name_ja": "住所表記コード",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "12_AddressValidityRange",
+      "Name_seq_ja": "12_住所有効範囲(v2_5より非推奨)",
+      "Name_en": "AddressValidityRange",
+      "Name_ja": "住所有効範囲(v2_5より非推奨)",
+      "DataType": "DR"
+    },
+    {
+      "Name_seq_en": "13_EffectiveDate",
+      "Name_seq_ja": "13_発行日付",
+      "Name_en": "EffectiveDate",
+      "Name_ja": "発行日付",
+      "DataType": "TS"
+    },
+    {
+      "Name_seq_en": "14_ExpirationDate",
+      "Name_seq_ja": "14_失効日付",
+      "Name_en": "ExpirationDate",
+      "Name_ja": "失効日付",
+      "DataType": "TS"
+    }
+  ],
+  "XCN": [
+    {
+      "Name_seq_en": "01_IdNumber",
+      "Name_seq_ja": "01_ID番号",
+      "Name_en": "IdNumber",
+      "Name_ja": "ID番号",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_FamilyName",
+      "Name_seq_ja": "02_姓",
+      "Name_en": "FamilyName",
+      "Name_ja": "姓",
+      "DataType": "FN"
+    },
+    {
+      "Name_seq_en": "03_GivenName",
+      "Name_seq_ja": "03_名",
+      "Name_en": "GivenName",
+      "Name_ja": "名",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "04_SecondAndFurtherGivenNamesOrInitialsThereof",
+      "Name_seq_ja": "04_2番目以降の名またはそれらのイニシャル",
+      "Name_en": "SecondAndFurtherGivenNamesOrInitialsThereof",
+      "Name_ja": "2番目以降の名またはそれらのイニシャル",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "05_Suffix",
+      "Name_seq_ja": "05_接尾語(例:JRまたはIII)",
+      "Name_en": "Suffix",
+      "Name_ja": "接尾語(例:JRまたはIII)",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "06_Prefix",
+      "Name_seq_ja": "06_接頭語(例:DR)",
+      "Name_en": "Prefix",
+      "Name_ja": "接頭語(例:DR)",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "07_Degree",
+      "Name_seq_ja": "07_学位(例:MD)v2_5より非推奨",
+      "Name_en": "Degree",
+      "Name_ja": "学位(例:MD)v2_5より非推奨",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "08_SourceTable",
+      "Name_seq_ja": "08_ID管理表",
+      "Name_en": "SourceTable",
+      "Name_ja": "ID管理表",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "09_AssigningAuthority",
+      "Name_seq_ja": "09_割当権限者",
+      "Name_en": "AssigningAuthority",
+      "Name_ja": "割当権限者",
+      "DataType": "HD"
+    },
+    {
+      "Name_seq_en": "10_NameTypeCode",
+      "Name_seq_ja": "10_名前型コード",
+      "Name_en": "NameTypeCode",
+      "Name_ja": "名前型コード",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "11_IdentifierCheckDigit",
+      "Name_seq_ja": "11_識別子チェックディジット",
+      "Name_en": "IdentifierCheckDigit",
+      "Name_ja": "識別子チェックディジット",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "12_CheckDigitScheme",
+      "Name_seq_ja": "12_チェックディジット形式",
+      "Name_en": "CheckDigitScheme",
+      "Name_ja": "チェックディジット形式",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "13_IdentifierTypeCode",
+      "Name_seq_ja": "13_識別子型コード",
+      "Name_en": "IdentifierTypeCode",
+      "Name_ja": "識別子型コード",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "14_AssigningFacility",
+      "Name_seq_ja": "14_割当施設",
+      "Name_en": "AssigningFacility",
+      "Name_ja": "割当施設",
+      "DataType": "HD"
+    },
+    {
+      "Name_seq_en": "15_NameRepresentationCode",
+      "Name_seq_ja": "15_名前表記コード",
+      "Name_en": "NameRepresentationCode",
+      "Name_ja": "名前表記コード",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "16_NameContext",
+      "Name_seq_ja": "16_名前の文脈",
+      "Name_en": "NameContext",
+      "Name_ja": "名前の文脈",
+      "DataType": "CWE"
+    },
+    {
+      "Name_seq_en": "17_NameValidityRange",
+      "Name_seq_ja": "17_名前の有効範囲",
+      "Name_en": "NameValidityRange",
+      "Name_ja": "名前の有効範囲",
+      "DataType": "DR"
+    },
+    {
+      "Name_seq_en": "18_NameAssemblyOrder",
+      "Name_seq_ja": "18_名前構成順序",
+      "Name_en": "NameAssemblyOrder",
+      "Name_ja": "名前構成順序",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "19_EffectiveDate",
+      "Name_seq_ja": "19_発行日付",
+      "Name_en": "EffectiveDate",
+      "Name_ja": "発行日付",
+      "DataType": "TS"
+    },
+    {
+      "Name_seq_en": "20_ExpirationDate",
+      "Name_seq_ja": "20_失効日付",
+      "Name_en": "ExpirationDate",
+      "Name_ja": "失効日付",
+      "DataType": "TS"
+    },
+    {
+      "Name_seq_en": "21_ProfessionalSuffix",
+      "Name_seq_ja": "21_専門職の接頭辞",
+      "Name_en": "ProfessionalSuffix",
+      "Name_ja": "専門職の接頭辞",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "22_AssigningJurisdiction",
+      "Name_seq_ja": "22_割当管轄",
+      "Name_en": "AssigningJurisdiction",
+      "Name_ja": "割当管轄",
+      "DataType": "CWE"
+    },
+    {
+      "Name_seq_en": "23_AssigningAgencyOrDepartment",
+      "Name_seq_ja": "23_割当権限者または行政組織",
+      "Name_en": "AssigningAgencyOrDepartment",
+      "Name_ja": "割当権限者または行政組織",
+      "DataType": "CWE"
+    }
+  ],
+  "XON": [
+    {
+      "Name_seq_en": "01_OrganizationName",
+      "Name_seq_ja": "01_組織名称",
+      "Name_en": "OrganizationName",
+      "Name_ja": "組織名称",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_OrganizationNameTypeCode",
+      "Name_seq_ja": "02_組織名称型コード",
+      "Name_en": "OrganizationNameTypeCode",
+      "Name_ja": "組織名称型コード",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "03_IdNumber",
+      "Name_seq_ja": "03_ID番号",
+      "Name_en": "IdNumber",
+      "Name_ja": "ID番号",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "04_CheckDigit",
+      "Name_seq_ja": "04_チェックディジット",
+      "Name_en": "CheckDigit",
+      "Name_ja": "チェックディジット",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "05_CheckDigitScheme",
+      "Name_seq_ja": "05_チェックディジット体系",
+      "Name_en": "CheckDigitScheme",
+      "Name_ja": "チェックディジット体系",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "06_AssigningAuthority",
+      "Name_seq_ja": "06_割当権限者",
+      "Name_en": "AssigningAuthority",
+      "Name_ja": "割当権限者",
+      "DataType": "HD"
+    },
+    {
+      "Name_seq_en": "07_IdentifierTypeCode",
+      "Name_seq_ja": "07_識別子型コード",
+      "Name_en": "IdentifierTypeCode",
+      "Name_ja": "識別子型コード",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "08_AssigningFacility",
+      "Name_seq_ja": "08_割当施設",
+      "Name_en": "AssigningFacility",
+      "Name_ja": "割当施設",
+      "DataType": "HD"
+    },
+    {
+      "Name_seq_en": "09_NameRepresentationCode",
+      "Name_seq_ja": "09_名前表記コード",
+      "Name_en": "NameRepresentationCode",
+      "Name_ja": "名前表記コード",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "10_OrganizationIdentifier",
+      "Name_seq_ja": "10_組織識別子",
+      "Name_en": "OrganizationIdentifier",
+      "Name_ja": "組織識別子",
+      "DataType": "ST"
+    }
+  ],
+  "XPN": [
+    {
+      "Name_seq_en": "01_FamilyName",
+      "Name_seq_ja": "01_姓",
+      "Name_en": "FamilyName",
+      "Name_ja": "姓",
+      "DataType": "FN"
+    },
+    {
+      "Name_seq_en": "02_GivenName",
+      "Name_seq_ja": "02_名",
+      "Name_en": "GivenName",
+      "Name_ja": "名",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "03_SecondAndFurtherGivenNamesOrInitialsThereof",
+      "Name_seq_ja": "03_2番目以降の名またはそれらのイニシャル",
+      "Name_en": "SecondAndFurtherGivenNamesOrInitialsThereof",
+      "Name_ja": "2番目以降の名またはそれらのイニシャル",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "04_Suffix",
+      "Name_seq_ja": "04_接尾語(例:JRまたはIII)",
+      "Name_en": "Suffix",
+      "Name_ja": "接尾語(例:JRまたはIII)",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "05_Prefix",
+      "Name_seq_ja": "05_接頭語(例:DR)",
+      "Name_en": "Prefix",
+      "Name_ja": "接頭語(例:DR)",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "06_Degree",
+      "Name_seq_ja": "06_学位(例:MD)",
+      "Name_en": "Degree",
+      "Name_ja": "学位(例:MD)",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "07_NameTypeCode",
+      "Name_seq_ja": "07_名前型コード",
+      "Name_en": "NameTypeCode",
+      "Name_ja": "名前型コード",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "08_NameRepresentationCode",
+      "Name_seq_ja": "08_名前表記コード",
+      "Name_en": "NameRepresentationCode",
+      "Name_ja": "名前表記コード",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "09_NameContext",
+      "Name_seq_ja": "09_名前の文脈",
+      "Name_en": "NameContext",
+      "Name_ja": "名前の文脈",
+      "DataType": "CWE"
+    },
+    {
+      "Name_seq_en": "10_NameValidityRange",
+      "Name_seq_ja": "10_名前の有効範囲",
+      "Name_en": "NameValidityRange",
+      "Name_ja": "名前の有効範囲",
+      "DataType": "DR"
+    },
+    {
+      "Name_seq_en": "11_NameAssemblyOrder",
+      "Name_seq_ja": "11_名前構成順序",
+      "Name_en": "NameAssemblyOrder",
+      "Name_ja": "名前構成順序",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "12_EffectiveDate",
+      "Name_seq_ja": "12_発行日付",
+      "Name_en": "EffectiveDate",
+      "Name_ja": "発行日付",
+      "DataType": "TS"
+    },
+    {
+      "Name_seq_en": "13_ExpirationDate",
+      "Name_seq_ja": "13_失効日付",
+      "Name_en": "ExpirationDate",
+      "Name_ja": "失効日付",
+      "DataType": "TS"
+    },
+    {
+      "Name_seq_en": "14_ProfessionalSuffix",
+      "Name_seq_ja": "14_専門職の接頭辞",
+      "Name_en": "ProfessionalSuffix",
+      "Name_ja": "専門職の接頭辞",
+      "DataType": "ST"
+    }
+  ],
+  "XTN": [
+    {
+      "Name_seq_en": "01_TelephoneNumber",
+      "Name_seq_ja": "01_電話番号(v2_3から非推奨)",
+      "Name_en": "TelephoneNumber",
+      "Name_ja": "電話番号(v2_3から非推奨)",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_TelecommunicationUseCode",
+      "Name_seq_ja": "02_テレコミュニケーション用途コード",
+      "Name_en": "TelecommunicationUseCode",
+      "Name_ja": "テレコミュニケーション用途コード",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "03_TelecommunicationEquipmentType",
+      "Name_seq_ja": "03_テレコミュニケーション装置型",
+      "Name_en": "TelecommunicationEquipmentType",
+      "Name_ja": "テレコミュニケーション装置型",
+      "DataType": "ID"
+    },
+    {
+      "Name_seq_en": "04_EmailAddress",
+      "Name_seq_ja": "04_電子メールアドレス",
+      "Name_en": "EmailAddress",
+      "Name_ja": "電子メールアドレス",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "05_CountryCode",
+      "Name_seq_ja": "05_国コード",
+      "Name_en": "CountryCode",
+      "Name_ja": "国コード",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "06_AreaOrCityCode",
+      "Name_seq_ja": "06_区域または市コード",
+      "Name_en": "AreaOrCityCode",
+      "Name_ja": "区域または市コード",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "07_LocalNumber",
+      "Name_seq_ja": "07_市内番号",
+      "Name_en": "LocalNumber",
+      "Name_ja": "市内番号",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "08_Extension",
+      "Name_seq_ja": "08_内線",
+      "Name_en": "Extension",
+      "Name_ja": "内線",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "09_AnyText",
+      "Name_seq_ja": "09_任意のテキスト",
+      "Name_en": "AnyText",
+      "Name_ja": "任意のテキスト",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "10_ExtensionPrefix",
+      "Name_seq_ja": "10_内線接頭辞",
+      "Name_en": "ExtensionPrefix",
+      "Name_ja": "内線接頭辞",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "11_SpeedDialCode",
+      "Name_seq_ja": "11_短縮番号コード",
+      "Name_en": "SpeedDialCode",
+      "Name_ja": "短縮番号コード",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "12_UnformattedTelephoneNumber",
+      "Name_seq_ja": "12_非定型の電話番号",
+      "Name_en": "UnformattedTelephoneNumber",
+      "Name_ja": "非定型の電話番号",
+      "DataType": "ST"
+    }
+  ],
+  "ZRD": [
+    {
+      "Name_seq_en": "01_Identifier",
+      "Name_seq_ja": "01_識別子",
+      "Name_en": "Identifier",
+      "Name_ja": "識別子",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "02_Text",
+      "Name_seq_ja": "02_テキスト",
+      "Name_en": "Text",
+      "Name_ja": "テキスト",
+      "DataType": "ST"
+    },
+    {
+      "Name_seq_en": "03_NameOfCodingSystem",
+      "Name_seq_ja": "03_コーディングシステム名",
+      "Name_en": "NameOfCodingSystem",
+      "Name_ja": "コーディングシステム名",
+      "DataType": "IS"
+    },
+    {
+      "Name_seq_en": "04_Quantity",
+      "Name_seq_ja": "04_数量",
+      "Name_en": "Quantity",
+      "Name_ja": "数量",
+      "DataType": "NM"
+    },
+    {
+      "Name_seq_en": "05_Units",
+      "Name_seq_ja": "05_単位",
+      "Name_en": "Units",
+      "Name_ja": "単位",
+      "DataType": "CWE"
+    },
+    {
+      "Name_seq_en": "06_NumberOfFilmDivisions",
+      "Name_seq_ja": "06_フィルム分割数",
+      "Name_en": "NumberOfFilmDivisions",
+      "Name_ja": "フィルム分割数",
+      "DataType": "NM"
+    }
+  ]
+}
